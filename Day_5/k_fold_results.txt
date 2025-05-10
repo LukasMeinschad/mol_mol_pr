@@ -1,0 +1,92 @@
+===== DETAILED K-FOLD CROSS-VALIDATION RESULTS =====
+Using 5-fold cross-validation with stratification
+============================================================
+
+Fold 1 Results:
+----------------------------------------
+Test set size: 763 samples
+Accuracy:    0.8768
+Precision:   0.7616  (True positive rate)
+Recall:      0.7120  (Sensitivity)
+F1 Score:    0.7360
+ROC AUC:     0.8977
+
+Confusion Matrix:
+                 Predicted Inactive    Predicted Active
+Actual Inactive       538                41
+Actual Active         53                131
+
+Overfitting Check: Train accuracy: 0.9928, Test accuracy: 0.8768
+
+Fold 2 Results:
+----------------------------------------
+Test set size: 763 samples
+Accuracy:    0.8676
+Precision:   0.7677  (True positive rate)
+Recall:      0.6467  (Sensitivity)
+F1 Score:    0.7021
+ROC AUC:     0.8965
+
+Confusion Matrix:
+                 Predicted Inactive    Predicted Active
+Actual Inactive       543                36
+Actual Active         65                119
+
+Overfitting Check: Train accuracy: 0.9898, Test accuracy: 0.8676
+
+Fold 3 Results:
+----------------------------------------
+Test set size: 763 samples
+Accuracy:    0.8807
+Precision:   0.8079  (True positive rate)
+Recall:      0.6630  (Sensitivity)
+F1 Score:    0.7284
+ROC AUC:     0.9102
+
+Confusion Matrix:
+                 Predicted Inactive    Predicted Active
+Actual Inactive       550                29
+Actual Active         62                122
+
+Overfitting Check: Train accuracy: 0.9898, Test accuracy: 0.8807
+
+Fold 4 Results:
+----------------------------------------
+Test set size: 763 samples
+Accuracy:    0.8952
+Precision:   0.8467  (True positive rate)
+Recall:      0.6902  (Sensitivity)
+F1 Score:    0.7605
+ROC AUC:     0.9326
+
+Confusion Matrix:
+                 Predicted Inactive    Predicted Active
+Actual Inactive       556                23
+Actual Active         57                127
+
+Overfitting Check: Train accuracy: 0.9892, Test accuracy: 0.8952
+
+Fold 5 Results:
+----------------------------------------
+Test set size: 763 samples
+Accuracy:    0.8729
+Precision:   0.7771  (True positive rate)
+Recall:      0.6630  (Sensitivity)
+F1 Score:    0.7155
+ROC AUC:     0.8958
+
+Confusion Matrix:
+                 Predicted Inactive    Predicted Active
+Actual Inactive       544                35
+Actual Active         62                122
+
+Overfitting Check: Train accuracy: 0.9905, Test accuracy: 0.8729
+
+
+===== SUMMARY OF CROSS-VALIDATION RESULTS =====
+==================================================
+Average Test Accuracy:  0.8786 ± 0.0093
+Average Test Precision: 0.7922 ± 0.0315
+Average Test Recall:    0.6750 ± 0.0232
+Average Test F1 Score:  0.7285 ± 0.0197
+Average Test ROC AUC:   0.9065 ± 0.0141
