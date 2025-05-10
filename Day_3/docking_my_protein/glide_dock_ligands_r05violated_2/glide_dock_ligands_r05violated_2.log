@@ -1,0 +1,88 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+--------------------------------------------------------------------------------
+JobId          : aq92-0-681b6e97
+Name           : glide_dock_ligands_r05violated_2
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq92
+Dir            : /media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/docking_my_protein/glide_dock_ligands_r05violated_2
+HostEntry      : localhost
+JobHost        : aq92
+JobDir         : /scratch/praktikum/glide_dock_ligands_r05violated_2
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide glide_dock_ligands_r05violated_2.in -OVERWRITE -adjust -HOST localhost:1 -PROJ /media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/docking_my_protein/dipeptidyl_peptidase_4_docking.prj -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR
+StartTime      : 2025-05-07-16:30:48
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide_dock_ligands_r05violated_2.in
+
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 664
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       2
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+Smart license checking: True
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 1 | launched  aq92-0-681b6e9d glide_dock_ligands_r05violated_2-0001 localhost [aq92]
+1 0 1 | finished  aq92-0-681b6e9d glide_dock_ligands_r05violated_2-0001 localhost [aq92]
+1 1 0 | launched  aq92-0-681b6ea6 glide_dock_ligands_r05violated_2-0002 localhost [aq92]
+2 0 0 | finished  aq92-0-681b6ea6 glide_dock_ligands_r05violated_2-0002 localhost [aq92]
+
+All jobs have completed.
+
+2 of 2 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 664 ligands done.
+Docking job produced no poses; not writing glide_dock_ligands_r05violated_2_pv.maegz
+
+Some ligands were not docked for the following reasons:
+
+   Count  Reason
+--------  ------------------------------------------------------------
+     664  STRUCTURE INCOMPATIBLE WITH FORCE FIELD
+
+Writing glide_dock_ligands_r05violated_2.csv
+Writing glide_dock_ligands_r05violated_2_skip.csv
+Combining log files to glide_dock_ligands_r05violated_2_subjobs.log
+Archiving subjob input and log files in glide_dock_ligands_r05violated_2_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 0.1 s
+- running subjobs: 17.8 s
+- postprocessing: 0.0 s
+- cleanup: 0.0 s
+
+All Glide docking subjobs: Total CPU time = 5 seconds
+
+Finished at: Wed May  7 16:31:08 2025
+Total elapsed time for Glide script = 18 seconds
+[running at reduced cpu priority]

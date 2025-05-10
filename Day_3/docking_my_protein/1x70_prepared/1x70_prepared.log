@@ -1,0 +1,5594 @@
+Command: /usr/local/schrodinger2024-1/mmshare-v6.5/bin/Linux-x86_64/../../python/scripts/prepwizard_driver.py 1x70_prepared.maegz 1x70_prepared-out.maegz -fillsidechains -disulfides -assign_all_residues -rehtreat -max_states 1 -epik_pH 7.5 -epik_pHt 2.0 -antibody_cdr_scheme Kabat -samplewater -propka_pH 7.5 -f S-OPLS -rmsd 0.3 -watdist 3
+Number of input structures: 1
+Preparing structure: 1X70 - with-deletions
+Fixing common structure mistakes...
+  No mistakes were found
+Pre-treating metals...
+Done treating metals
+Assigning bond orders...
+  Using CCD: True
+  Processing all residues
+  No bond orders were changed
+Removing and re-adding hydrogens...
+Treating metals...
+[running at reduced cpu priority]
+Creating di-sulfur bonds...
+Annotating antibody regions...
+WARNING: Sequence similarity score to best reference sequence below cutoff (325). Light: 0.0; Heavy: 0.0.
+Detecting missing residue atoms...
+  No missing side chains found
+Finding het groups (for Epik)...
+Processing 18 het groups...
+  Using EpikX with pH: 7.5
+        and pH Range: 2.0
+  Max het states per protein: 10
+Epik completed; filtering undesired states...
+Number of hets: 18
+Keeping max states: 1
+het: 1 applied # states: 2
+het: 2 applied # states: 2
+het: 3 applied # states: 2
+het: 4 applied # states: 2
+het: 5 applied # states: 2
+het: 6 applied # states: 1
+het: 7 applied # states: 1
+het: 8 applied # states: 1
+het: 9 applied # states: 1
+het: 10 applied # states: 2
+het: 11 applied # states: 2
+het: 12 applied # states: 2
+het: 14 applied # states: 2
+het: 15 applied # states: 1
+het: 16 applied # states: 1
+het: 17 applied # states: 1
+het: 18 applied # states: 2
+het: 13 applied # states: 1
+Idealizing hydrogen temperature factors...
+Pre-processing has completed
+  will sample waters
+  Using PROPKA with pH: 7.5
+  RUNNING: /usr/local/schrodinger2024-1/utilities/protassign /scratch/praktikum/1x70_prepared/1x70_prepared-001/Optimize_H-bond_Assignments.maegz Optimize_H-bond_Assignments-out.maegz -NOJOBID -propka_pH 7.5
+Running PROPKA to get pKas
+
+Clustering hydrogen bond network ...
+Found 400 clusters
+
+Cluster 1 (104):
+    A:ASN 51
+    A:ASN 420
+    A:GLN 527
+    A:GLN 553
+    A:ASN 562
+    A:GLN 586
+    A:GLN 606
+    A:LYS 512
+    A:LYS 554
+    A:HID 704
+    A:HID 740
+    A:HID 748
+    A:TYR 48: HH 
+    A:TYR 381: HH 
+    A:TYR 456: HH 
+    A:SER 458: HG 
+    A:TYR 547: HH 
+    A:SER 552: HG 
+    A:THR 565: HG1
+    A:SER 577: HG 
+    A:SER 583: HG 
+    A:TYR 585: HH 
+    A:SER 630: HG 
+    A:TYR 666: HH 
+    A:SER 716: HG 
+    A:TYR 752: HH 
+    A:GLU 408
+    A:ASP 545
+    A:ASP 556
+    A:ASP 579
+    A:ASP 708
+    A:HOH 1529
+    A:HOH 1532
+    A:HOH 1534
+    A:HOH 1549
+    A:HOH 1553
+    A:HOH 1560
+    A:HOH 1565
+    A:HOH 1574
+    A:HOH 1577
+    A:HOH 1578
+    A:HOH 1587
+    A:HOH 1588
+    A:HOH 1589
+    A:HOH 1590
+    A:HOH 1596
+    A:HOH 1614
+    A:HOH 1617
+    A:HOH 1619
+    A:HOH 1623
+    A:HOH 1627
+    A:HOH 1634
+    A:HOH 1639
+    A:HOH 1641
+    A:HOH 1646
+    A:HOH 1651
+    A:HOH 1662
+    A:HOH 1663
+    A:HOH 1667
+    A:HOH 1668
+    A:HOH 1670
+    A:HOH 1673
+    A:HOH 1677
+    A:HOH 1679
+    A:HOH 1685
+    A:HOH 1687
+    A:HOH 1693
+    A:HOH 1713
+    A:HOH 1715
+    A:HOH 1720
+    A:HOH 1727
+    A:HOH 1732
+    A:HOH 1738
+    A:HOH 1745
+    A:HOH 1759
+    A:HOH 1774
+    A:HOH 1780
+    A:HOH 1781
+    A:HOH 1787
+    A:HOH 1805
+    A:HOH 1806
+    A:HOH 1816
+    A:HOH 1822
+    A:HOH 1825
+    A:HOH 1831
+    A:HOH 1833
+    A:HOH 1834
+    A:HOH 1835
+    A:HOH 1836
+    A:HOH 1839
+    A:HOH 1849
+    A:HOH 1871
+    A:HOH 1906
+    A:HOH 1927
+    A:HOH 1928
+    A:HOH 1930
+    A:HOH 1935
+    A:HOH 1939
+    A:HOH 1950
+    A:HOH 1956
+    A:HOH 1957
+    A:HOH 1986
+    A:HOH 1994
+    A:HOH 1999
+Cluster 2 (2):
+    A:GLN 72
+    A:GLU 73
+Cluster 3 (3):
+    A:ASN 74
+    A:LYS 71
+    A:NAG 1092: HO6
+Cluster 4 (1):
+    A:ASN 75
+Cluster 5 (16):
+    A:ASN 80
+    A:LYS 466
+    A:HID 66
+    A:SER 64: HG 
+    A:TYR 83: HH 
+    A:SER 462: HG 
+    A:TYR 467: HH 
+    A:ASP 65
+    A:GLU 67
+    A:GLU 82
+    A:HOH 1585
+    A:HOH 1790
+    A:HOH 1829
+    A:HOH 1878
+    A:HOH 1921
+    A:HOH 2050
+Cluster 6 (22):
+    A:ASN 103
+    A:HID 126
+    A:TYR 120: HH 
+    A:TYR 128: HH 
+    A:TYR 132: HH 
+    A:SER 209: HG 
+    A:ASP 104
+    A:GLU 117
+    A:HOH 1546
+    A:HOH 1582
+    A:HOH 1605
+    A:HOH 1722
+    A:HOH 1736
+    A:HOH 1751
+    A:HOH 1789
+    A:HOH 1842
+    A:HOH 1859
+    A:HOH 1895
+    A:HOH 1961
+    A:HOH 1968
+    A:HOH 2022
+    A:HOH 2030
+Cluster 7 (9):
+    A:GLN 112
+    A:HID 162
+    A:SER 108: HG 
+    A:ASP 110
+    A:GLU 177
+    A:HOH 1762
+    A:HOH 1857
+    A:HOH 1879
+    A:HOH 1913
+Cluster 8 (124):
+    A:ASN 119
+    A:GLN 123
+    A:ASN 151
+    A:GLN 153
+    A:ASN 169
+    A:ASN 170
+    A:GLN 247
+    A:ASN 710
+    A:LYS 122
+    A:HID 100
+    A:SER 127: HG 
+    A:THR 129: HG1
+    A:SER 131: HG 
+    A:TYR 195: HH 
+    A:TYR 211: HH 
+    A:TYR 238: HH 
+    A:SER 239: HG 
+    A:TYR 241: HH 
+    A:SER 242: HG 
+    A:SER 245: HG 
+    A:THR 251: HG1
+    A:TYR 662: HH 
+    A:THR 706: HG1
+    A:THR 736: HG1
+    A:SER 744: HG 
+    A:THR 746: HG1
+    A:GLU 191
+    A:ASP 192
+    A:ASP 200
+    A:GLU 204
+    A:GLU 205
+    A:GLU 206
+    A:ASP 230
+    A:ASP 243
+    A:ASP 663
+    A:ASP 709
+    A:ASP 737
+    A:GLU 738
+    A:ASP 739
+    A:HOH 1524
+    A:HOH 1525
+    A:HOH 1526
+    A:HOH 1527
+    A:HOH 1540
+    A:HOH 1542
+    A:HOH 1544
+    A:HOH 1551
+    A:HOH 1562
+    A:HOH 1583
+    A:HOH 1607
+    A:HOH 1618
+    A:HOH 1625
+    A:HOH 1631
+    A:HOH 1633
+    A:HOH 1636
+    A:HOH 1638
+    A:HOH 1658
+    A:HOH 1669
+    A:HOH 1683
+    A:HOH 1684
+    A:HOH 1689
+    A:HOH 1690
+    A:HOH 1694
+    A:HOH 1695
+    A:HOH 1703
+    A:HOH 1707
+    A:HOH 1716
+    A:HOH 1719
+    A:HOH 1728
+    A:HOH 1730
+    A:HOH 1741
+    A:HOH 1768
+    A:HOH 1770
+    A:HOH 1775
+    A:HOH 1788
+    A:HOH 1799
+    A:HOH 1807
+    A:HOH 1813
+    A:HOH 1814
+    A:HOH 1823
+    A:HOH 1830
+    A:HOH 1851
+    A:HOH 1868
+    A:HOH 1884
+    A:HOH 1890
+    A:HOH 1891
+    A:HOH 1893
+    A:HOH 1900
+    A:HOH 1918
+    A:HOH 1924
+    A:HOH 1943
+    A:HOH 1948
+    A:HOH 1949
+    A:HOH 1952
+    A:HOH 1958
+    A:HOH 1959
+    A:HOH 1960
+    A:HOH 1963
+    A:HOH 1967
+    A:HOH 1977
+    A:HOH 2004
+    A:HOH 2020
+    A:HOH 2025
+    A:HOH 2040
+    A:HOH 2054
+    A:HOH 2057
+    B:HOH 2329
+    B:HOH 2357
+    B:HOH 2365
+    B:HOH 2398
+    B:HOH 2401
+    B:HOH 2404
+    B:HOH 2421
+    B:HOH 2455
+    B:HOH 2464
+    B:HOH 2485
+    B:HOH 2503
+    B:HOH 2563
+    B:HOH 2571
+    B:HOH 2588
+    B:HOH 2625
+    B:HOH 2722
+    B:HOH 2753
+    B:HOH 2819
+Cluster 9 (2):
+    A:ASN 138
+    A:ASP 136
+Cluster 10 (1):
+    A:GLN 141
+Cluster 11 (2):
+    A:ASN 179
+    A:GLU 145
+Cluster 12 (29):
+    A:ASN 196
+    A:GLN 227
+    A:LYS 267
+    A:TYR 173: HH 
+    A:THR 186: HG1
+    A:THR 188: HG1
+    A:TYR 225: HH 
+    A:THR 265: HG1
+    A:SER 284: HG 
+    F:NAG 1: HO6
+    F:NDG 2: HO6
+    A:ASP 171
+    A:GLU 232
+    A:HOH 1558
+    A:HOH 1575
+    A:HOH 1622
+    A:HOH 1654
+    A:HOH 1656
+    A:HOH 1680
+    A:HOH 1718
+    A:HOH 1752
+    A:HOH 1815
+    A:HOH 1845
+    A:HOH 1915
+    A:HOH 1971
+    A:HOH 1980
+    A:HOH 2007
+    A:HOH 2011
+    A:HOH 2038
+Cluster 13 (25):
+    A:ASN 263
+    A:GLN 286
+    A:GLN 320
+    A:HID 298
+    A:TYR 203: HH 
+    A:TYR 299: HH 
+    A:SER 664: HG 
+    A:ASP 297
+    A:GLU 668
+    A:HOH 1530
+    A:HOH 1545
+    A:HOH 1572
+    A:HOH 1580
+    A:HOH 1610
+    A:HOH 1681
+    A:HOH 1682
+    A:HOH 1691
+    A:HOH 1701
+    A:HOH 1705
+    A:HOH 1791
+    A:HOH 1794
+    A:HOH 1804
+    A:HOH 1828
+    A:HOH 1847
+    A:HOH 1875
+Cluster 14 (9):
+    A:ASN 272
+    A:SER 275: HG 
+    A:TYR 330: HH 
+    A:HOH 1581
+    A:HOH 1626
+    A:HOH 1841
+    A:HOH 1874
+    A:HOH 1992
+    A:HOH 1995
+Cluster 15 (12):
+    A:GLN 308
+    A:LYS 163
+    A:SER 217: HG 
+    A:THR 221: HG1
+    A:THR 273: HG1
+    A:ASP 274
+    A:HOH 1523
+    A:HOH 1644
+    A:HOH 1709
+    A:HOH 1764
+    A:HOH 1866
+    A:HOH 2051
+Cluster 16 (59):
+    A:GLN 314
+    A:LYS 373
+    A:HID 363
+    A:HID 592
+    A:SER 106: HG 
+    A:THR 156: HG1
+    A:SER 212: HG 
+    A:THR 304: HG1
+    A:SER 312: HG 
+    A:SER 323: HG 
+    A:SER 349: HG 
+    A:THR 350: HG1
+    A:THR 351: HG1
+    A:SER 360: HG 
+    A:SER 376: HG 
+    A:CYS 551: HG 
+    A:ASP 302
+    A:GLU 347
+    A:GLU 361
+    A:GLU 403
+    A:ASP 588
+    A:HOH 1522
+    A:HOH 1543
+    A:HOH 1552
+    A:HOH 1556
+    A:HOH 1570
+    A:HOH 1573
+    A:HOH 1584
+    A:HOH 1592
+    A:HOH 1604
+    A:HOH 1620
+    A:HOH 1676
+    A:HOH 1721
+    A:HOH 1766
+    A:HOH 1767
+    A:HOH 1776
+    A:HOH 1777
+    A:HOH 1779
+    A:HOH 1810
+    A:HOH 1818
+    A:HOH 1827
+    A:HOH 1843
+    A:HOH 1848
+    A:HOH 1854
+    A:HOH 1885
+    A:HOH 1888
+    A:HOH 1894
+    A:HOH 1922
+    A:HOH 1955
+    A:HOH 1966
+    A:HOH 1988
+    A:HOH 2000
+    A:HOH 2001
+    A:HOH 2003
+    A:HOH 2006
+    A:HOH 2010
+    A:HOH 2012
+    A:HOH 2034
+    A:HOH 2037
+Cluster 17 (2):
+    A:ASN 338
+    A:HOH 1946
+Cluster 18 (8):
+    A:GLN 344
+    A:SER 292: HG 
+    A:ASP 326
+    A:HOH 1686
+    A:HOH 1737
+    A:HOH 1873
+    A:HOH 1998
+    A:HOH 2014
+Cluster 19 (31):
+    A:ASN 369
+    A:GLN 388
+    A:THR 307: HG1
+    A:THR 365: HG1
+    A:SER 370: HG 
+    A:TYR 372: HH 
+    A:TYR 386: HH 
+    A:THR 395: HG1
+    A:TYR 439: HH 
+    E:NAG 1: HO6
+    A:GLU 309
+    A:ASP 329
+    A:ASP 367
+    A:HOH 1571
+    A:HOH 1635
+    A:HOH 1649
+    A:HOH 1699
+    A:HOH 1739
+    A:HOH 1769
+    A:HOH 1812
+    A:HOH 1863
+    A:HOH 1883
+    A:HOH 1892
+    A:HOH 1908
+    A:HOH 1931
+    A:HOH 1933
+    A:HOH 1936
+    A:HOH 1983
+    A:HOH 2029
+    A:HOH 2031
+    A:HOH 2053
+Cluster 20 (7):
+    A:ASN 377
+    A:HID 383
+    A:THR 398: HG1
+    A:HOH 1602
+    A:HOH 1628
+    A:HOH 1700
+    A:HOH 1763
+Cluster 21 (36):
+    A:ASN 430
+    A:ASN 450
+    A:GLN 455
+    A:LYS 423
+    A:LYS 433
+    A:HID 483
+    A:TYR 416: HH 
+    A:TYR 422: HH 
+    A:TYR 432: HH 
+    A:SER 446: HG 
+    A:TYR 457: HH 
+    A:TYR 468: HH 
+    A:THR 481: HG1
+    A:GLU 448
+    A:GLU 452
+    A:ASP 488
+    A:HOH 1538
+    A:HOH 1539
+    A:HOH 1559
+    A:HOH 1566
+    A:HOH 1591
+    A:HOH 1609
+    A:HOH 1688
+    A:HOH 1697
+    A:HOH 1712
+    A:HOH 1729
+    A:HOH 1742
+    A:HOH 1792
+    A:HOH 1811
+    A:HOH 1850
+    A:HOH 1858
+    A:HOH 1929
+    A:HOH 1985
+    A:HOH 2009
+    A:HOH 2039
+    A:HOH 2042
+Cluster 22 (16):
+    A:GLN 435
+    A:SER 412: HG 
+    A:TYR 414: HH 
+    A:SER 437: HG 
+    A:THR 443: HG1
+    A:ASP 413
+    A:HOH 1554
+    A:HOH 1653
+    A:HOH 1674
+    A:HOH 1678
+    A:HOH 1755
+    A:HOH 1846
+    A:HOH 1852
+    A:HOH 1856
+    A:HOH 1917
+    A:HOH 2002
+Cluster 23 (12):
+    A:GLN 469
+    A:SER 460: HG 
+    A:HOH 1536
+    A:HOH 1606
+    A:HOH 1650
+    A:HOH 1659
+    A:HOH 1710
+    A:HOH 1724
+    A:HOH 1749
+    A:HOH 1784
+    A:HOH 1802
+    A:HOH 2041
+Cluster 24 (1):
+    A:ASN 487
+Cluster 25 (38):
+    A:ASN 497
+    A:GLN 505
+    A:LYS 56
+    A:TYR 58: HH 
+    A:SER 59: HG 
+    A:TYR 68: HH 
+    A:TYR 70: HH 
+    A:TYR 480: HH 
+    A:SER 498: HG 
+    A:GLU 495
+    A:ASP 496
+    A:ASP 501
+    A:HOH 1548
+    A:HOH 1567
+    A:HOH 1621
+    A:HOH 1632
+    A:HOH 1652
+    A:HOH 1660
+    A:HOH 1711
+    A:HOH 1717
+    A:HOH 1744
+    A:HOH 1760
+    A:HOH 1798
+    A:HOH 1821
+    A:HOH 1860
+    A:HOH 1869
+    A:HOH 1877
+    A:HOH 1896
+    A:HOH 1909
+    A:HOH 1912
+    A:HOH 1932
+    A:HOH 1938
+    A:HOH 1947
+    A:HOH 2017
+    A:HOH 2019
+    A:HOH 2024
+    A:HOH 2028
+    A:HOH 2044
+Cluster 26 (1):
+    A:ASN 506
+Cluster 27 (2):
+    A:GLN 508
+    A:HID 533
+Cluster 28 (3):
+    A:ASN 572
+    A:HOH 1778
+    A:HOH 2018
+Cluster 29 (1):
+    A:ASN 595
+Cluster 30 (2):
+    A:GLN 612
+    A:GLU 608
+Cluster 31 (2):
+    A:ASN 621
+    A:HOH 1754
+Cluster 32 (4):
+    A:ASN 679
+    A:ASP 681
+    A:HOH 1643
+    A:HOH 1765
+Cluster 33 (1):
+    A:ASN 685
+Cluster 34 (1):
+    A:ASN 694
+Cluster 35 (2):
+    A:GLN 697
+    A:HOH 1838
+Cluster 36 (22):
+    A:GLN 714
+    A:GLN 715
+    A:GLN 718
+    A:LYS 258
+    A:LYS 721
+    A:HID 712
+    A:TYR 256: HH 
+    A:SER 657: HG 
+    A:TYR 661: HH 
+    A:SER 720: HG 
+    A:HOH 1535
+    A:HOH 1541
+    A:HOH 1586
+    A:HOH 1708
+    B:HOH 2331
+    B:HOH 2400
+    B:HOH 2445
+    B:HOH 2463
+    B:HOH 2517
+    B:HOH 2528
+    B:HOH 2580
+    B:HOH 2692
+Cluster 37 (31):
+    A:GLN 731
+    A:HID 754
+    A:ASP 729
+    A:HOH 1557
+    A:HOH 1637
+    A:HOH 1655
+    A:HOH 1672
+    A:HOH 1702
+    A:HOH 1704
+    A:HOH 1734
+    A:HOH 1740
+    A:HOH 1758
+    A:HOH 1919
+    A:HOH 1979
+    A:HOH 2013
+    A:HOH 2026
+    A:HOH 2043
+    B:HOH 2355
+    B:HOH 2360
+    B:HOH 2373
+    B:HOH 2504
+    B:HOH 2558
+    B:HOH 2561
+    B:HOH 2575
+    B:HOH 2577
+    B:HOH 2602
+    B:HOH 2704
+    B:HOH 2734
+    B:HOH 2748
+    B:HOH 2752
+    B:HOH 2757
+Cluster 38 (31):
+    A:GLN 749
+    A:LYS 50
+    A:LYS 760
+    A:HID 750
+    A:HID 757
+    A:THR 44: HG1
+    A:THR 46: HG1
+    A:THR 52: HG1
+    A:TYR 53: HH 
+    A:TYR 566: HH 
+    A:TYR 735: HH 
+    A:SER 745: HG 
+    A:THR 753: HG1
+    A:ASP 47
+    A:GLU 571
+    A:HOH 1555
+    A:HOH 1593
+    A:HOH 1603
+    A:HOH 1648
+    A:HOH 1714
+    A:HOH 1824
+    A:HOH 1853
+    A:HOH 1876
+    A:HOH 1923
+    A:HOH 2015
+    A:HOH 2048
+    B:HOH 2361
+    B:HOH 2478
+    B:HOH 2562
+    B:HOH 2689
+    B:HOH 2738
+Cluster 39 (8):
+    A:GLN 761
+    A:LYS 648
+    A:SER 764: HG 
+    A:GLU 699
+    A:HOH 1533
+    A:HOH 1624
+    A:HOH 1844
+    A:HOH 1934
+Cluster 40 (1):
+    A:LYS 41
+Cluster 41 (1):
+    A:LYS 139
+Cluster 42 (1):
+    A:LYS 175
+Cluster 43 (1):
+    A:LYS 190
+Cluster 44 (1):
+    A:LYS 250
+Cluster 45 (1):
+    A:LYS 391
+Cluster 46 (1):
+    A:LYS 392
+Cluster 47 (1):
+    A:LYS 399
+Cluster 48 (1):
+    A:LYS 441
+Cluster 49 (1):
+    A:LYS 463
+Cluster 50 (13):
+    A:LYS 489
+    A:SER 484: HG 
+    A:HOH 1568
+    A:HOH 1594
+    A:HOH 1671
+    A:HOH 1753
+    A:HOH 1782
+    A:HOH 1803
+    A:HOH 1809
+    A:HOH 1826
+    A:HOH 1855
+    A:HOH 1907
+    A:HOH 2023
+Cluster 51 (1):
+    A:LYS 502
+Cluster 52 (4):
+    A:LYS 513
+    A:TYR 526: HH 
+    A:ASP 515
+    A:HOH 1976
+Cluster 53 (3):
+    A:LYS 523
+    A:HOH 1987
+    A:HOH 2035
+Cluster 54 (1):
+    A:LYS 536
+Cluster 55 (1):
+    A:LYS 538
+Cluster 56 (1):
+    A:LYS 539
+Cluster 57 (1):
+    A:LYS 589
+Cluster 58 (1):
+    A:LYS 615
+Cluster 59 (3):
+    A:LYS 622
+    A:ASP 620
+    A:HOH 1897
+Cluster 60 (3):
+    A:LYS 696
+    A:GLU 693
+    A:HOH 2033
+Cluster 61 (5):
+    A:HID 345
+    A:HOH 1597
+    A:HOH 1601
+    A:HOH 1611
+    A:HOH 1612
+Cluster 62 (2):
+    A:HID 682
+    A:HOH 1731
+Cluster 63 (1):
+    A:THR 39: HG1
+Cluster 64 (2):
+    A:THR 42: HG1
+    A:THR 570: HG1
+Cluster 65 (2):
+    A:TYR 43: HH 
+    A:HOH 1657
+Cluster 66 (1):
+    A:SER 86: HG 
+Cluster 67 (1):
+    A:SER 87: HG 
+Cluster 68 (1):
+    A:SER 93: HG 
+Cluster 69 (1):
+    A:THR 94: HG1
+Cluster 70 (1):
+    A:SER 101: HG 
+Cluster 71 (1):
+    A:TYR 105: HH 
+Cluster 72 (4):
+    A:TYR 118: HH 
+    A:ASP 133
+    A:HOH 1899
+    A:HOH 1965
+Cluster 73 (1):
+    A:TYR 135: HH 
+Cluster 74 (1):
+    A:THR 144: HG1
+Cluster 75 (1):
+    A:THR 152: HG1
+Cluster 76 (1):
+    A:SER 158: HG 
+Cluster 77 (4):
+    A:TYR 166: HH 
+    A:SER 182: HG 
+    A:HOH 1880
+    A:HOH 2036
+Cluster 78 (4):
+    A:TYR 183: HH 
+    A:HOH 1925
+    A:HOH 1978
+    A:HOH 1996
+Cluster 79 (1):
+    A:THR 199: HG1
+Cluster 80 (3):
+    A:THR 231: HG1
+    A:HOH 1840
+    A:HOH 2047
+Cluster 81 (1):
+    A:TYR 248: HH 
+Cluster 82 (1):
+    A:SER 277: HG 
+Cluster 83 (1):
+    A:SER 278: HG 
+Cluster 84 (1):
+    A:THR 280: HG1
+Cluster 85 (1):
+    A:THR 283: HG1
+Cluster 86 (4):
+    A:THR 288: HG1
+    A:HOH 1647
+    A:HOH 1904
+    A:HOH 2052
+Cluster 87 (1):
+    A:CYS 301: HG 
+Cluster 88 (1):
+    A:TYR 322: HH 
+Cluster 89 (2):
+    A:SER 333: HG 
+    A:ASP 331
+Cluster 90 (1):
+    A:SER 334: HG 
+Cluster 91 (2):
+    A:THR 401: HG1
+    A:HOH 1882
+Cluster 92 (1):
+    A:THR 411: HG1
+Cluster 93 (9):
+    A:TYR 417: HH 
+    A:SER 419: HG 
+    A:GLU 421
+    A:HOH 1521
+    A:HOH 1696
+    A:HOH 1819
+    A:HOH 1820
+    A:HOH 1962
+    A:HOH 2032
+Cluster 94 (3):
+    A:THR 440: HG1
+    A:ASP 438
+    A:HOH 1630
+Cluster 95 (3):
+    A:SER 473: HG 
+    A:HOH 1598
+    A:HOH 2046
+Cluster 96 (1):
+    A:SER 485: HG 
+Cluster 97 (4):
+    A:SER 511: HG 
+    A:HOH 1772
+    A:HOH 1870
+    A:HOH 1941
+Cluster 98 (1):
+    A:THR 522: HG1
+Cluster 99 (2):
+    A:SER 537: HG 
+    A:ASP 535
+Cluster 100 (1):
+    A:TYR 540: HH 
+Cluster 101 (1):
+    A:THR 557: HG1
+Cluster 102 (1):
+    A:SER 569: HG 
+Cluster 103 (1):
+    A:THR 600: HG1
+Cluster 104 (1):
+    A:SER 614: HG 
+Cluster 105 (2):
+    A:TYR 631: HH 
+    A:GLU 602
+Cluster 106 (1):
+    A:TYR 634: HH 
+Cluster 107 (1):
+    A:THR 636: HG1
+Cluster 108 (2):
+    A:SER 637: HG 
+    A:TYR 700: HH 
+Cluster 109 (6):
+    A:SER 642: HG 
+    A:SER 644: HG 
+    A:HOH 1563
+    A:HOH 1692
+    A:HOH 1785
+    A:HOH 1800
+Cluster 110 (1):
+    A:THR 667: HG1
+Cluster 111 (2):
+    A:TYR 670: HH 
+    A:HOH 1537
+Cluster 112 (3):
+    A:THR 675: HG1
+    A:GLU 677
+    A:HOH 1832
+Cluster 113 (1):
+    A:TYR 683: HH 
+Cluster 114 (29):
+    A:SER 686: HG 
+    A:GLU 237
+    A:GLU 660
+    A:HOH 1528
+    A:HOH 1561
+    A:HOH 1666
+    A:HOH 1733
+    A:HOH 1795
+    A:HOH 1964
+    A:HOH 1970
+    A:HOH 1989
+    A:HOH 2008
+    A:HOH 2055
+    B:HOH 2367
+    B:HOH 2403
+    B:HOH 2423
+    B:HOH 2442
+    B:HOH 2626
+    B:HOH 2640
+    B:HOH 2655
+    B:HOH 2656
+    B:HOH 2676
+    B:HOH 2708
+    B:HOH 2710
+    B:HOH 2744
+    B:HOH 2764
+    B:HOH 2812
+    B:HOH 2823
+    B:HOH 2826
+Cluster 115 (11):
+    A:THR 687: HG1
+    A:SER 690: HG 
+    A:HOH 1531
+    A:HOH 1599
+    A:HOH 1600
+    A:HOH 1664
+    A:HOH 1746
+    A:HOH 1861
+    A:HOH 1973
+    B:HOH 2548
+    B:HOH 2822
+Cluster 116 (1):
+    A:SER 756: HG 
+Cluster 117 (2):
+    C:NAG 1: HO3
+    C:NDG 2: HO6
+Cluster 118 (1):
+    C:NAG 1: HO6
+Cluster 119 (2):
+    C:NDG 2: HO3
+    C:NDG 2: HO4
+Cluster 120 (1):
+    D:NAG 1: HO3
+Cluster 121 (2):
+    D:NAG 1: HO6
+    A:HOH 1595
+Cluster 122 (2):
+    D:NAG 2: HO3
+    D:NAG 2: HO4
+Cluster 123 (1):
+    D:NAG 2: HO6
+Cluster 124 (2):
+    E:NAG 1: HO3
+    A:HOH 2049
+Cluster 125 (5):
+    E:NAG 2: HO3
+    E:NAG 2: HO4
+    A:GLU 332
+    A:HOH 1665
+    A:HOH 1771
+Cluster 126 (1):
+    E:NAG 2: HO6
+Cluster 127 (1):
+    F:NAG 1: HO3
+Cluster 128 (2):
+    F:NDG 2: HO3
+    F:NDG 2: HO4
+Cluster 129 (1):
+    G:NAG 1: HO3
+Cluster 130 (1):
+    G:NAG 1: HO6
+Cluster 131 (2):
+    G:NAG 2: HO3
+    G:NAG 2: HO4
+Cluster 132 (7):
+    G:NAG 2: HO6
+    A:ASP 678
+    A:HOH 1661
+    A:HOH 1735
+    A:HOH 1757
+    A:HOH 1951
+    A:HOH 1993
+Cluster 133 (1):
+    H:NAG 1: HO3
+Cluster 134 (1):
+    H:NAG 1: HO6
+Cluster 135 (2):
+    H:NAG 2: HO3
+    H:NAG 2: HO4
+Cluster 136 (1):
+    H:NAG 2: HO6
+Cluster 137 (1):
+    I:NAG 1: HO3
+Cluster 138 (7):
+    I:NAG 1: HO6
+    B:HOH 2551
+    B:HOH 2599
+    B:HOH 2618
+    B:HOH 2754
+    B:HOH 2796
+    B:HOH 2799
+Cluster 139 (4):
+    I:NAG 2: HO3
+    I:NAG 2: HO4
+    I:NAG 2: HO6
+    B:HOH 2402
+Cluster 140 (1):
+    J:NAG 1: HO3
+Cluster 141 (3):
+    J:NAG 1: HO6
+    B:HOH 2596
+    B:HOH 2805
+Cluster 142 (3):
+    J:NAG 2: HO3
+    J:NAG 2: HO4
+    J:NAG 2: HO6
+Cluster 143 (6):
+    K:NAG 1: HO3
+    K:NAG 2: HO3
+    K:NAG 2: HO4
+    K:NAG 2: HO6
+    B:HOH 2474
+    B:HOH 2829
+Cluster 144 (1):
+    K:NAG 1: HO6
+Cluster 145 (2):
+    A:NAG 1092: HO3
+    A:NAG 1092: HO4
+Cluster 146 (3):
+    A:NAG 1281: HO3
+    A:NAG 1281: HO4
+    A:NAG 1281: HO6
+Cluster 147 (2):
+    A:NAG 1520: HO3
+    A:NAG 1520: HO4
+Cluster 148 (1):
+    A:NAG 1520: HO6
+Cluster 149 (4):
+    B:NAG 2092: HO3
+    B:NAG 2092: HO4
+    B:NAG 2092: HO6
+    B:HOH 2447
+Cluster 150 (5):
+    B:NAG 2150: HO3
+    B:NAG 2150: HO4
+    B:NAG 2150: HO6
+    B:HOH 2368
+    B:HOH 2651
+Cluster 151 (4):
+    B:NAG 2321: HO3
+    B:NAG 2321: HO4
+    B:NAG 2321: HO6
+    B:HOH 2782
+Cluster 152 (1):
+    A:GLU 91
+Cluster 153 (1):
+    A:ASP 96
+Cluster 154 (2):
+    A:GLU 97
+    A:HOH 1698
+Cluster 155 (1):
+    A:GLU 146
+Cluster 156 (11):
+    A:GLU 244
+    A:HOH 1613
+    A:HOH 1748
+    A:HOH 1953
+    A:HOH 1997
+    B:HOH 2345
+    B:HOH 2521
+    B:HOH 2541
+    B:HOH 2552
+    B:HOH 2680
+    B:HOH 2830
+Cluster 157 (2):
+    A:GLU 378
+    A:HOH 1920
+Cluster 158 (1):
+    A:GLU 379
+Cluster 159 (1):
+    A:ASP 390
+Cluster 160 (3):
+    A:ASP 393
+    A:HOH 1608
+    A:HOH 1837
+Cluster 161 (2):
+    A:GLU 464
+    A:HOH 1629
+Cluster 162 (1):
+    A:GLU 521
+Cluster 163 (2):
+    A:GLU 604
+    A:HOH 1808
+Cluster 164 (2):
+    A:ASP 605
+    A:HOH 1910
+Cluster 165 (1):
+    A:ASP 725
+Cluster 166 (1):
+    A:HOH 1547
+Cluster 167 (1):
+    A:HOH 1550
+Cluster 168 (1):
+    A:HOH 1564
+Cluster 169 (1):
+    A:HOH 1569
+Cluster 170 (1):
+    A:HOH 1576
+Cluster 171 (1):
+    A:HOH 1579
+Cluster 172 (1):
+    A:HOH 1615
+Cluster 173 (1):
+    A:HOH 1616
+Cluster 174 (1):
+    A:HOH 1640
+Cluster 175 (1):
+    A:HOH 1642
+Cluster 176 (1):
+    A:HOH 1645
+Cluster 177 (1):
+    A:HOH 1675
+Cluster 178 (3):
+    A:HOH 1706
+    A:HOH 1801
+    A:HOH 1865
+Cluster 179 (1):
+    A:HOH 1723
+Cluster 180 (1):
+    A:HOH 1725
+Cluster 181 (4):
+    A:HOH 1726
+    B:HOH 2378
+    B:HOH 2383
+    B:HOH 2691
+Cluster 182 (1):
+    A:HOH 1743
+Cluster 183 (1):
+    A:HOH 1747
+Cluster 184 (2):
+    A:HOH 1750
+    A:HOH 1969
+Cluster 185 (2):
+    A:HOH 1756
+    A:HOH 1783
+Cluster 186 (1):
+    A:HOH 1761
+Cluster 187 (2):
+    A:HOH 1773
+    A:HOH 1991
+Cluster 188 (2):
+    A:HOH 1786
+    A:HOH 1797
+Cluster 189 (2):
+    A:HOH 1793
+    A:HOH 1974
+Cluster 190 (1):
+    A:HOH 1796
+Cluster 191 (2):
+    A:HOH 1817
+    A:HOH 1926
+Cluster 192 (1):
+    A:HOH 1862
+Cluster 193 (1):
+    A:HOH 1864
+Cluster 194 (3):
+    A:HOH 1867
+    A:HOH 1887
+    A:HOH 1905
+Cluster 195 (2):
+    A:HOH 1872
+    A:HOH 1981
+Cluster 196 (1):
+    A:HOH 1881
+Cluster 197 (1):
+    A:HOH 1886
+Cluster 198 (1):
+    A:HOH 1889
+Cluster 199 (2):
+    A:HOH 1898
+    A:HOH 1954
+Cluster 200 (1):
+    A:HOH 1901
+Cluster 201 (1):
+    A:HOH 1902
+Cluster 202 (2):
+    A:HOH 1903
+    A:HOH 1990
+Cluster 203 (1):
+    A:HOH 1911
+Cluster 204 (2):
+    A:HOH 1914
+    A:HOH 2005
+Cluster 205 (1):
+    A:HOH 1916
+Cluster 206 (1):
+    A:HOH 1937
+Cluster 207 (1):
+    A:HOH 1940
+Cluster 208 (1):
+    A:HOH 1942
+Cluster 209 (1):
+    A:HOH 1944
+Cluster 210 (1):
+    A:HOH 1945
+Cluster 211 (1):
+    A:HOH 1972
+Cluster 212 (1):
+    A:HOH 1975
+Cluster 213 (1):
+    A:HOH 1982
+Cluster 214 (1):
+    A:HOH 1984
+Cluster 215 (1):
+    A:HOH 2016
+Cluster 216 (1):
+    A:HOH 2021
+Cluster 217 (1):
+    A:HOH 2027
+Cluster 218 (1):
+    A:HOH 2045
+Cluster 219 (1):
+    A:HOH 2056
+Cluster 220 (20):
+    B:HOH 2322
+    B:HOH 2351
+    B:HOH 2366
+    B:HOH 2380
+    B:HOH 2390
+    B:HOH 2405
+    B:HOH 2430
+    B:HOH 2481
+    B:HOH 2484
+    B:HOH 2518
+    B:HOH 2579
+    B:HOH 2589
+    B:HOH 2604
+    B:HOH 2614
+    B:HOH 2620
+    B:HOH 2653
+    B:HOH 2657
+    B:HOH 2728
+    B:HOH 2747
+    B:HOH 2814
+Cluster 221 (1):
+    B:HOH 2323
+Cluster 222 (12):
+    B:HOH 2324
+    B:HOH 2371
+    B:HOH 2469
+    B:HOH 2492
+    B:HOH 2507
+    B:HOH 2546
+    B:HOH 2611
+    B:HOH 2688
+    B:HOH 2700
+    B:HOH 2731
+    B:HOH 2761
+    B:HOH 2779
+Cluster 223 (5):
+    B:HOH 2325
+    B:HOH 2628
+    B:HOH 2675
+    B:HOH 2683
+    B:HOH 2763
+Cluster 224 (6):
+    B:HOH 2326
+    B:HOH 2328
+    B:HOH 2406
+    B:HOH 2508
+    B:HOH 2609
+    B:HOH 2784
+Cluster 225 (1):
+    B:HOH 2327
+Cluster 226 (12):
+    B:HOH 2330
+    B:HOH 2334
+    B:HOH 2414
+    B:HOH 2417
+    B:HOH 2426
+    B:HOH 2468
+    B:HOH 2488
+    B:HOH 2512
+    B:HOH 2544
+    B:HOH 2617
+    B:HOH 2723
+    B:HOH 2726
+Cluster 227 (8):
+    B:HOH 2332
+    B:HOH 2397
+    B:HOH 2428
+    B:HOH 2534
+    B:HOH 2572
+    B:HOH 2707
+    B:HOH 2719
+    B:HOH 2803
+Cluster 228 (3):
+    B:HOH 2333
+    B:HOH 2450
+    B:HOH 2666
+Cluster 229 (6):
+    B:HOH 2335
+    B:HOH 2337
+    B:HOH 2363
+    B:HOH 2411
+    B:HOH 2535
+    B:HOH 2787
+Cluster 230 (17):
+    B:HOH 2336
+    B:HOH 2376
+    B:HOH 2408
+    B:HOH 2441
+    B:HOH 2458
+    B:HOH 2495
+    B:HOH 2505
+    B:HOH 2529
+    B:HOH 2538
+    B:HOH 2539
+    B:HOH 2567
+    B:HOH 2600
+    B:HOH 2623
+    B:HOH 2703
+    B:HOH 2724
+    B:HOH 2740
+    B:HOH 2788
+Cluster 231 (1):
+    B:HOH 2338
+Cluster 232 (2):
+    B:HOH 2339
+    B:HOH 2584
+Cluster 233 (1):
+    B:HOH 2340
+Cluster 234 (7):
+    B:HOH 2341
+    B:HOH 2387
+    B:HOH 2409
+    B:HOH 2465
+    B:HOH 2524
+    B:HOH 2550
+    B:HOH 2601
+Cluster 235 (1):
+    B:HOH 2342
+Cluster 236 (1):
+    B:HOH 2343
+Cluster 237 (1):
+    B:HOH 2344
+Cluster 238 (2):
+    B:HOH 2346
+    B:HOH 2681
+Cluster 239 (1):
+    B:HOH 2347
+Cluster 240 (4):
+    B:HOH 2348
+    B:HOH 2377
+    B:HOH 2461
+    B:HOH 2547
+Cluster 241 (3):
+    B:HOH 2349
+    B:HOH 2693
+    B:HOH 2705
+Cluster 242 (3):
+    B:HOH 2350
+    B:HOH 2645
+    B:HOH 2685
+Cluster 243 (12):
+    B:HOH 2352
+    B:HOH 2389
+    B:HOH 2452
+    B:HOH 2466
+    B:HOH 2501
+    B:HOH 2510
+    B:HOH 2569
+    B:HOH 2574
+    B:HOH 2590
+    B:HOH 2619
+    B:HOH 2678
+    B:HOH 2790
+Cluster 244 (1):
+    B:HOH 2353
+Cluster 245 (2):
+    B:HOH 2354
+    B:HOH 2804
+Cluster 246 (2):
+    B:HOH 2356
+    B:HOH 2424
+Cluster 247 (2):
+    B:HOH 2358
+    B:HOH 2806
+Cluster 248 (4):
+    B:HOH 2359
+    B:HOH 2370
+    B:HOH 2456
+    B:HOH 2477
+Cluster 249 (1):
+    B:HOH 2362
+Cluster 250 (1):
+    B:HOH 2364
+Cluster 251 (2):
+    B:HOH 2369
+    B:HOH 2515
+Cluster 252 (1):
+    B:HOH 2372
+Cluster 253 (11):
+    B:HOH 2374
+    B:HOH 2437
+    B:HOH 2462
+    B:HOH 2480
+    B:HOH 2497
+    B:HOH 2516
+    B:HOH 2555
+    B:HOH 2585
+    B:HOH 2673
+    B:HOH 2785
+    B:HOH 2811
+Cluster 254 (1):
+    B:HOH 2375
+Cluster 255 (2):
+    B:HOH 2379
+    B:HOH 2725
+Cluster 256 (1):
+    B:HOH 2381
+Cluster 257 (3):
+    B:HOH 2382
+    B:HOH 2392
+    B:HOH 2573
+Cluster 258 (2):
+    B:HOH 2384
+    B:HOH 2566
+Cluster 259 (5):
+    B:HOH 2385
+    B:HOH 2606
+    B:HOH 2635
+    B:HOH 2637
+    B:HOH 2762
+Cluster 260 (3):
+    B:HOH 2386
+    B:HOH 2615
+    B:HOH 2792
+Cluster 261 (2):
+    B:HOH 2388
+    B:HOH 2522
+Cluster 262 (1):
+    B:HOH 2391
+Cluster 263 (2):
+    B:HOH 2393
+    B:HOH 2662
+Cluster 264 (1):
+    B:HOH 2394
+Cluster 265 (1):
+    B:HOH 2395
+Cluster 266 (2):
+    B:HOH 2396
+    B:HOH 2527
+Cluster 267 (3):
+    B:HOH 2399
+    B:HOH 2453
+    B:HOH 2741
+Cluster 268 (2):
+    B:HOH 2407
+    B:HOH 2472
+Cluster 269 (1):
+    B:HOH 2410
+Cluster 270 (1):
+    B:HOH 2412
+Cluster 271 (2):
+    B:HOH 2413
+    B:HOH 2482
+Cluster 272 (3):
+    B:HOH 2415
+    B:HOH 2500
+    B:HOH 2756
+Cluster 273 (5):
+    B:HOH 2416
+    B:HOH 2498
+    B:HOH 2639
+    B:HOH 2698
+    B:HOH 2817
+Cluster 274 (8):
+    B:HOH 2418
+    B:HOH 2451
+    B:HOH 2545
+    B:HOH 2581
+    B:HOH 2643
+    B:HOH 2715
+    B:HOH 2746
+    B:HOH 2808
+Cluster 275 (4):
+    B:HOH 2419
+    B:HOH 2593
+    B:HOH 2716
+    B:HOH 2820
+Cluster 276 (1):
+    B:HOH 2420
+Cluster 277 (3):
+    B:HOH 2422
+    B:HOH 2502
+    B:HOH 2795
+Cluster 278 (1):
+    B:HOH 2425
+Cluster 279 (1):
+    B:HOH 2427
+Cluster 280 (5):
+    B:HOH 2429
+    B:HOH 2473
+    B:HOH 2570
+    B:HOH 2650
+    B:HOH 2780
+Cluster 281 (1):
+    B:HOH 2431
+Cluster 282 (1):
+    B:HOH 2432
+Cluster 283 (1):
+    B:HOH 2433
+Cluster 284 (1):
+    B:HOH 2434
+Cluster 285 (1):
+    B:HOH 2435
+Cluster 286 (4):
+    B:HOH 2436
+    B:HOH 2449
+    B:HOH 2742
+    B:HOH 2770
+Cluster 287 (1):
+    B:HOH 2438
+Cluster 288 (1):
+    B:HOH 2439
+Cluster 289 (1):
+    B:HOH 2440
+Cluster 290 (3):
+    B:HOH 2443
+    B:HOH 2489
+    B:HOH 2646
+Cluster 291 (1):
+    B:HOH 2444
+Cluster 292 (1):
+    B:HOH 2446
+Cluster 293 (1):
+    B:HOH 2448
+Cluster 294 (3):
+    B:HOH 2454
+    B:HOH 2712
+    B:HOH 2783
+Cluster 295 (3):
+    B:HOH 2457
+    B:HOH 2542
+    B:HOH 2568
+Cluster 296 (1):
+    B:HOH 2459
+Cluster 297 (3):
+    B:HOH 2460
+    B:HOH 2471
+    B:HOH 2554
+Cluster 298 (1):
+    B:HOH 2467
+Cluster 299 (6):
+    B:HOH 2470
+    B:HOH 2616
+    B:HOH 2652
+    B:HOH 2668
+    B:HOH 2702
+    B:HOH 2733
+Cluster 300 (6):
+    B:HOH 2475
+    B:HOH 2607
+    B:HOH 2630
+    B:HOH 2642
+    B:HOH 2679
+    B:HOH 2828
+Cluster 301 (2):
+    B:HOH 2476
+    B:HOH 2669
+Cluster 302 (1):
+    B:HOH 2479
+Cluster 303 (2):
+    B:HOH 2483
+    B:HOH 2677
+Cluster 304 (3):
+    B:HOH 2486
+    B:HOH 2586
+    B:HOH 2672
+Cluster 305 (2):
+    B:HOH 2487
+    B:HOH 2608
+Cluster 306 (2):
+    B:HOH 2490
+    B:HOH 2491
+Cluster 307 (4):
+    B:HOH 2493
+    B:HOH 2636
+    B:HOH 2682
+    B:HOH 2687
+Cluster 308 (7):
+    B:HOH 2494
+    B:HOH 2499
+    B:HOH 2526
+    B:HOH 2576
+    B:HOH 2624
+    B:HOH 2659
+    B:HOH 2807
+Cluster 309 (5):
+    B:HOH 2496
+    B:HOH 2594
+    B:HOH 2603
+    B:HOH 2709
+    B:HOH 2809
+Cluster 310 (1):
+    B:HOH 2506
+Cluster 311 (2):
+    B:HOH 2509
+    B:HOH 2520
+Cluster 312 (1):
+    B:HOH 2511
+Cluster 313 (1):
+    B:HOH 2513
+Cluster 314 (1):
+    B:HOH 2514
+Cluster 315 (2):
+    B:HOH 2519
+    B:HOH 2658
+Cluster 316 (5):
+    B:HOH 2523
+    B:HOH 2654
+    B:HOH 2778
+    B:HOH 2794
+    B:HOH 2797
+Cluster 317 (1):
+    B:HOH 2525
+Cluster 318 (1):
+    B:HOH 2530
+Cluster 319 (1):
+    B:HOH 2531
+Cluster 320 (1):
+    B:HOH 2532
+Cluster 321 (2):
+    B:HOH 2533
+    B:HOH 2634
+Cluster 322 (1):
+    B:HOH 2536
+Cluster 323 (1):
+    B:HOH 2537
+Cluster 324 (4):
+    B:HOH 2540
+    B:HOH 2564
+    B:HOH 2737
+    B:HOH 2749
+Cluster 325 (1):
+    B:HOH 2543
+Cluster 326 (8):
+    B:HOH 2549
+    B:HOH 2587
+    B:HOH 2647
+    B:HOH 2713
+    B:HOH 2745
+    B:HOH 2771
+    B:HOH 2772
+    B:HOH 2827
+Cluster 327 (1):
+    B:HOH 2553
+Cluster 328 (2):
+    B:HOH 2556
+    B:HOH 2781
+Cluster 329 (1):
+    B:HOH 2557
+Cluster 330 (1):
+    B:HOH 2559
+Cluster 331 (3):
+    B:HOH 2560
+    B:HOH 2736
+    B:HOH 2791
+Cluster 332 (1):
+    B:HOH 2565
+Cluster 333 (3):
+    B:HOH 2578
+    B:HOH 2627
+    B:HOH 2773
+Cluster 334 (1):
+    B:HOH 2582
+Cluster 335 (1):
+    B:HOH 2583
+Cluster 336 (5):
+    B:HOH 2591
+    B:HOH 2694
+    B:HOH 2739
+    B:HOH 2831
+    B:HOH 2832
+Cluster 337 (2):
+    B:HOH 2592
+    B:HOH 2632
+Cluster 338 (1):
+    B:HOH 2595
+Cluster 339 (1):
+    B:HOH 2597
+Cluster 340 (1):
+    B:HOH 2598
+Cluster 341 (1):
+    B:HOH 2605
+Cluster 342 (2):
+    B:HOH 2610
+    B:HOH 2821
+Cluster 343 (1):
+    B:HOH 2612
+Cluster 344 (1):
+    B:HOH 2613
+Cluster 345 (4):
+    B:HOH 2621
+    B:HOH 2641
+    B:HOH 2727
+    B:HOH 2765
+Cluster 346 (1):
+    B:HOH 2622
+Cluster 347 (3):
+    B:HOH 2629
+    B:HOH 2667
+    B:HOH 2743
+Cluster 348 (1):
+    B:HOH 2631
+Cluster 349 (1):
+    B:HOH 2633
+Cluster 350 (1):
+    B:HOH 2638
+Cluster 351 (1):
+    B:HOH 2644
+Cluster 352 (1):
+    B:HOH 2648
+Cluster 353 (2):
+    B:HOH 2649
+    B:HOH 2798
+Cluster 354 (1):
+    B:HOH 2660
+Cluster 355 (1):
+    B:HOH 2661
+Cluster 356 (1):
+    B:HOH 2663
+Cluster 357 (1):
+    B:HOH 2664
+Cluster 358 (1):
+    B:HOH 2665
+Cluster 359 (1):
+    B:HOH 2670
+Cluster 360 (1):
+    B:HOH 2671
+Cluster 361 (1):
+    B:HOH 2674
+Cluster 362 (1):
+    B:HOH 2684
+Cluster 363 (1):
+    B:HOH 2686
+Cluster 364 (1):
+    B:HOH 2690
+Cluster 365 (1):
+    B:HOH 2695
+Cluster 366 (1):
+    B:HOH 2696
+Cluster 367 (1):
+    B:HOH 2697
+Cluster 368 (1):
+    B:HOH 2699
+Cluster 369 (1):
+    B:HOH 2701
+Cluster 370 (2):
+    B:HOH 2706
+    B:HOH 2777
+Cluster 371 (2):
+    B:HOH 2711
+    B:HOH 2721
+Cluster 372 (2):
+    B:HOH 2714
+    B:HOH 2810
+Cluster 373 (1):
+    B:HOH 2717
+Cluster 374 (1):
+    B:HOH 2718
+Cluster 375 (1):
+    B:HOH 2720
+Cluster 376 (1):
+    B:HOH 2729
+Cluster 377 (2):
+    B:HOH 2730
+    B:HOH 2775
+Cluster 378 (1):
+    B:HOH 2732
+Cluster 379 (1):
+    B:HOH 2735
+Cluster 380 (1):
+    B:HOH 2750
+Cluster 381 (1):
+    B:HOH 2751
+Cluster 382 (3):
+    B:HOH 2755
+    B:HOH 2758
+    B:HOH 2774
+Cluster 383 (1):
+    B:HOH 2759
+Cluster 384 (1):
+    B:HOH 2760
+Cluster 385 (1):
+    B:HOH 2766
+Cluster 386 (1):
+    B:HOH 2767
+Cluster 387 (1):
+    B:HOH 2768
+Cluster 388 (1):
+    B:HOH 2769
+Cluster 389 (1):
+    B:HOH 2776
+Cluster 390 (1):
+    B:HOH 2786
+Cluster 391 (1):
+    B:HOH 2789
+Cluster 392 (1):
+    B:HOH 2793
+Cluster 393 (1):
+    B:HOH 2800
+Cluster 394 (1):
+    B:HOH 2801
+Cluster 395 (2):
+    B:HOH 2802
+    B:HOH 2825
+Cluster 396 (1):
+    B:HOH 2813
+Cluster 397 (1):
+    B:HOH 2815
+Cluster 398 (1):
+    B:HOH 2816
+Cluster 399 (1):
+    B:HOH 2818
+Cluster 400 (1):
+    B:HOH 2824
+
+Optimizing cluster #1 ...
+Lowest energy: -249.9067
+Assignments:
+  A:ASN 51        -> Flip
+  A:ASN 420       -> No Flip
+  A:GLN 527       -> No Flip
+  A:GLN 553       -> No Flip
+  A:ASN 562       -> No Flip
+  A:GLN 586       -> No Flip
+  A:GLN 606       -> No Flip
+  A:LYS 512       -> Orientation 2/5 (pKa = 8.56)
+  A:LYS 554       -> Orientation 1/2 (pKa = 10.90)
+  A:HID 704       -> HIE (pKa = 6.24)
+  A:HID 740       -> HID (pKa = 6.81)
+  A:HID 748       -> HIE (pKa = 5.31)
+  A:TYR 48: HH    -> Default 2 4/4 (pKa = 11.58)
+  A:TYR 381: HH   -> Orientation 1/2 (pKa = 11.10)
+  A:TYR 456: HH   -> Orientation 1/4 (pKa = 10.50)
+  A:SER 458: HG   -> Stagger 3 8/8
+  A:TYR 547: HH   -> Orientation 2/5 (pKa = 13.10)
+  A:SER 552: HG   -> Orientation 1/6
+  A:THR 565: HG1  -> Stagger 3 5/5
+  A:SER 577: HG   -> Stagger 3 9/9
+  A:SER 583: HG   -> Orientation 1/6
+  A:TYR 585: HH   -> Orientation 1/6 (pKa = 12.10)
+  A:SER 630: HG   -> Orientation 2/10
+  A:TYR 666: HH   -> Orientation 1/2 (pKa = 17.49)
+  A:SER 716: HG   -> Orientation 1/6
+  A:TYR 752: HH   -> Orientation 1/3 (pKa = 14.37)
+  A:GLU 408       -> Charged (pKa = 6.47)
+  A:ASP 545       -> Charged (pKa = 4.26)
+  A:ASP 556       -> Charged (pKa = 1.75)
+  A:ASP 579       -> Charged (pKa = 7.12)
+  A:ASP 708       -> Charged (pKa = 0.96)
+  A:HOH 1529      -> Orientation 2/21
+  A:HOH 1532      -> Orientation 8/16
+  A:HOH 1534      -> Orientation 5/11
+  A:HOH 1549      -> Orientation 10/31
+  A:HOH 1553      -> Orientation 11/17
+  A:HOH 1560      -> Orientation 2/7
+  A:HOH 1565      -> Orientation 5/21
+  A:HOH 1574      -> Orientation 2/13
+  A:HOH 1577      -> Orientation 2/13
+  A:HOH 1578      -> Orientation 2/4
+  A:HOH 1587      -> Orientation 4/9
+  A:HOH 1588      -> Orientation 1/3
+  A:HOH 1589      -> Orientation 3/8
+  A:HOH 1590      -> Orientation 2/19
+  A:HOH 1596      -> Orientation 6/17
+  A:HOH 1614      -> Orientation 5/24
+  A:HOH 1617      -> Orientation 3/8
+  A:HOH 1619      -> Orientation 3/9
+  A:HOH 1623      -> Orientation 4/9
+  A:HOH 1627      -> Orientation 10/40
+  A:HOH 1634      -> Orientation 4/6
+  A:HOH 1639      -> Orientation 8/8
+  A:HOH 1641      -> Orientation 10/14
+  A:HOH 1646      -> Orientation 4/5
+  A:HOH 1651      -> Orientation 5/7
+  A:HOH 1662      -> Orientation 2/9
+  A:HOH 1663      -> Orientation 25/28
+  A:HOH 1667      -> Orientation 4/7
+  A:HOH 1668      -> Orientation 5/21
+  A:HOH 1670      -> Orientation 6/24
+  A:HOH 1673      -> Orientation 2/18
+  A:HOH 1677      -> Orientation 5/14
+  A:HOH 1679      -> Orientation 16/18
+  A:HOH 1685      -> Orientation 9/16
+  A:HOH 1687      -> Orientation 8/30
+  A:HOH 1693      -> Orientation 5/21
+  A:HOH 1713      -> Orientation 1/8
+  A:HOH 1715      -> Orientation 3/4
+  A:HOH 1720      -> Orientation 2/4
+  A:HOH 1727      -> Orientation 20/28
+  A:HOH 1732      -> Orientation 3/9
+  A:HOH 1738      -> Orientation 4/17
+  A:HOH 1745      -> Orientation 8/10
+  A:HOH 1759      -> Orientation 2/4
+  A:HOH 1774      -> Orientation 3/7
+  A:HOH 1780      -> Orientation 7/29
+  A:HOH 1781      -> Orientation 10/13
+  A:HOH 1787      -> Orientation 3/5
+  A:HOH 1805      -> Orientation 15/16
+  A:HOH 1806      -> Orientation 6/19
+  A:HOH 1816      -> Orientation 8/28
+  A:HOH 1822      -> Orientation 7/11
+  A:HOH 1825      -> Orientation 13/16
+  A:HOH 1831      -> Orientation 3/11
+  A:HOH 1833      -> Orientation 9/16
+  A:HOH 1834      -> Orientation 16/19
+  A:HOH 1835      -> Orientation 10/10
+  A:HOH 1836      -> Orientation 3/4
+  A:HOH 1839      -> Orientation 5/21
+  A:HOH 1849      -> Orientation 9/10
+  A:HOH 1871      -> Orientation 3/3
+  A:HOH 1906      -> Orientation 7/36
+  A:HOH 1927      -> Orientation 11/14
+  A:HOH 1928      -> Orientation 6/31
+  A:HOH 1930      -> Orientation 3/5
+  A:HOH 1935      -> Orientation 6/8
+  A:HOH 1939      -> Orientation 2/10
+  A:HOH 1950      -> Orientation 4/21
+  A:HOH 1956      -> Orientation 10/25
+  A:HOH 1957      -> Orientation 3/16
+  A:HOH 1986      -> Orientation 5/8
+  A:HOH 1994      -> Orientation 8/16
+  A:HOH 1999      -> Orientation 2/6
+
+Optimizing cluster #2 ...
+Lowest energy: -0.9363
+Assignments:
+  A:GLN 72        -> Flip
+  A:GLU 73        -> Charged (pKa = 4.79)
+
+Optimizing cluster #3 ...
+Lowest energy: 6.0085
+Assignments:
+  A:ASN 74        -> No Flip
+  A:LYS 71        -> Orientation 1/1 (pKa = 9.86)
+  A:NAG 1092: HO6 -> Stagger 3 7/7
+
+Optimizing cluster #4 ...
+Lowest energy: 73.5274
+Assignments:
+  A:ASN 75        -> No Flip
+
+Optimizing cluster #5 ...
+Lowest energy: 31.6454
+Assignments:
+  A:ASN 80        -> No Flip
+  A:LYS 466       -> Stagger (pKa = 10.55)
+  A:HID 66        -> Flip HID (pKa = 6.25)
+  A:SER 64: HG    -> Orientation 7/9
+  A:TYR 83: HH    -> Default 2 4/4 (pKa = 10.47)
+  A:SER 462: HG   -> Orientation 9/11
+  A:TYR 467: HH   -> Default 1 2/3 (pKa = 11.60)
+  A:ASP 65        -> Charged (pKa = 3.35)
+  A:GLU 67        -> Charged (pKa = 5.12)
+  A:GLU 82        -> Charged (pKa = 4.47)
+  A:HOH 1585      -> Orientation 4/8
+  A:HOH 1790      -> Orientation 7/7
+  A:HOH 1829      -> Orientation 10/10
+  A:HOH 1878      -> Orientation 4/6
+  A:HOH 1921      -> Orientation 9/9
+  A:HOH 2050      -> Orientation 5/7
+
+Optimizing cluster #6 ...
+Lowest energy: -45.1908
+Assignments:
+  A:ASN 103       -> No Flip
+  A:HID 126       -> HIE (pKa = 5.14)
+  A:TYR 120: HH   -> Default 2 2/2 (pKa = 10.56)
+  A:TYR 128: HH   -> Orientation 1/5 (pKa = 12.56)
+  A:TYR 132: HH   -> Orientation 2/4 (pKa = 15.79)
+  A:SER 209: HG   -> Orientation 6/9
+  A:ASP 104       -> Charged (pKa = 3.70)
+  A:GLU 117       -> Charged (pKa = 4.56)
+  A:HOH 1546      -> Orientation 5/31
+  A:HOH 1582      -> Orientation 3/11
+  A:HOH 1605      -> Orientation 1/4
+  A:HOH 1722      -> Orientation 1/14
+  A:HOH 1736      -> Orientation 2/13
+  A:HOH 1751      -> Orientation 1/4
+  A:HOH 1789      -> Orientation 1/4
+  A:HOH 1842      -> Orientation 3/3
+  A:HOH 1859      -> Orientation 7/19
+  A:HOH 1895      -> Orientation 2/12
+  A:HOH 1961      -> Orientation 8/32
+  A:HOH 1968      -> Orientation 2/2
+  A:HOH 2022      -> Orientation 2/10
+  A:HOH 2030      -> Orientation 3/4
+
+Optimizing cluster #7 ...
+Lowest energy: -15.1688
+Assignments:
+  A:GLN 112       -> No Flip
+  A:HID 162       -> Flip HIE (pKa = 6.68)
+  A:SER 108: HG   -> Orientation 2/8
+  A:ASP 110       -> Charged (pKa = 3.64)
+  A:GLU 177       -> Charged (pKa = 5.15)
+  A:HOH 1762      -> Orientation 2/5
+  A:HOH 1857      -> Orientation 4/13
+  A:HOH 1879      -> Orientation 7/12
+  A:HOH 1913      -> Orientation 3/5
+
+Optimizing cluster #8 ...
+Lowest energy: -263.8928
+Assignments:
+  A:ASN 119       -> No Flip
+  A:GLN 123       -> No Flip
+  A:ASN 151       -> Flip
+  A:GLN 153       -> No Flip
+  A:ASN 169       -> Flip
+  A:ASN 170       -> Flip
+  A:GLN 247       -> No Flip
+  A:ASN 710       -> No Flip
+  A:LYS 122       -> Stagger (pKa = 10.96)
+  A:HID 100       -> HIE (pKa = 6.04)
+  A:SER 127: HG   -> Orientation 3/10
+  A:THR 129: HG1  -> Stagger 3 12/12
+  A:SER 131: HG   -> Orientation 2/5
+  A:TYR 195: HH   -> Default 2 5/5 (pKa = 16.34)
+  A:TYR 211: HH   -> Orientation 1/2 (pKa = 13.00)
+  A:TYR 238: HH   -> Orientation 1/2 (pKa = 13.88)
+  A:SER 239: HG   -> Default 7/9
+  A:TYR 241: HH   -> Default 2 2/2 (pKa = 9.96)
+  A:SER 242: HG   -> Orientation 3/8
+  A:SER 245: HG   -> Orientation 7/11
+  A:THR 251: HG1  -> Orientation 3/5
+  A:TYR 662: HH   -> Orientation 1/4 (pKa = 22.25)
+  A:THR 706: HG1  -> Orientation 1/5
+  A:THR 736: HG1  -> Orientation 1/8
+  A:SER 744: HG   -> Orientation 1/9
+  A:THR 746: HG1  -> Orientation 5/11
+  A:GLU 191       -> Charged (pKa = 4.76)
+  A:ASP 192       -> Charged (pKa = 5.62)
+  A:ASP 200       -> Charged (pKa = 5.76)
+  A:GLU 204       -> Charged (pKa = 6.59)
+  A:GLU 205       -> Charged (pKa = -0.06)
+  A:GLU 206       -> Charged (pKa = 3.69)
+  A:ASP 230       -> Neutral 2 (pKa = 11.74)
+  A:ASP 243       -> Charged (pKa = 4.00)
+  A:ASP 663       -> Neutral 2 (pKa = 10.59)
+  A:ASP 709       -> Neutral 2 (pKa = 7.86)
+  A:ASP 737       -> Charged (pKa = 3.77)
+  A:GLU 738       -> Charged (pKa = 5.23)
+  A:ASP 739       -> Charged (pKa = 3.43)
+  A:HOH 1524      -> Orientation 7/35
+  A:HOH 1525      -> Orientation 5/20
+  A:HOH 1526      -> Orientation 3/8
+  A:HOH 1527      -> Orientation 11/19
+  A:HOH 1540      -> Orientation 7/18
+  A:HOH 1542      -> Orientation 2/8
+  A:HOH 1544      -> Orientation 4/8
+  A:HOH 1551      -> Orientation 2/9
+  A:HOH 1562      -> Orientation 6/6
+  A:HOH 1583      -> Orientation 4/12
+  A:HOH 1607      -> Orientation 9/36
+  A:HOH 1618      -> Orientation 32/32
+  A:HOH 1625      -> Orientation 23/59
+  A:HOH 1631      -> Orientation 18/22
+  A:HOH 1633      -> Orientation 2/6
+  A:HOH 1636      -> Orientation 8/9
+  A:HOH 1638      -> Orientation 7/21
+  A:HOH 1658      -> Orientation 1/4
+  A:HOH 1669      -> Orientation 20/51
+  A:HOH 1683      -> Orientation 7/14
+  A:HOH 1684      -> Orientation 4/30
+  A:HOH 1689      -> Orientation 4/12
+  A:HOH 1690      -> Orientation 7/9
+  A:HOH 1694      -> Orientation 5/6
+  A:HOH 1695      -> Orientation 6/10
+  A:HOH 1703      -> Orientation 9/12
+  A:HOH 1707      -> Orientation 7/11
+  A:HOH 1716      -> Orientation 6/6
+  A:HOH 1719      -> Orientation 4/18
+  A:HOH 1728      -> Orientation 16/29
+  A:HOH 1730      -> Orientation 15/24
+  A:HOH 1741      -> Orientation 14/15
+  A:HOH 1768      -> Orientation 10/10
+  A:HOH 1770      -> Orientation 4/5
+  A:HOH 1775      -> Orientation 3/4
+  A:HOH 1788      -> Orientation 16/23
+  A:HOH 1799      -> Orientation 10/35
+  A:HOH 1807      -> Orientation 6/21
+  A:HOH 1813      -> Orientation 5/17
+  A:HOH 1814      -> Orientation 4/22
+  A:HOH 1823      -> Orientation 17/29
+  A:HOH 1830      -> Orientation 4/28
+  A:HOH 1851      -> Orientation 9/31
+  A:HOH 1868      -> Orientation 1/4
+  A:HOH 1884      -> Orientation 5/7
+  A:HOH 1890      -> Orientation 1/10
+  A:HOH 1891      -> Orientation 1/3
+  A:HOH 1893      -> Orientation 3/3
+  A:HOH 1900      -> Orientation 4/6
+  A:HOH 1918      -> Orientation 2/6
+  A:HOH 1924      -> Orientation 25/30
+  A:HOH 1943      -> Orientation 6/6
+  A:HOH 1948      -> Orientation 2/2
+  A:HOH 1949      -> Orientation 3/17
+  A:HOH 1952      -> Orientation 4/10
+  A:HOH 1958      -> Orientation 3/11
+  A:HOH 1959      -> Orientation 4/28
+  A:HOH 1960      -> Orientation 2/2
+  A:HOH 1963      -> Orientation 6/9
+  A:HOH 1967      -> Orientation 2/2
+  A:HOH 1977      -> Orientation 13/32
+  A:HOH 2004      -> Orientation 2/9
+  A:HOH 2020      -> Orientation 6/11
+  A:HOH 2025      -> Orientation 3/4
+  A:HOH 2040      -> Orientation 2/8
+  A:HOH 2054      -> Orientation 3/3
+  A:HOH 2057      -> Orientation 4/15
+  B:HOH 2329      -> Orientation 9/20
+  B:HOH 2357      -> Orientation 4/14
+  B:HOH 2365      -> Orientation 8/8
+  B:HOH 2398      -> Orientation 2/2
+  B:HOH 2401      -> Orientation 9/9
+  B:HOH 2404      -> Orientation 8/8
+  B:HOH 2421      -> Orientation 2/8
+  B:HOH 2455      -> Orientation 2/2
+  B:HOH 2464      -> Orientation 7/8
+  B:HOH 2485      -> Orientation 4/8
+  B:HOH 2503      -> Orientation 1/6
+  B:HOH 2563      -> Orientation 3/6
+  B:HOH 2571      -> Orientation 13/23
+  B:HOH 2588      -> Orientation 1/7
+  B:HOH 2625      -> Orientation 2/2
+  B:HOH 2722      -> Orientation 2/8
+  B:HOH 2753      -> Orientation 1/2
+  B:HOH 2819      -> Orientation 8/8
+
+Optimizing cluster #9 ...
+Lowest energy: -3.1068
+Assignments:
+  A:ASN 138       -> Flip
+  A:ASP 136       -> Charged (pKa = 2.95)
+
+Optimizing cluster #10 ...
+Lowest energy: 0.0000
+Assignments:
+  A:GLN 141       -> No Flip
+
+Optimizing cluster #11 ...
+Lowest energy: -1.4081
+Assignments:
+  A:ASN 179       -> No Flip
+  A:GLU 145       -> Charged (pKa = 4.15)
+
+Optimizing cluster #12 ...
+Lowest energy: -56.3669
+Assignments:
+  A:ASN 196       -> No Flip
+  A:GLN 227       -> No Flip
+  A:LYS 267       -> Orientation 1/2 (pKa = 10.02)
+  A:TYR 173: HH   -> Orientation 2/4 (pKa = 11.32)
+  A:THR 186: HG1  -> Orientation 1/9
+  A:THR 188: HG1  -> Orientation 8/11
+  A:TYR 225: HH   -> Orientation 1/3 (pKa = 12.59)
+  A:THR 265: HG1  -> Stagger 2 3/4
+  A:SER 284: HG   -> Orientation 2/8
+  F:NAG 1: HO6    -> Orientation 1/5
+  F:NDG 2: HO6    -> Stagger 3 3/3
+  A:ASP 171       -> Charged (pKa = 4.34)
+  A:GLU 232       -> Charged (pKa = 3.95)
+  A:HOH 1558      -> Orientation 4/7
+  A:HOH 1575      -> Orientation 1/7
+  A:HOH 1622      -> Orientation 22/24
+  A:HOH 1654      -> Orientation 2/5
+  A:HOH 1656      -> Orientation 4/19
+  A:HOH 1680      -> Orientation 1/3
+  A:HOH 1718      -> Orientation 28/36
+  A:HOH 1752      -> Orientation 2/13
+  A:HOH 1815      -> Orientation 14/17
+  A:HOH 1845      -> Orientation 2/2
+  A:HOH 1915      -> Orientation 2/11
+  A:HOH 1971      -> Orientation 1/6
+  A:HOH 1980      -> Orientation 2/2
+  A:HOH 2007      -> Orientation 1/4
+  A:HOH 2011      -> Orientation 4/6
+  A:HOH 2038      -> Orientation 2/9
+
+Optimizing cluster #13 ...
+Lowest energy: -64.9017
+Assignments:
+  A:ASN 263       -> No Flip
+  A:GLN 286       -> Flip
+  A:GLN 320       -> No Flip
+  A:HID 298       -> HID (pKa = 5.91)
+  A:TYR 203: HH   -> Orientation 2/2 (pKa = 14.65)
+  A:TYR 299: HH   -> Orientation 2/5 (pKa = 13.45)
+  A:SER 664: HG   -> Orientation 1/9
+  A:ASP 297       -> Charged (pKa = 3.37)
+  A:GLU 668       -> Charged (pKa = 5.51)
+  A:HOH 1530      -> Orientation 19/21
+  A:HOH 1545      -> Orientation 6/25
+  A:HOH 1572      -> Orientation 12/14
+  A:HOH 1580      -> Orientation 2/10
+  A:HOH 1610      -> Orientation 1/10
+  A:HOH 1681      -> Orientation 3/12
+  A:HOH 1682      -> Orientation 4/11
+  A:HOH 1691      -> Orientation 4/27
+  A:HOH 1701      -> Orientation 4/10
+  A:HOH 1705      -> Orientation 14/19
+  A:HOH 1791      -> Orientation 1/7
+  A:HOH 1794      -> Orientation 7/14
+  A:HOH 1804      -> Orientation 12/18
+  A:HOH 1828      -> Orientation 1/3
+  A:HOH 1847      -> Orientation 5/7
+  A:HOH 1875      -> Orientation 2/8
+
+Optimizing cluster #14 ...
+Lowest energy: -21.5281
+Assignments:
+  A:ASN 272       -> No Flip
+  A:SER 275: HG   -> Orientation 1/9
+  A:TYR 330: HH   -> Orientation 1/2 (pKa = 10.93)
+  A:HOH 1581      -> Orientation 6/7
+  A:HOH 1626      -> Orientation 5/8
+  A:HOH 1841      -> Orientation 6/21
+  A:HOH 1874      -> Orientation 7/36
+  A:HOH 1992      -> Orientation 1/6
+  A:HOH 1995      -> Orientation 10/13
+
+Optimizing cluster #15 ...
+Lowest energy: -23.2496
+Assignments:
+  A:GLN 308       -> No Flip
+  A:LYS 163       -> Orientation 1/2 (pKa = 9.90)
+  A:SER 217: HG   -> Orientation 2/10
+  A:THR 221: HG1  -> Stagger 3 8/8
+  A:THR 273: HG1  -> Stagger 3 7/7
+  A:ASP 274       -> Charged (pKa = 3.25)
+  A:HOH 1523      -> Orientation 1/12
+  A:HOH 1644      -> Orientation 5/6
+  A:HOH 1709      -> Orientation 2/3
+  A:HOH 1764      -> Orientation 2/8
+  A:HOH 1866      -> Orientation 3/12
+  A:HOH 2051      -> Orientation 1/2
+
+Optimizing cluster #16 ...
+Lowest energy: -81.1835
+Assignments:
+  A:GLN 314       -> No Flip
+  A:LYS 373       -> Orientation 2/3 (pKa = 10.79)
+  A:HID 363       -> HID (pKa = 5.20)
+  A:HID 592       -> HIE (pKa = 4.19)
+  A:SER 106: HG   -> Orientation 6/9
+  A:THR 156: HG1  -> Orientation 1/8
+  A:SER 212: HG   -> Stagger 1 4/6
+  A:THR 304: HG1  -> Orientation 1/8
+  A:SER 312: HG   -> Orientation 4/7
+  A:SER 323: HG   -> Default 6/9
+  A:SER 349: HG   -> Orientation 7/10
+  A:THR 350: HG1  -> Default 6/8
+  A:THR 351: HG1  -> Orientation 2/12
+  A:SER 360: HG   -> Orientation 4/8
+  A:SER 376: HG   -> Orientation 8/11
+  A:CYS 551: HG   -> Orientation 1/6 (pKa = 11.34)
+  A:ASP 302       -> Charged (pKa = 5.88)
+  A:GLU 347       -> Charged (pKa = 4.35)
+  A:GLU 361       -> Charged (pKa = 4.32)
+  A:GLU 403       -> Charged (pKa = 4.77)
+  A:ASP 588       -> Charged (pKa = 2.88)
+  A:HOH 1522      -> Orientation 5/8
+  A:HOH 1543      -> Orientation 20/24
+  A:HOH 1552      -> Orientation 7/20
+  A:HOH 1556      -> Orientation 3/5
+  A:HOH 1570      -> Orientation 4/4
+  A:HOH 1573      -> Orientation 4/8
+  A:HOH 1584      -> Orientation 4/19
+  A:HOH 1592      -> Orientation 12/15
+  A:HOH 1604      -> Orientation 8/9
+  A:HOH 1620      -> Orientation 3/7
+  A:HOH 1676      -> Orientation 7/7
+  A:HOH 1721      -> Orientation 1/2
+  A:HOH 1766      -> Orientation 8/15
+  A:HOH 1767      -> Orientation 4/4
+  A:HOH 1776      -> Orientation 3/4
+  A:HOH 1777      -> Orientation 10/18
+  A:HOH 1779      -> Orientation 2/6
+  A:HOH 1810      -> Orientation 18/24
+  A:HOH 1818      -> Orientation 3/6
+  A:HOH 1827      -> Orientation 14/18
+  A:HOH 1843      -> Orientation 14/27
+  A:HOH 1848      -> Orientation 12/20
+  A:HOH 1854      -> Orientation 7/9
+  A:HOH 1885      -> Orientation 1/1
+  A:HOH 1888      -> Orientation 8/22
+  A:HOH 1894      -> Orientation 1/4
+  A:HOH 1922      -> Orientation 2/17
+  A:HOH 1955      -> Orientation 2/10
+  A:HOH 1966      -> Orientation 5/5
+  A:HOH 1988      -> Orientation 1/6
+  A:HOH 2000      -> Orientation 3/3
+  A:HOH 2001      -> Orientation 5/24
+  A:HOH 2003      -> Orientation 2/9
+  A:HOH 2006      -> Orientation 9/10
+  A:HOH 2010      -> Orientation 13/13
+  A:HOH 2012      -> Orientation 1/2
+  A:HOH 2034      -> Orientation 4/4
+  A:HOH 2037      -> Orientation 2/7
+
+Optimizing cluster #17 ...
+Lowest energy: -2.2034
+Assignments:
+  A:ASN 338       -> Flip
+  A:HOH 1946      -> Orientation 1/2
+
+Optimizing cluster #18 ...
+Lowest energy: -16.9074
+Assignments:
+  A:GLN 344       -> Flip
+  A:SER 292: HG   -> Orientation 3/7
+  A:ASP 326       -> Charged (pKa = 6.02)
+  A:HOH 1686      -> Orientation 4/8
+  A:HOH 1737      -> Orientation 2/6
+  A:HOH 1873      -> Orientation 1/3
+  A:HOH 1998      -> Orientation 3/12
+  A:HOH 2014      -> Orientation 5/28
+
+Optimizing cluster #19 ...
+Lowest energy: -65.3267
+Assignments:
+  A:ASN 369       -> No Flip
+  A:GLN 388       -> No Flip
+  A:THR 307: HG1  -> Orientation 2/9
+  A:THR 365: HG1  -> Orientation 4/8
+  A:SER 370: HG   -> Orientation 8/10
+  A:TYR 372: HH   -> Orientation 2/3 (pKa = 12.90)
+  A:TYR 386: HH   -> Orientation 1/4 (pKa = 9.62)
+  A:THR 395: HG1  -> Stagger 1 2/4
+  A:TYR 439: HH   -> Orientation 1/4 (pKa = 11.38)
+  E:NAG 1: HO6    -> Orientation 1/5
+  A:GLU 309       -> Charged (pKa = 4.55)
+  A:ASP 329       -> Charged (pKa = 3.12)
+  A:ASP 367       -> Charged (pKa = 2.64)
+  A:HOH 1571      -> Orientation 2/11
+  A:HOH 1635      -> Orientation 10/10
+  A:HOH 1649      -> Orientation 16/17
+  A:HOH 1699      -> Orientation 1/4
+  A:HOH 1739      -> Orientation 1/3
+  A:HOH 1769      -> Orientation 3/11
+  A:HOH 1812      -> Orientation 2/6
+  A:HOH 1863      -> Orientation 10/12
+  A:HOH 1883      -> Orientation 3/12
+  A:HOH 1892      -> Orientation 11/14
+  A:HOH 1908      -> Orientation 2/17
+  A:HOH 1931      -> Orientation 8/25
+  A:HOH 1933      -> Orientation 6/7
+  A:HOH 1936      -> Orientation 2/5
+  A:HOH 1983      -> Orientation 1/4
+  A:HOH 2029      -> Orientation 7/7
+  A:HOH 2031      -> Orientation 2/2
+  A:HOH 2053      -> Orientation 7/21
+
+Optimizing cluster #20 ...
+Lowest energy: -14.2750
+Assignments:
+  A:ASN 377       -> No Flip
+  A:HID 383       -> HIE (pKa = 4.80)
+  A:THR 398: HG1  -> Default 6/8
+  A:HOH 1602      -> Orientation 6/13
+  A:HOH 1628      -> Orientation 2/2
+  A:HOH 1700      -> Orientation 6/6
+  A:HOH 1763      -> Orientation 8/10
+
+Optimizing cluster #21 ...
+Lowest energy: -67.6816
+Assignments:
+  A:ASN 430       -> No Flip
+  A:ASN 450       -> No Flip
+  A:GLN 455       -> No Flip
+  A:LYS 423       -> Orientation 1/2 (pKa = 10.36)
+  A:LYS 433       -> Orientation 1/1 (pKa = 11.59)
+  A:HID 483       -> HID (pKa = 4.16)
+  A:TYR 416: HH   -> Orientation 1/3 (pKa = 11.53)
+  A:TYR 422: HH   -> Orientation 4/4 (pKa = 11.54)
+  A:TYR 432: HH   -> Orientation 1/2 (pKa = 12.70)
+  A:SER 446: HG   -> Orientation 1/8
+  A:TYR 457: HH   -> Orientation 1/4 (pKa = 12.55)
+  A:TYR 468: HH   -> Orientation 1/6 (pKa = 14.62)
+  A:THR 481: HG1  -> Orientation 2/7
+  A:GLU 448       -> Charged (pKa = 4.11)
+  A:GLU 452       -> Charged (pKa = 4.56)
+  A:ASP 488       -> Charged (pKa = 3.78)
+  A:HOH 1538      -> Orientation 12/29
+  A:HOH 1539      -> Orientation 5/12
+  A:HOH 1559      -> Orientation 32/36
+  A:HOH 1566      -> Orientation 4/21
+  A:HOH 1591      -> Orientation 13/43
+  A:HOH 1609      -> Orientation 5/20
+  A:HOH 1688      -> Orientation 3/14
+  A:HOH 1697      -> Orientation 11/18
+  A:HOH 1712      -> Orientation 2/15
+  A:HOH 1729      -> Orientation 4/4
+  A:HOH 1742      -> Orientation 3/4
+  A:HOH 1792      -> Orientation 3/10
+  A:HOH 1811      -> Orientation 14/15
+  A:HOH 1850      -> Orientation 1/7
+  A:HOH 1858      -> Orientation 2/3
+  A:HOH 1929      -> Orientation 3/13
+  A:HOH 1985      -> Orientation 2/3
+  A:HOH 2009      -> Orientation 2/8
+  A:HOH 2039      -> Orientation 2/2
+  A:HOH 2042      -> Orientation 5/5
+
+Optimizing cluster #22 ...
+Lowest energy: -24.1408
+Assignments:
+  A:GLN 435       -> No Flip
+  A:SER 412: HG   -> Orientation 2/8
+  A:TYR 414: HH   -> Orientation 1/2 (pKa = 10.07)
+  A:SER 437: HG   -> Orientation 1/10
+  A:THR 443: HG1  -> Stagger 1 5/7
+  A:ASP 413       -> Charged (pKa = 4.04)
+  A:HOH 1554      -> Orientation 16/17
+  A:HOH 1653      -> Orientation 15/18
+  A:HOH 1674      -> Orientation 4/5
+  A:HOH 1678      -> Orientation 2/22
+  A:HOH 1755      -> Orientation 2/3
+  A:HOH 1846      -> Orientation 16/16
+  A:HOH 1852      -> Orientation 5/5
+  A:HOH 1856      -> Orientation 5/5
+  A:HOH 1917      -> Orientation 2/2
+  A:HOH 2002      -> Orientation 2/15
+
+Optimizing cluster #23 ...
+Lowest energy: -27.9888
+Assignments:
+  A:GLN 469       -> No Flip
+  A:SER 460: HG   -> Stagger 3 7/7
+  A:HOH 1536      -> Orientation 1/1
+  A:HOH 1606      -> Orientation 2/6
+  A:HOH 1650      -> Orientation 4/21
+  A:HOH 1659      -> Orientation 1/13
+  A:HOH 1710      -> Orientation 6/10
+  A:HOH 1724      -> Orientation 4/5
+  A:HOH 1749      -> Orientation 3/5
+  A:HOH 1784      -> Orientation 17/17
+  A:HOH 1802      -> Orientation 2/11
+  A:HOH 2041      -> Orientation 10/14
+
+Optimizing cluster #24 ...
+Lowest energy: -0.0405
+Assignments:
+  A:ASN 487       -> Flip
+
+Optimizing cluster #25 ...
+Lowest energy: -76.8444
+Assignments:
+  A:ASN 497       -> No Flip
+  A:GLN 505       -> Flip
+  A:LYS 56        -> Orientation 1/2 (pKa = 10.63)
+  A:TYR 58: HH    -> Orientation 2/5 (pKa = 14.62)
+  A:SER 59: HG    -> Orientation 3/7
+  A:TYR 68: HH    -> Orientation 1/5 (pKa = 11.97)
+  A:TYR 70: HH    -> Default 1 2/3 (pKa = 11.30)
+  A:TYR 480: HH   -> Orientation 1/3 (pKa = 11.24)
+  A:SER 498: HG   -> Orientation 7/10
+  A:GLU 495       -> Charged (pKa = 4.62)
+  A:ASP 496       -> Charged (pKa = 2.53)
+  A:ASP 501       -> Charged (pKa = 3.95)
+  A:HOH 1548      -> Orientation 12/13
+  A:HOH 1567      -> Orientation 5/9
+  A:HOH 1621      -> Orientation 13/22
+  A:HOH 1632      -> Orientation 11/13
+  A:HOH 1652      -> Orientation 2/13
+  A:HOH 1660      -> Orientation 10/10
+  A:HOH 1711      -> Orientation 16/25
+  A:HOH 1717      -> Orientation 5/5
+  A:HOH 1744      -> Orientation 3/18
+  A:HOH 1760      -> Orientation 2/4
+  A:HOH 1798      -> Orientation 2/8
+  A:HOH 1821      -> Orientation 18/21
+  A:HOH 1860      -> Orientation 3/5
+  A:HOH 1869      -> Orientation 4/4
+  A:HOH 1877      -> Orientation 3/4
+  A:HOH 1896      -> Orientation 5/19
+  A:HOH 1909      -> Orientation 15/23
+  A:HOH 1912      -> Orientation 4/4
+  A:HOH 1932      -> Orientation 2/8
+  A:HOH 1938      -> Orientation 1/4
+  A:HOH 1947      -> Orientation 2/2
+  A:HOH 2017      -> Orientation 2/3
+  A:HOH 2019      -> Orientation 6/7
+  A:HOH 2024      -> Orientation 5/5
+  A:HOH 2028      -> Orientation 5/7
+  A:HOH 2044      -> Orientation 7/13
+
+Optimizing cluster #26 ...
+Lowest energy: -0.4033
+Assignments:
+  A:ASN 506       -> No Flip
+
+Optimizing cluster #27 ...
+Lowest energy: -1.9610
+Assignments:
+  A:GLN 508       -> No Flip
+  A:HID 533       -> Flip HID (pKa = 6.13)
+
+Optimizing cluster #28 ...
+Lowest energy: -5.7740
+Assignments:
+  A:ASN 572       -> Flip
+  A:HOH 1778      -> Orientation 1/4
+  A:HOH 2018      -> Orientation 1/4
+
+Optimizing cluster #29 ...
+Lowest energy: -0.2985
+Assignments:
+  A:ASN 595       -> Flip
+
+Optimizing cluster #30 ...
+Lowest energy: -2.5994
+Assignments:
+  A:GLN 612       -> No Flip
+  A:GLU 608       -> Charged (pKa = 3.37)
+
+Optimizing cluster #31 ...
+Lowest energy: -2.0624
+Assignments:
+  A:ASN 621       -> Flip
+  A:HOH 1754      -> Orientation 3/4
+
+Optimizing cluster #32 ...
+Lowest energy: -9.8924
+Assignments:
+  A:ASN 679       -> No Flip
+  A:ASP 681       -> Charged (pKa = 3.90)
+  A:HOH 1643      -> Orientation 3/6
+  A:HOH 1765      -> Orientation 7/7
+
+Optimizing cluster #33 ...
+Lowest energy: -0.7266
+Assignments:
+  A:ASN 685       -> No Flip
+
+Optimizing cluster #34 ...
+Lowest energy: -1.2252
+Assignments:
+  A:ASN 694       -> No Flip
+
+Optimizing cluster #35 ...
+Lowest energy: -1.4713
+Assignments:
+  A:GLN 697       -> No Flip
+  A:HOH 1838      -> Orientation 2/3
+
+Optimizing cluster #36 ...
+Lowest energy: 65.9447
+Assignments:
+  A:GLN 714       -> No Flip
+  A:GLN 715       -> No Flip
+  A:GLN 718       -> No Flip
+  A:LYS 258       -> Orientation 1/1 (pKa = 7.03)
+  A:LYS 721       -> Orientation 3/4 (pKa = 10.38)
+  A:HID 712       -> Flip HIE (pKa = 2.09)
+  A:TYR 256: HH   -> Default 2 3/3 (pKa = 17.28)
+  A:SER 657: HG   -> Orientation 1/7
+  A:TYR 661: HH   -> Default 1 2/3 (pKa = 10.88)
+  A:SER 720: HG   -> Stagger 3 9/9
+  A:HOH 1535      -> Orientation 5/22
+  A:HOH 1541      -> Orientation 7/29
+  A:HOH 1586      -> Orientation 2/14
+  A:HOH 1708      -> Orientation 3/10
+  B:HOH 2331      -> Orientation 1/9
+  B:HOH 2400      -> Orientation 2/10
+  B:HOH 2445      -> Orientation 9/10
+  B:HOH 2463      -> Orientation 1/2
+  B:HOH 2517      -> Orientation 2/8
+  B:HOH 2528      -> Orientation 6/9
+  B:HOH 2580      -> Orientation 6/8
+  B:HOH 2692      -> Orientation 10/10
+
+Optimizing cluster #37 ...
+Lowest energy: -54.6799
+Assignments:
+  A:GLN 731       -> Flip
+  A:HID 754       -> HIE (pKa = 5.30)
+  A:ASP 729       -> Charged (pKa = 3.80)
+  A:HOH 1557      -> Orientation 14/47
+  A:HOH 1637      -> Orientation 16/23
+  A:HOH 1655      -> Orientation 7/9
+  A:HOH 1672      -> Orientation 4/13
+  A:HOH 1702      -> Orientation 26/31
+  A:HOH 1704      -> Orientation 2/5
+  A:HOH 1734      -> Orientation 9/23
+  A:HOH 1740      -> Orientation 4/12
+  A:HOH 1758      -> Orientation 3/15
+  A:HOH 1919      -> Orientation 2/14
+  A:HOH 1979      -> Orientation 4/5
+  A:HOH 2013      -> Orientation 3/5
+  A:HOH 2026      -> Orientation 12/12
+  A:HOH 2043      -> Orientation 3/3
+  B:HOH 2355      -> Orientation 12/12
+  B:HOH 2360      -> Orientation 9/11
+  B:HOH 2373      -> Orientation 5/5
+  B:HOH 2504      -> Orientation 1/5
+  B:HOH 2558      -> Orientation 2/7
+  B:HOH 2561      -> Orientation 14/19
+  B:HOH 2575      -> Orientation 24/29
+  B:HOH 2577      -> Orientation 10/10
+  B:HOH 2602      -> Orientation 2/13
+  B:HOH 2704      -> Orientation 5/5
+  B:HOH 2734      -> Orientation 6/10
+  B:HOH 2748      -> Orientation 1/2
+  B:HOH 2752      -> Orientation 3/8
+  B:HOH 2757      -> Orientation 1/2
+
+Optimizing cluster #38 ...
+Lowest energy: -47.2834
+Assignments:
+  A:GLN 749       -> No Flip
+  A:LYS 50        -> Stagger (pKa = 10.17)
+  A:LYS 760       -> Orientation 1/2 (pKa = 11.14)
+  A:HID 750       -> HID (pKa = 6.03)
+  A:HID 757       -> HIE (pKa = 5.97)
+  A:THR 44: HG1   -> Stagger 3 13/13
+  A:THR 46: HG1   -> Orientation 2/8
+  A:THR 52: HG1   -> Orientation 1/7
+  A:TYR 53: HH    -> Orientation 1/2 (pKa = 11.29)
+  A:TYR 566: HH   -> Orientation 3/5 (pKa = 13.56)
+  A:TYR 735: HH   -> Orientation 3/5 (pKa = 12.26)
+  A:SER 745: HG   -> Stagger 3 5/5
+  A:THR 753: HG1  -> Orientation 1/6
+  A:ASP 47        -> Charged (pKa = 3.45)
+  A:GLU 571       -> Charged (pKa = 4.94)
+  A:HOH 1555      -> Orientation 6/6
+  A:HOH 1593      -> Orientation 2/13
+  A:HOH 1603      -> Orientation 3/3
+  A:HOH 1648      -> Orientation 8/15
+  A:HOH 1714      -> Orientation 1/17
+  A:HOH 1824      -> Orientation 1/4
+  A:HOH 1853      -> Orientation 4/15
+  A:HOH 1876      -> Orientation 1/7
+  A:HOH 1923      -> Orientation 1/20
+  A:HOH 2015      -> Orientation 8/30
+  A:HOH 2048      -> Orientation 5/17
+  B:HOH 2361      -> Orientation 12/36
+  B:HOH 2478      -> Orientation 9/32
+  B:HOH 2562      -> Orientation 5/8
+  B:HOH 2689      -> Orientation 7/8
+  B:HOH 2738      -> Orientation 6/24
+
+Optimizing cluster #39 ...
+Lowest energy: -6.2031
+Assignments:
+  A:GLN 761       -> No Flip
+  A:LYS 648       -> Stagger (pKa = 10.99)
+  A:SER 764: HG   -> Orientation 1/8
+  A:GLU 699       -> Charged (pKa = 3.38)
+  A:HOH 1533      -> Orientation 1/6
+  A:HOH 1624      -> Orientation 4/4
+  A:HOH 1844      -> Orientation 8/13
+  A:HOH 1934      -> Orientation 1/4
+
+Optimizing cluster #40 ...
+Lowest energy: -0.3904
+Assignments:
+  A:LYS 41        -> Stagger (pKa = 10.13)
+
+Optimizing cluster #41 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 139       -> Stagger (pKa = 10.63)
+
+Optimizing cluster #42 ...
+Lowest energy: -3.2691
+Assignments:
+  A:LYS 175       -> Orientation 1/2 (pKa = 8.20)
+
+Optimizing cluster #43 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 190       -> Stagger (pKa = 10.35)
+
+Optimizing cluster #44 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 250       -> Orientation 1/2 (pKa = 10.31)
+
+Optimizing cluster #45 ...
+Lowest energy: -0.1580
+Assignments:
+  A:LYS 391       -> Stagger (pKa = 10.69)
+
+Optimizing cluster #46 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 392       -> Stagger (pKa = 10.56)
+
+Optimizing cluster #47 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 399       -> Stagger (pKa = 10.39)
+
+Optimizing cluster #48 ...
+Lowest energy: 7.0001
+Assignments:
+  A:LYS 441       -> Stagger (pKa = 10.69)
+
+Optimizing cluster #49 ...
+Lowest energy: -0.5767
+Assignments:
+  A:LYS 463       -> Orientation 2/3 (pKa = 9.67)
+
+Optimizing cluster #50 ...
+Lowest energy: -17.0675
+Assignments:
+  A:LYS 489       -> Stagger (pKa = 10.26)
+  A:SER 484: HG   -> Stagger 1 6/8
+  A:HOH 1568      -> Orientation 7/7
+  A:HOH 1594      -> Orientation 6/9
+  A:HOH 1671      -> Orientation 1/3
+  A:HOH 1753      -> Orientation 6/14
+  A:HOH 1782      -> Orientation 9/11
+  A:HOH 1803      -> Orientation 11/13
+  A:HOH 1809      -> Orientation 6/6
+  A:HOH 1826      -> Orientation 2/5
+  A:HOH 1855      -> Orientation 2/11
+  A:HOH 1907      -> Orientation 2/8
+  A:HOH 2023      -> Orientation 6/6
+
+Optimizing cluster #51 ...
+Lowest energy: 9.4853
+Assignments:
+  A:LYS 502       -> Stagger (pKa = 10.41)
+
+Optimizing cluster #52 ...
+Lowest energy: -5.2555
+Assignments:
+  A:LYS 513       -> Orientation 1/1 (pKa = 11.01)
+  A:TYR 526: HH   -> Orientation 1/2 (pKa = 11.98)
+  A:ASP 515       -> Charged (pKa = 2.73)
+  A:HOH 1976      -> Orientation 3/4
+
+Optimizing cluster #53 ...
+Lowest energy: -3.8065
+Assignments:
+  A:LYS 523       -> Stagger (pKa = 10.06)
+  A:HOH 1987      -> Orientation 12/16
+  A:HOH 2035      -> Orientation 3/4
+
+Optimizing cluster #54 ...
+Lowest energy: 0.0000
+Assignments:
+  A:LYS 536       -> Stagger (pKa = 10.46)
+
+Optimizing cluster #55 ...
+Lowest energy: 7.9932
+Assignments:
+  A:LYS 538       -> Stagger (pKa = 10.73)
+
+Optimizing cluster #56 ...
+Lowest energy: 7.1877
+Assignments:
+  A:LYS 539       -> Orientation 2/2 (pKa = 10.30)
+
+Optimizing cluster #57 ...
+Lowest energy: 7.4283
+Assignments:
+  A:LYS 589       -> Stagger (pKa = 10.30)
+
+Optimizing cluster #58 ...
+Lowest energy: -0.4149
+Assignments:
+  A:LYS 615       -> Orientation 1/1 (pKa = 10.20)
+
+Optimizing cluster #59 ...
+Lowest energy: -4.6415
+Assignments:
+  A:LYS 622       -> Stagger (pKa = 10.94)
+  A:ASP 620       -> Charged (pKa = 2.28)
+  A:HOH 1897      -> Orientation 5/5
+
+Optimizing cluster #60 ...
+Lowest energy: -2.7514
+Assignments:
+  A:LYS 696       -> Stagger (pKa = 10.29)
+  A:GLU 693       -> Charged (pKa = 4.54)
+  A:HOH 2033      -> Orientation 1/4
+
+Optimizing cluster #61 ...
+Lowest energy: -2.9396
+Assignments:
+  A:HID 345       -> HIE (pKa = 5.17)
+  A:HOH 1597      -> Orientation 9/12
+  A:HOH 1601      -> Orientation 2/13
+  A:HOH 1611      -> Orientation 1/3
+  A:HOH 1612      -> Orientation 1/6
+
+Optimizing cluster #62 ...
+Lowest energy: -3.3569
+Assignments:
+  A:HID 682       -> HIE (pKa = 4.80)
+  A:HOH 1731      -> Orientation 1/3
+
+Optimizing cluster #63 ...
+Lowest energy: -0.3104
+Assignments:
+  A:THR 39: HG1   -> Stagger 1 3/5 (pKa = 7.87)
+
+Optimizing cluster #64 ...
+Lowest energy: -3.3709
+Assignments:
+  A:THR 42: HG1   -> Orientation 1/5
+  A:THR 570: HG1  -> Orientation 1/8
+
+Optimizing cluster #65 ...
+Lowest energy: -3.4866
+Assignments:
+  A:TYR 43: HH    -> Default 2 4/4 (pKa = 12.66)
+  A:HOH 1657      -> Orientation 5/10
+
+Optimizing cluster #66 ...
+Lowest energy: -0.2760
+Assignments:
+  A:SER 86: HG    -> Stagger 1 5/6
+
+Optimizing cluster #67 ...
+Lowest energy: -1.3805
+Assignments:
+  A:SER 87: HG    -> Stagger 1 4/6
+
+Optimizing cluster #68 ...
+Lowest energy: -0.4995
+Assignments:
+  A:SER 93: HG    -> Stagger 1 5/7
+
+Optimizing cluster #69 ...
+Lowest energy: -1.7291
+Assignments:
+  A:THR 94: HG1   -> Orientation 1/5
+
+Optimizing cluster #70 ...
+Lowest energy: -0.1360
+Assignments:
+  A:SER 101: HG   -> Stagger 3 7/7
+
+Optimizing cluster #71 ...
+Lowest energy: 0.0000
+Assignments:
+  A:TYR 105: HH   -> Orientation 1/3 (pKa = 11.22)
+
+Optimizing cluster #72 ...
+Lowest energy: -9.3149
+Assignments:
+  A:TYR 118: HH   -> Orientation 1/4 (pKa = 12.52)
+  A:ASP 133       -> Charged (pKa = 4.67)
+  A:HOH 1899      -> Orientation 8/9
+  A:HOH 1965      -> Orientation 9/10
+
+Optimizing cluster #73 ...
+Lowest energy: -0.7458
+Assignments:
+  A:TYR 135: HH   -> Default 1 2/3 (pKa = 10.47)
+
+Optimizing cluster #74 ...
+Lowest energy: -0.4135
+Assignments:
+  A:THR 144: HG1  -> Stagger 1 3/5
+
+Optimizing cluster #75 ...
+Lowest energy: -1.6419
+Assignments:
+  A:THR 152: HG1  -> Orientation 1/6
+
+Optimizing cluster #76 ...
+Lowest energy: -2.8291
+Assignments:
+  A:SER 158: HG   -> Orientation 1/7
+
+Optimizing cluster #77 ...
+Lowest energy: -5.4257
+Assignments:
+  A:TYR 166: HH   -> Orientation 1/2 (pKa = 12.26)
+  A:SER 182: HG   -> Orientation 5/8
+  A:HOH 1880      -> Orientation 2/7
+  A:HOH 2036      -> Orientation 2/6
+
+Optimizing cluster #78 ...
+Lowest energy: -7.3485
+Assignments:
+  A:TYR 183: HH   -> Default 1 3/4 (pKa = 10.42)
+  A:HOH 1925      -> Orientation 1/5
+  A:HOH 1978      -> Orientation 4/21
+  A:HOH 1996      -> Orientation 2/2
+
+Optimizing cluster #79 ...
+Lowest energy: -1.0911
+Assignments:
+  A:THR 199: HG1  -> Stagger 2 4/5
+
+Optimizing cluster #80 ...
+Lowest energy: -5.3800
+Assignments:
+  A:THR 231: HG1  -> Orientation 1/7
+  A:HOH 1840      -> Orientation 3/3
+  A:HOH 2047      -> Orientation 7/10
+
+Optimizing cluster #81 ...
+Lowest energy: 0.0000
+Assignments:
+  A:TYR 248: HH   -> Orientation 1/2 (pKa = 10.06)
+
+Optimizing cluster #82 ...
+Lowest energy: -1.8572
+Assignments:
+  A:SER 277: HG   -> Orientation 4/9
+
+Optimizing cluster #83 ...
+Lowest energy: -0.5025
+Assignments:
+  A:SER 278: HG   -> Stagger 1 3/5
+
+Optimizing cluster #84 ...
+Lowest energy: -0.1670
+Assignments:
+  A:THR 280: HG1  -> Stagger 1 3/5
+
+Optimizing cluster #85 ...
+Lowest energy: -0.3736
+Assignments:
+  A:THR 283: HG1  -> Stagger 1 3/5
+
+Optimizing cluster #86 ...
+Lowest energy: -8.4768
+Assignments:
+  A:THR 288: HG1  -> Orientation 3/6
+  A:HOH 1647      -> Orientation 1/5
+  A:HOH 1904      -> Orientation 3/3
+  A:HOH 2052      -> Orientation 4/4
+
+Optimizing cluster #87 ...
+Lowest energy: -0.7693
+Assignments:
+  A:CYS 301: HG   -> Stagger 3 5/5 (pKa = 12.61)
+
+Optimizing cluster #88 ...
+Lowest energy: 0.0000
+Assignments:
+  A:TYR 322: HH   -> Orientation 1/3 (pKa = 10.48)
+
+Optimizing cluster #89 ...
+Lowest energy: -1.7683
+Assignments:
+  A:SER 333: HG   -> Orientation 3/7
+  A:ASP 331       -> Charged (pKa = 2.96)
+
+Optimizing cluster #90 ...
+Lowest energy: -1.2765
+Assignments:
+  A:SER 334: HG   -> Stagger 3 10/10
+
+Optimizing cluster #91 ...
+Lowest energy: -2.3049
+Assignments:
+  A:THR 401: HG1  -> Stagger 1 5/7
+  A:HOH 1882      -> Orientation 1/3
+
+Optimizing cluster #92 ...
+Lowest energy: -1.7827
+Assignments:
+  A:THR 411: HG1  -> Orientation 4/9
+
+Optimizing cluster #93 ...
+Lowest energy: -16.8981
+Assignments:
+  A:TYR 417: HH   -> Orientation 1/4 (pKa = 13.88)
+  A:SER 419: HG   -> Orientation 8/12
+  A:GLU 421       -> Charged (pKa = 5.81)
+  A:HOH 1521      -> Orientation 6/17
+  A:HOH 1696      -> Orientation 1/9
+  A:HOH 1819      -> Orientation 7/8
+  A:HOH 1820      -> Orientation 6/12
+  A:HOH 1962      -> Orientation 1/4
+  A:HOH 2032      -> Orientation 5/6
+
+Optimizing cluster #94 ...
+Lowest energy: -4.8774
+Assignments:
+  A:THR 440: HG1  -> Stagger 3 7/7
+  A:ASP 438       -> Charged (pKa = 2.55)
+  A:HOH 1630      -> Orientation 2/2
+
+Optimizing cluster #95 ...
+Lowest energy: -4.4513
+Assignments:
+  A:SER 473: HG   -> Orientation 8/11
+  A:HOH 1598      -> Orientation 7/9
+  A:HOH 2046      -> Orientation 2/2
+
+Optimizing cluster #96 ...
+Lowest energy: -1.7178
+Assignments:
+  A:SER 485: HG   -> Orientation 1/6
+
+Optimizing cluster #97 ...
+Lowest energy: -10.6410
+Assignments:
+  A:SER 511: HG   -> Default 5/7
+  A:HOH 1772      -> Orientation 2/17
+  A:HOH 1870      -> Orientation 3/16
+  A:HOH 1941      -> Orientation 5/5
+
+Optimizing cluster #98 ...
+Lowest energy: -0.6848
+Assignments:
+  A:THR 522: HG1  -> Stagger 1 2/4
+
+Optimizing cluster #99 ...
+Lowest energy: -3.0039
+Assignments:
+  A:SER 537: HG   -> Orientation 1/7
+  A:ASP 535       -> Charged (pKa = 2.35)
+
+Optimizing cluster #100 ...
+Lowest energy: -1.2254
+Assignments:
+  A:TYR 540: HH   -> Orientation 2/4 (pKa = 10.33)
+
+Optimizing cluster #101 ...
+Lowest energy: -1.0768
+Assignments:
+  A:THR 557: HG1  -> Orientation 1/6
+
+Optimizing cluster #102 ...
+Lowest energy: -2.6291
+Assignments:
+  A:SER 569: HG   -> Orientation 1/6
+
+Optimizing cluster #103 ...
+Lowest energy: -2.7408
+Assignments:
+  A:THR 600: HG1  -> Orientation 1/8
+
+Optimizing cluster #104 ...
+Lowest energy: -1.8921
+Assignments:
+  A:SER 614: HG   -> Stagger 3 8/8
+
+Optimizing cluster #105 ...
+Lowest energy: -5.9286
+Assignments:
+  A:TYR 631: HH   -> Orientation 1/4 (pKa = 19.42)
+  A:GLU 602       -> Charged (pKa = 6.37)
+
+Optimizing cluster #106 ...
+Lowest energy: -2.2094
+Assignments:
+  A:TYR 634: HH   -> Orientation 1/4 (pKa = 13.44)
+
+Optimizing cluster #107 ...
+Lowest energy: -1.2537
+Assignments:
+  A:THR 636: HG1  -> Orientation 1/9
+
+Optimizing cluster #108 ...
+Lowest energy: -2.7942
+Assignments:
+  A:SER 637: HG   -> Orientation 1/6
+  A:TYR 700: HH   -> Orientation 1/4 (pKa = 12.92)
+
+Optimizing cluster #109 ...
+Lowest energy: -17.9076
+Assignments:
+  A:SER 642: HG   -> Orientation 1/10
+  A:SER 644: HG   -> Orientation 2/6
+  A:HOH 1563      -> Orientation 7/16
+  A:HOH 1692      -> Orientation 6/25
+  A:HOH 1785      -> Orientation 4/10
+  A:HOH 1800      -> Orientation 2/11
+
+Optimizing cluster #110 ...
+Lowest energy: -1.5008
+Assignments:
+  A:THR 667: HG1  -> Orientation 1/5
+
+Optimizing cluster #111 ...
+Lowest energy: -4.7710
+Assignments:
+  A:TYR 670: HH   -> Orientation 1/4 (pKa = 12.62)
+  A:HOH 1537      -> Orientation 1/7
+
+Optimizing cluster #112 ...
+Lowest energy: -5.2422
+Assignments:
+  A:THR 675: HG1  -> Orientation 4/10
+  A:GLU 677       -> Charged (pKa = 3.84)
+  A:HOH 1832      -> Orientation 7/9
+
+Optimizing cluster #113 ...
+Lowest energy: -1.6545
+Assignments:
+  A:TYR 683: HH   -> Orientation 1/3 (pKa = 15.14)
+
+Optimizing cluster #114 ...
+Lowest energy: -58.2079
+Assignments:
+  A:SER 686: HG   -> Orientation 6/7
+  A:GLU 237       -> Charged (pKa = 4.18)
+  A:GLU 660       -> Charged (pKa = 3.54)
+  A:HOH 1528      -> Orientation 6/7
+  A:HOH 1561      -> Orientation 7/17
+  A:HOH 1666      -> Orientation 4/4
+  A:HOH 1733      -> Orientation 1/5
+  A:HOH 1795      -> Orientation 4/12
+  A:HOH 1964      -> Orientation 8/30
+  A:HOH 1970      -> Orientation 3/11
+  A:HOH 1989      -> Orientation 2/6
+  A:HOH 2008      -> Orientation 9/17
+  A:HOH 2055      -> Orientation 2/5
+  B:HOH 2367      -> Orientation 6/8
+  B:HOH 2403      -> Orientation 13/15
+  B:HOH 2423      -> Orientation 4/4
+  B:HOH 2442      -> Orientation 16/24
+  B:HOH 2626      -> Orientation 3/5
+  B:HOH 2640      -> Orientation 2/2
+  B:HOH 2655      -> Orientation 2/6
+  B:HOH 2656      -> Orientation 16/18
+  B:HOH 2676      -> Orientation 4/16
+  B:HOH 2708      -> Orientation 7/8
+  B:HOH 2710      -> Orientation 3/8
+  B:HOH 2744      -> Orientation 3/19
+  B:HOH 2764      -> Orientation 4/10
+  B:HOH 2812      -> Orientation 13/14
+  B:HOH 2823      -> Orientation 10/19
+  B:HOH 2826      -> Orientation 5/5
+
+Optimizing cluster #115 ...
+Lowest energy: -30.0990
+Assignments:
+  A:THR 687: HG1  -> Orientation 7/11
+  A:SER 690: HG   -> Orientation 7/12
+  A:HOH 1531      -> Orientation 5/12
+  A:HOH 1599      -> Orientation 2/4
+  A:HOH 1600      -> Orientation 4/6
+  A:HOH 1664      -> Orientation 4/4
+  A:HOH 1746      -> Orientation 4/5
+  A:HOH 1861      -> Orientation 2/6
+  A:HOH 1973      -> Orientation 15/16
+  B:HOH 2548      -> Orientation 4/21
+  B:HOH 2822      -> Orientation 4/4
+
+Optimizing cluster #116 ...
+Lowest energy: -2.8522
+Assignments:
+  A:SER 756: HG   -> Orientation 1/7
+
+Optimizing cluster #117 ...
+Lowest energy: -3.5975
+Assignments:
+  C:NAG 1: HO3    -> Orientation 1/5
+  C:NDG 2: HO6    -> Default 4/7
+
+Optimizing cluster #118 ...
+Lowest energy: -0.1890
+Assignments:
+  C:NAG 1: HO6    -> Orientation 2/6
+
+Optimizing cluster #119 ...
+Lowest energy: -0.5684
+Assignments:
+  C:NDG 2: HO3    -> Stagger 2 6/7
+  C:NDG 2: HO4    -> Stagger 1 3/5
+
+Optimizing cluster #120 ...
+Lowest energy: -0.9836
+Assignments:
+  D:NAG 1: HO3    -> Stagger 2 4/5
+
+Optimizing cluster #121 ...
+Lowest energy: -0.9283
+Assignments:
+  D:NAG 1: HO6    -> Default 3/6
+  A:HOH 1595      -> Orientation 1/2
+
+Optimizing cluster #122 ...
+Lowest energy: -0.5362
+Assignments:
+  D:NAG 2: HO3    -> Stagger 2 6/7
+  D:NAG 2: HO4    -> Stagger 1 3/5
+
+Optimizing cluster #123 ...
+Lowest energy: -0.2951
+Assignments:
+  D:NAG 2: HO6    -> Stagger 3 4/4
+
+Optimizing cluster #124 ...
+Lowest energy: -2.3074
+Assignments:
+  E:NAG 1: HO3    -> Orientation 2/5
+  A:HOH 2049      -> Orientation 5/7
+
+Optimizing cluster #125 ...
+Lowest energy: -4.7159
+Assignments:
+  E:NAG 2: HO3    -> Orientation 1/5
+  E:NAG 2: HO4    -> Orientation 2/7
+  A:GLU 332       -> Charged (pKa = 4.17)
+  A:HOH 1665      -> Orientation 6/13
+  A:HOH 1771      -> Orientation 5/5
+
+Optimizing cluster #126 ...
+Lowest energy: -0.2453
+Assignments:
+  E:NAG 2: HO6    -> Orientation 2/5
+
+Optimizing cluster #127 ...
+Lowest energy: -0.3565
+Assignments:
+  F:NAG 1: HO3    -> Orientation 5/6
+
+Optimizing cluster #128 ...
+Lowest energy: -1.7774
+Assignments:
+  F:NDG 2: HO3    -> Stagger 1 4/6
+  F:NDG 2: HO4    -> Stagger 3 7/7
+
+Optimizing cluster #129 ...
+Lowest energy: -0.9542
+Assignments:
+  G:NAG 1: HO3    -> Orientation 4/7
+
+Optimizing cluster #130 ...
+Lowest energy: -0.8132
+Assignments:
+  G:NAG 1: HO6    -> Orientation 3/6
+
+Optimizing cluster #131 ...
+Lowest energy: -0.5857
+Assignments:
+  G:NAG 2: HO3    -> Stagger 2 6/7
+  G:NAG 2: HO4    -> Stagger 1 4/6
+
+Optimizing cluster #132 ...
+Lowest energy: -18.6155
+Assignments:
+  G:NAG 2: HO6    -> Orientation 2/6
+  A:ASP 678       -> Charged (pKa = 2.86)
+  A:HOH 1661      -> Orientation 2/6
+  A:HOH 1735      -> Orientation 6/8
+  A:HOH 1757      -> Orientation 2/7
+  A:HOH 1951      -> Orientation 35/40
+  A:HOH 1993      -> Orientation 2/10
+
+Optimizing cluster #133 ...
+Lowest energy: -0.5229
+Assignments:
+  H:NAG 1: HO3    -> Orientation 1/6
+
+Optimizing cluster #134 ...
+Lowest energy: -0.4024
+Assignments:
+  H:NAG 1: HO6    -> Stagger 1 3/5
+
+Optimizing cluster #135 ...
+Lowest energy: -1.0483
+Assignments:
+  H:NAG 2: HO3    -> Stagger 3 7/7
+  H:NAG 2: HO4    -> Stagger 1 3/5
+
+Optimizing cluster #136 ...
+Lowest energy: -0.7280
+Assignments:
+  H:NAG 2: HO6    -> Default 3/5
+
+Optimizing cluster #137 ...
+Lowest energy: -0.8349
+Assignments:
+  I:NAG 1: HO3    -> Stagger 2 4/5
+
+Optimizing cluster #138 ...
+Lowest energy: -7.8022
+Assignments:
+  I:NAG 1: HO6    -> Orientation 3/6
+  B:HOH 2551      -> Orientation 4/5
+  B:HOH 2599      -> Orientation 5/5
+  B:HOH 2618      -> Orientation 10/21
+  B:HOH 2754      -> Orientation 1/2
+  B:HOH 2796      -> Orientation 3/3
+  B:HOH 2799      -> Orientation 7/10
+
+Optimizing cluster #139 ...
+Lowest energy: -2.5330
+Assignments:
+  I:NAG 2: HO3    -> Stagger 3 7/7
+  I:NAG 2: HO4    -> Stagger 1 3/5
+  I:NAG 2: HO6    -> Orientation 2/5
+  B:HOH 2402      -> Orientation 2/3
+
+Optimizing cluster #140 ...
+Lowest energy: -1.0875
+Assignments:
+  J:NAG 1: HO3    -> Stagger 2 4/5
+
+Optimizing cluster #141 ...
+Lowest energy: -2.7137
+Assignments:
+  J:NAG 1: HO6    -> Stagger 3 6/6
+  B:HOH 2596      -> Orientation 1/2
+  B:HOH 2805      -> Orientation 1/6
+
+Optimizing cluster #142 ...
+Lowest energy: -0.8113
+Assignments:
+  J:NAG 2: HO3    -> Stagger 2 6/7
+  J:NAG 2: HO4    -> Orientation 4/6
+  J:NAG 2: HO6    -> Orientation 1/4
+
+Optimizing cluster #143 ...
+Lowest energy: -8.7164
+Assignments:
+  K:NAG 1: HO3    -> Orientation 6/11
+  K:NAG 2: HO3    -> Stagger 2 5/6
+  K:NAG 2: HO4    -> Stagger 1 4/6
+  K:NAG 2: HO6    -> Orientation 1/7
+  B:HOH 2474      -> Orientation 1/11
+  B:HOH 2829      -> Orientation 4/6
+
+Optimizing cluster #144 ...
+Lowest energy: -0.3628
+Assignments:
+  K:NAG 1: HO6    -> Stagger 1 2/4
+
+Optimizing cluster #145 ...
+Lowest energy: -0.6055
+Assignments:
+  A:NAG 1092: HO3 -> Stagger 2 6/7
+  A:NAG 1092: HO4 -> Stagger 1 4/6
+
+Optimizing cluster #146 ...
+Lowest energy: -0.9960
+Assignments:
+  A:NAG 1281: HO3 -> Stagger 2 4/5
+  A:NAG 1281: HO4 -> Stagger 1 3/5
+  A:NAG 1281: HO6 -> Orientation 1/3
+
+Optimizing cluster #147 ...
+Lowest energy: -1.7509
+Assignments:
+  A:NAG 1520: HO3 -> Stagger 2 6/7
+  A:NAG 1520: HO4 -> Stagger 1 3/5
+
+Optimizing cluster #148 ...
+Lowest energy: -0.6900
+Assignments:
+  A:NAG 1520: HO6 -> Stagger 3 5/5
+
+Optimizing cluster #149 ...
+Lowest energy: -2.6453
+Assignments:
+  B:NAG 2092: HO3 -> Stagger 1 6/8
+  B:NAG 2092: HO4 -> Stagger 1 3/5
+  B:NAG 2092: HO6 -> Stagger 1 4/5
+  B:HOH 2447      -> Orientation 4/5
+
+Optimizing cluster #150 ...
+Lowest energy: -4.3232
+Assignments:
+  B:NAG 2150: HO3 -> Orientation 4/7
+  B:NAG 2150: HO4 -> Stagger 1 3/5
+  B:NAG 2150: HO6 -> Orientation 1/4
+  B:HOH 2368      -> Orientation 4/5
+  B:HOH 2651      -> Orientation 2/2
+
+Optimizing cluster #151 ...
+Lowest energy: -1.9717
+Assignments:
+  B:NAG 2321: HO3 -> Stagger 2 4/5
+  B:NAG 2321: HO4 -> Orientation 1/7
+  B:NAG 2321: HO6 -> Stagger 3 5/5
+  B:HOH 2782      -> Orientation 2/2
+
+Optimizing cluster #152 ...
+Lowest energy: -0.0998
+Assignments:
+  A:GLU 91        -> Charged (pKa = 4.74)
+
+Optimizing cluster #153 ...
+Lowest energy: -0.0437
+Assignments:
+  A:ASP 96        -> Charged (pKa = 4.09)
+
+Optimizing cluster #154 ...
+Lowest energy: -2.3267
+Assignments:
+  A:GLU 97        -> Charged (pKa = 4.84)
+  A:HOH 1698      -> Orientation 7/7
+
+Optimizing cluster #155 ...
+Lowest energy: -0.3021
+Assignments:
+  A:GLU 146       -> Charged (pKa = 4.69)
+
+Optimizing cluster #156 ...
+Lowest energy: -15.9076
+Assignments:
+  A:GLU 244       -> Charged (pKa = 4.55)
+  A:HOH 1613      -> Orientation 3/3
+  A:HOH 1748      -> Orientation 16/18
+  A:HOH 1953      -> Orientation 17/28
+  A:HOH 1997      -> Orientation 4/5
+  B:HOH 2345      -> Orientation 2/2
+  B:HOH 2521      -> Orientation 5/5
+  B:HOH 2541      -> Orientation 2/2
+  B:HOH 2552      -> Orientation 6/6
+  B:HOH 2680      -> Orientation 10/12
+  B:HOH 2830      -> Orientation 7/7
+
+Optimizing cluster #157 ...
+Lowest energy: -1.7744
+Assignments:
+  A:GLU 378       -> Charged (pKa = 4.64)
+  A:HOH 1920      -> Orientation 1/4
+
+Optimizing cluster #158 ...
+Lowest energy: -0.0005
+Assignments:
+  A:GLU 379       -> Charged (pKa = 4.77)
+
+Optimizing cluster #159 ...
+Lowest energy: -0.6689
+Assignments:
+  A:ASP 390       -> Charged (pKa = 3.31)
+
+Optimizing cluster #160 ...
+Lowest energy: -4.6954
+Assignments:
+  A:ASP 393       -> Charged (pKa = 3.85)
+  A:HOH 1608      -> Orientation 7/13
+  A:HOH 1837      -> Orientation 1/3
+
+Optimizing cluster #161 ...
+Lowest energy: -1.5164
+Assignments:
+  A:GLU 464       -> Charged (pKa = 5.07)
+  A:HOH 1629      -> Orientation 2/2
+
+Optimizing cluster #162 ...
+Lowest energy: -0.0091
+Assignments:
+  A:GLU 521       -> Charged (pKa = 4.68)
+
+Optimizing cluster #163 ...
+Lowest energy: -1.9052
+Assignments:
+  A:GLU 604       -> Charged (pKa = 5.39)
+  A:HOH 1808      -> Orientation 3/3
+
+Optimizing cluster #164 ...
+Lowest energy: -4.5154
+Assignments:
+  A:ASP 605       -> Charged (pKa = 4.20)
+  A:HOH 1910      -> Orientation 2/5
+
+Optimizing cluster #165 ...
+Lowest energy: -0.0816
+Assignments:
+  A:ASP 725       -> Charged (pKa = 3.95)
+
+Optimizing cluster #166 ...
+Lowest energy: -2.5695
+Assignments:
+  A:HOH 1547      -> Orientation 1/3
+
+Optimizing cluster #167 ...
+Lowest energy: -3.7086
+Assignments:
+  A:HOH 1550      -> Orientation 4/8
+
+Optimizing cluster #168 ...
+Lowest energy: -4.3931
+Assignments:
+  A:HOH 1564      -> Orientation 2/5
+
+Optimizing cluster #169 ...
+Lowest energy: -3.0822
+Assignments:
+  A:HOH 1569      -> Orientation 1/4
+
+Optimizing cluster #170 ...
+Lowest energy: -2.7555
+Assignments:
+  A:HOH 1576      -> Orientation 3/7
+
+Optimizing cluster #171 ...
+Lowest energy: -1.0468
+Assignments:
+  A:HOH 1579      -> Orientation 1/5
+
+Optimizing cluster #172 ...
+Lowest energy: -0.7075
+Assignments:
+  A:HOH 1615      -> Orientation 1/1
+
+Optimizing cluster #173 ...
+Lowest energy: -1.3609
+Assignments:
+  A:HOH 1616      -> Orientation 1/1
+
+Optimizing cluster #174 ...
+Lowest energy: -1.4361
+Assignments:
+  A:HOH 1640      -> Orientation 1/1
+
+Optimizing cluster #175 ...
+Lowest energy: -2.1714
+Assignments:
+  A:HOH 1642      -> Orientation 4/5
+
+Optimizing cluster #176 ...
+Lowest energy: -1.7825
+Assignments:
+  A:HOH 1645      -> Orientation 2/2
+
+Optimizing cluster #177 ...
+Lowest energy: -3.4819
+Assignments:
+  A:HOH 1675      -> Orientation 1/4
+
+Optimizing cluster #178 ...
+Lowest energy: -8.4991
+Assignments:
+  A:HOH 1706      -> Orientation 2/10
+  A:HOH 1801      -> Orientation 4/4
+  A:HOH 1865      -> Orientation 1/3
+
+Optimizing cluster #179 ...
+Lowest energy: -1.9951
+Assignments:
+  A:HOH 1723      -> Orientation 3/3
+
+Optimizing cluster #180 ...
+Lowest energy: -1.6567
+Assignments:
+  A:HOH 1725      -> Orientation 4/4
+
+Optimizing cluster #181 ...
+Lowest energy: 4.5634
+Assignments:
+  A:HOH 1726      -> Orientation 2/2
+  B:HOH 2378      -> Orientation 2/2
+  B:HOH 2383      -> Orientation 10/10
+  B:HOH 2691      -> Orientation 1/2
+
+Optimizing cluster #182 ...
+Lowest energy: -3.3198
+Assignments:
+  A:HOH 1743      -> Orientation 1/4
+
+Optimizing cluster #183 ...
+Lowest energy: -0.9384
+Assignments:
+  A:HOH 1747      -> Orientation 1/1
+
+Optimizing cluster #184 ...
+Lowest energy: -2.1720
+Assignments:
+  A:HOH 1750      -> Orientation 1/4
+  A:HOH 1969      -> Orientation 1/2
+
+Optimizing cluster #185 ...
+Lowest energy: -5.4566
+Assignments:
+  A:HOH 1756      -> Orientation 7/7
+  A:HOH 1783      -> Orientation 5/5
+
+Optimizing cluster #186 ...
+Lowest energy: -0.6477
+Assignments:
+  A:HOH 1761      -> Orientation 1/1
+
+Optimizing cluster #187 ...
+Lowest energy: -6.4371
+Assignments:
+  A:HOH 1773      -> Orientation 6/13
+  A:HOH 1991      -> Orientation 1/4
+
+Optimizing cluster #188 ...
+Lowest energy: -6.0834
+Assignments:
+  A:HOH 1786      -> Orientation 1/6
+  A:HOH 1797      -> Orientation 3/4
+
+Optimizing cluster #189 ...
+Lowest energy: -3.1048
+Assignments:
+  A:HOH 1793      -> Orientation 6/6
+  A:HOH 1974      -> Orientation 1/2
+
+Optimizing cluster #190 ...
+Lowest energy: -1.0103
+Assignments:
+  A:HOH 1796      -> Orientation 1/1
+
+Optimizing cluster #191 ...
+Lowest energy: -3.1732
+Assignments:
+  A:HOH 1817      -> Orientation 1/11
+  A:HOH 1926      -> Orientation 2/2
+
+Optimizing cluster #192 ...
+Lowest energy: -1.2019
+Assignments:
+  A:HOH 1862      -> Orientation 1/1
+
+Optimizing cluster #193 ...
+Lowest energy: -0.8809
+Assignments:
+  A:HOH 1864      -> Orientation 1/1
+
+Optimizing cluster #194 ...
+Lowest energy: -5.3999
+Assignments:
+  A:HOH 1867      -> Orientation 2/2
+  A:HOH 1887      -> Orientation 4/4
+  A:HOH 1905      -> Orientation 4/5
+
+Optimizing cluster #195 ...
+Lowest energy: -4.3284
+Assignments:
+  A:HOH 1872      -> Orientation 4/4
+  A:HOH 1981      -> Orientation 3/4
+
+Optimizing cluster #196 ...
+Lowest energy: -1.1997
+Assignments:
+  A:HOH 1881      -> Orientation 1/1
+
+Optimizing cluster #197 ...
+Lowest energy: -2.9637
+Assignments:
+  A:HOH 1886      -> Orientation 3/3
+
+Optimizing cluster #198 ...
+Lowest energy: -1.0760
+Assignments:
+  A:HOH 1889      -> Orientation 1/1
+
+Optimizing cluster #199 ...
+Lowest energy: -5.2549
+Assignments:
+  A:HOH 1898      -> Orientation 1/7
+  A:HOH 1954      -> Orientation 1/4
+
+Optimizing cluster #200 ...
+Lowest energy: -1.1198
+Assignments:
+  A:HOH 1901      -> Orientation 1/3
+
+Optimizing cluster #201 ...
+Lowest energy: -0.9667
+Assignments:
+  A:HOH 1902      -> Orientation 1/2
+
+Optimizing cluster #202 ...
+Lowest energy: -3.1212
+Assignments:
+  A:HOH 1903      -> Orientation 8/8
+  A:HOH 1990      -> Orientation 2/3
+
+Optimizing cluster #203 ...
+Lowest energy: -1.2165
+Assignments:
+  A:HOH 1911      -> Orientation 1/1
+
+Optimizing cluster #204 ...
+Lowest energy: -3.1737
+Assignments:
+  A:HOH 1914      -> Orientation 5/6
+  A:HOH 2005      -> Orientation 2/2
+
+Optimizing cluster #205 ...
+Lowest energy: -2.5423
+Assignments:
+  A:HOH 1916      -> Orientation 4/4
+
+Optimizing cluster #206 ...
+Lowest energy: -1.1455
+Assignments:
+  A:HOH 1937      -> Orientation 1/1
+
+Optimizing cluster #207 ...
+Lowest energy: -1.7329
+Assignments:
+  A:HOH 1940      -> Orientation 1/1
+
+Optimizing cluster #208 ...
+Lowest energy: -1.8087
+Assignments:
+  A:HOH 1942      -> Orientation 1/3
+
+Optimizing cluster #209 ...
+Lowest energy: -2.1693
+Assignments:
+  A:HOH 1944      -> Orientation 4/5
+
+Optimizing cluster #210 ...
+Lowest energy: -1.0241
+Assignments:
+  A:HOH 1945      -> Orientation 1/1
+
+Optimizing cluster #211 ...
+Lowest energy: -1.3211
+Assignments:
+  A:HOH 1972      -> Orientation 2/2
+
+Optimizing cluster #212 ...
+Lowest energy: -1.1582
+Assignments:
+  A:HOH 1975      -> Orientation 2/2
+
+Optimizing cluster #213 ...
+Lowest energy: -1.0474
+Assignments:
+  A:HOH 1982      -> Orientation 1/1
+
+Optimizing cluster #214 ...
+Lowest energy: -3.3817
+Assignments:
+  A:HOH 1984      -> Orientation 3/4
+
+Optimizing cluster #215 ...
+Lowest energy: -0.7933
+Assignments:
+  A:HOH 2016      -> Orientation 1/2
+
+Optimizing cluster #216 ...
+Lowest energy: -1.0692
+Assignments:
+  A:HOH 2021      -> Orientation 1/1
+
+Optimizing cluster #217 ...
+Lowest energy: -1.3562
+Assignments:
+  A:HOH 2027      -> Orientation 1/1
+
+Optimizing cluster #218 ...
+Lowest energy: -1.6136
+Assignments:
+  A:HOH 2045      -> Orientation 2/2
+
+Optimizing cluster #219 ...
+Lowest energy: -1.0025
+Assignments:
+  A:HOH 2056      -> Orientation 1/1
+
+Optimizing cluster #220 ...
+Lowest energy: -26.0325
+Assignments:
+  B:HOH 2322      -> Orientation 1/2
+  B:HOH 2351      -> Orientation 2/10
+  B:HOH 2366      -> Orientation 2/2
+  B:HOH 2380      -> Orientation 7/8
+  B:HOH 2390      -> Orientation 2/2
+  B:HOH 2405      -> Orientation 3/8
+  B:HOH 2430      -> Orientation 15/18
+  B:HOH 2481      -> Orientation 15/21
+  B:HOH 2484      -> Orientation 5/21
+  B:HOH 2518      -> Orientation 8/19
+  B:HOH 2579      -> Orientation 1/2
+  B:HOH 2589      -> Orientation 7/12
+  B:HOH 2604      -> Orientation 1/2
+  B:HOH 2614      -> Orientation 4/16
+  B:HOH 2620      -> Orientation 5/18
+  B:HOH 2653      -> Orientation 5/6
+  B:HOH 2657      -> Orientation 2/2
+  B:HOH 2728      -> Orientation 2/2
+  B:HOH 2747      -> Orientation 2/11
+  B:HOH 2814      -> Orientation 2/6
+
+Optimizing cluster #221 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2323      -> Initial 1/1
+
+Optimizing cluster #222 ...
+Lowest energy: -15.8112
+Assignments:
+  B:HOH 2324      -> Orientation 6/7
+  B:HOH 2371      -> Orientation 9/9
+  B:HOH 2469      -> Orientation 2/2
+  B:HOH 2492      -> Orientation 3/8
+  B:HOH 2507      -> Orientation 10/10
+  B:HOH 2546      -> Orientation 5/9
+  B:HOH 2611      -> Orientation 2/10
+  B:HOH 2688      -> Orientation 9/10
+  B:HOH 2700      -> Orientation 3/4
+  B:HOH 2731      -> Orientation 1/2
+  B:HOH 2761      -> Orientation 2/8
+  B:HOH 2779      -> Orientation 11/16
+
+Optimizing cluster #223 ...
+Lowest energy: -5.1175
+Assignments:
+  B:HOH 2325      -> Orientation 2/2
+  B:HOH 2628      -> Orientation 3/10
+  B:HOH 2675      -> Orientation 8/11
+  B:HOH 2683      -> Orientation 5/5
+  B:HOH 2763      -> Orientation 5/5
+
+Optimizing cluster #224 ...
+Lowest energy: -7.4404
+Assignments:
+  B:HOH 2326      -> Orientation 2/2
+  B:HOH 2328      -> Orientation 1/5
+  B:HOH 2406      -> Orientation 2/7
+  B:HOH 2508      -> Orientation 8/8
+  B:HOH 2609      -> Orientation 1/2
+  B:HOH 2784      -> Orientation 5/22
+
+Optimizing cluster #225 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2327      -> Initial 1/1
+
+Optimizing cluster #226 ...
+Lowest energy: -16.6255
+Assignments:
+  B:HOH 2330      -> Orientation 7/7
+  B:HOH 2334      -> Orientation 2/2
+  B:HOH 2414      -> Orientation 5/5
+  B:HOH 2417      -> Orientation 2/2
+  B:HOH 2426      -> Orientation 26/28
+  B:HOH 2468      -> Orientation 8/27
+  B:HOH 2488      -> Orientation 1/9
+  B:HOH 2512      -> Orientation 3/6
+  B:HOH 2544      -> Orientation 14/15
+  B:HOH 2617      -> Orientation 9/9
+  B:HOH 2723      -> Orientation 2/2
+  B:HOH 2726      -> Orientation 2/5
+
+Optimizing cluster #227 ...
+Lowest energy: -8.0010
+Assignments:
+  B:HOH 2332      -> Orientation 2/8
+  B:HOH 2397      -> Orientation 4/8
+  B:HOH 2428      -> Orientation 9/9
+  B:HOH 2534      -> Orientation 1/2
+  B:HOH 2572      -> Orientation 2/2
+  B:HOH 2707      -> Orientation 16/19
+  B:HOH 2719      -> Orientation 1/2
+  B:HOH 2803      -> Orientation 3/8
+
+Optimizing cluster #228 ...
+Lowest energy: -2.4627
+Assignments:
+  B:HOH 2333      -> Orientation 1/2
+  B:HOH 2450      -> Orientation 7/8
+  B:HOH 2666      -> Orientation 2/2
+
+Optimizing cluster #229 ...
+Lowest energy: -7.3382
+Assignments:
+  B:HOH 2335      -> Orientation 4/5
+  B:HOH 2337      -> Orientation 6/20
+  B:HOH 2363      -> Orientation 1/2
+  B:HOH 2411      -> Orientation 1/10
+  B:HOH 2535      -> Orientation 2/12
+  B:HOH 2787      -> Orientation 1/2
+
+Optimizing cluster #230 ...
+Lowest energy: -20.3883
+Assignments:
+  B:HOH 2336      -> Orientation 2/8
+  B:HOH 2376      -> Orientation 2/2
+  B:HOH 2408      -> Orientation 3/8
+  B:HOH 2441      -> Orientation 2/9
+  B:HOH 2458      -> Orientation 9/9
+  B:HOH 2495      -> Orientation 5/5
+  B:HOH 2505      -> Orientation 5/12
+  B:HOH 2529      -> Orientation 11/15
+  B:HOH 2538      -> Orientation 2/8
+  B:HOH 2539      -> Orientation 2/8
+  B:HOH 2567      -> Orientation 3/11
+  B:HOH 2600      -> Orientation 2/2
+  B:HOH 2623      -> Orientation 4/5
+  B:HOH 2703      -> Orientation 1/8
+  B:HOH 2724      -> Orientation 2/2
+  B:HOH 2740      -> Orientation 1/2
+  B:HOH 2788      -> Orientation 2/20
+
+Optimizing cluster #231 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2338      -> Initial 1/1
+
+Optimizing cluster #232 ...
+Lowest energy: -0.8938
+Assignments:
+  B:HOH 2339      -> Orientation 1/2
+  B:HOH 2584      -> Orientation 2/2
+
+Optimizing cluster #233 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2340      -> Initial 1/1
+
+Optimizing cluster #234 ...
+Lowest energy: -8.3932
+Assignments:
+  B:HOH 2341      -> Orientation 3/10
+  B:HOH 2387      -> Orientation 2/2
+  B:HOH 2409      -> Orientation 7/7
+  B:HOH 2465      -> Orientation 2/2
+  B:HOH 2524      -> Orientation 17/17
+  B:HOH 2550      -> Orientation 11/23
+  B:HOH 2601      -> Orientation 1/2
+
+Optimizing cluster #235 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2342      -> Initial 1/1
+
+Optimizing cluster #236 ...
+Lowest energy: 6.7581
+Assignments:
+  B:HOH 2343      -> Initial 1/1
+
+Optimizing cluster #237 ...
+Lowest energy: -0.4578
+Assignments:
+  B:HOH 2344      -> Orientation 1/1
+
+Optimizing cluster #238 ...
+Lowest energy: -0.5038
+Assignments:
+  B:HOH 2346      -> Orientation 1/2
+  B:HOH 2681      -> Orientation 2/2
+
+Optimizing cluster #239 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2347      -> Initial 1/1
+
+Optimizing cluster #240 ...
+Lowest energy: -4.0878
+Assignments:
+  B:HOH 2348      -> Orientation 4/5
+  B:HOH 2377      -> Orientation 1/2
+  B:HOH 2461      -> Orientation 15/16
+  B:HOH 2547      -> Orientation 4/5
+
+Optimizing cluster #241 ...
+Lowest energy: -3.0229
+Assignments:
+  B:HOH 2349      -> Orientation 6/11
+  B:HOH 2693      -> Orientation 1/2
+  B:HOH 2705      -> Orientation 2/2
+
+Optimizing cluster #242 ...
+Lowest energy: -1.5931
+Assignments:
+  B:HOH 2350      -> Orientation 2/2
+  B:HOH 2645      -> Orientation 1/7
+  B:HOH 2685      -> Orientation 2/2
+
+Optimizing cluster #243 ...
+Lowest energy: -15.9417
+Assignments:
+  B:HOH 2352      -> Orientation 1/9
+  B:HOH 2389      -> Orientation 1/10
+  B:HOH 2452      -> Orientation 3/7
+  B:HOH 2466      -> Orientation 2/8
+  B:HOH 2501      -> Orientation 2/11
+  B:HOH 2510      -> Orientation 2/6
+  B:HOH 2569      -> Orientation 33/33
+  B:HOH 2574      -> Orientation 9/9
+  B:HOH 2590      -> Orientation 2/2
+  B:HOH 2619      -> Orientation 2/8
+  B:HOH 2678      -> Orientation 9/36
+  B:HOH 2790      -> Orientation 1/2
+
+Optimizing cluster #244 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2353      -> Initial 1/1
+
+Optimizing cluster #245 ...
+Lowest energy: -0.7364
+Assignments:
+  B:HOH 2354      -> Orientation 1/2
+  B:HOH 2804      -> Orientation 2/2
+
+Optimizing cluster #246 ...
+Lowest energy: -1.6046
+Assignments:
+  B:HOH 2356      -> Orientation 1/2
+  B:HOH 2424      -> Orientation 2/2
+
+Optimizing cluster #247 ...
+Lowest energy: -1.5938
+Assignments:
+  B:HOH 2358      -> Orientation 1/2
+  B:HOH 2806      -> Orientation 2/2
+
+Optimizing cluster #248 ...
+Lowest energy: -3.0410
+Assignments:
+  B:HOH 2359      -> Orientation 2/2
+  B:HOH 2370      -> Orientation 2/2
+  B:HOH 2456      -> Orientation 1/6
+  B:HOH 2477      -> Orientation 3/12
+
+Optimizing cluster #249 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2362      -> Initial 1/1
+
+Optimizing cluster #250 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2364      -> Initial 1/1
+
+Optimizing cluster #251 ...
+Lowest energy: -1.0945
+Assignments:
+  B:HOH 2369      -> Orientation 2/2
+  B:HOH 2515      -> Orientation 1/2
+
+Optimizing cluster #252 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2372      -> Initial 1/1
+
+Optimizing cluster #253 ...
+Lowest energy: -12.9680
+Assignments:
+  B:HOH 2374      -> Orientation 8/11
+  B:HOH 2437      -> Orientation 3/8
+  B:HOH 2462      -> Orientation 1/2
+  B:HOH 2480      -> Orientation 2/2
+  B:HOH 2497      -> Orientation 2/2
+  B:HOH 2516      -> Orientation 2/5
+  B:HOH 2555      -> Orientation 4/11
+  B:HOH 2585      -> Orientation 6/10
+  B:HOH 2673      -> Orientation 2/6
+  B:HOH 2785      -> Orientation 8/9
+  B:HOH 2811      -> Orientation 2/9
+
+Optimizing cluster #254 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2375      -> Initial 1/1
+
+Optimizing cluster #255 ...
+Lowest energy: -0.7470
+Assignments:
+  B:HOH 2379      -> Orientation 1/2
+  B:HOH 2725      -> Orientation 2/2
+
+Optimizing cluster #256 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2381      -> Initial 1/1
+
+Optimizing cluster #257 ...
+Lowest energy: -1.7382
+Assignments:
+  B:HOH 2382      -> Orientation 5/6
+  B:HOH 2392      -> Orientation 1/2
+  B:HOH 2573      -> Orientation 2/2
+
+Optimizing cluster #258 ...
+Lowest energy: -0.5840
+Assignments:
+  B:HOH 2384      -> Orientation 1/2
+  B:HOH 2566      -> Orientation 2/2
+
+Optimizing cluster #259 ...
+Lowest energy: -5.4015
+Assignments:
+  B:HOH 2385      -> Orientation 2/2
+  B:HOH 2606      -> Orientation 2/2
+  B:HOH 2635      -> Orientation 1/14
+  B:HOH 2637      -> Orientation 8/8
+  B:HOH 2762      -> Orientation 5/6
+
+Optimizing cluster #260 ...
+Lowest energy: -3.6835
+Assignments:
+  B:HOH 2386      -> Orientation 2/2
+  B:HOH 2615      -> Orientation 6/10
+  B:HOH 2792      -> Orientation 2/3
+
+Optimizing cluster #261 ...
+Lowest energy: -0.6262
+Assignments:
+  B:HOH 2388      -> Orientation 1/2
+  B:HOH 2522      -> Orientation 2/2
+
+Optimizing cluster #262 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2391      -> Initial 1/1
+
+Optimizing cluster #263 ...
+Lowest energy: -0.9919
+Assignments:
+  B:HOH 2393      -> Orientation 1/2
+  B:HOH 2662      -> Orientation 2/2
+
+Optimizing cluster #264 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2394      -> Initial 1/1
+
+Optimizing cluster #265 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2395      -> Initial 1/1
+
+Optimizing cluster #266 ...
+Lowest energy: -0.5016
+Assignments:
+  B:HOH 2396      -> Orientation 1/2
+  B:HOH 2527      -> Orientation 2/2
+
+Optimizing cluster #267 ...
+Lowest energy: -2.4415
+Assignments:
+  B:HOH 2399      -> Orientation 3/8
+  B:HOH 2453      -> Orientation 2/2
+  B:HOH 2741      -> Orientation 2/2
+
+Optimizing cluster #268 ...
+Lowest energy: -0.5730
+Assignments:
+  B:HOH 2407      -> Orientation 1/2
+  B:HOH 2472      -> Orientation 2/2
+
+Optimizing cluster #269 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2410      -> Initial 1/1
+
+Optimizing cluster #270 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2412      -> Initial 1/1
+
+Optimizing cluster #271 ...
+Lowest energy: -1.5587
+Assignments:
+  B:HOH 2413      -> Orientation 1/2
+  B:HOH 2482      -> Orientation 2/2
+
+Optimizing cluster #272 ...
+Lowest energy: -1.6002
+Assignments:
+  B:HOH 2415      -> Orientation 1/2
+  B:HOH 2500      -> Orientation 5/6
+  B:HOH 2756      -> Orientation 2/2
+
+Optimizing cluster #273 ...
+Lowest energy: -6.7444
+Assignments:
+  B:HOH 2416      -> Orientation 2/5
+  B:HOH 2498      -> Orientation 17/23
+  B:HOH 2639      -> Orientation 8/11
+  B:HOH 2698      -> Orientation 5/5
+  B:HOH 2817      -> Orientation 2/2
+
+Optimizing cluster #274 ...
+Lowest energy: -7.3989
+Assignments:
+  B:HOH 2418      -> Orientation 5/6
+  B:HOH 2451      -> Orientation 2/8
+  B:HOH 2545      -> Orientation 6/10
+  B:HOH 2581      -> Orientation 11/12
+  B:HOH 2643      -> Orientation 7/8
+  B:HOH 2715      -> Orientation 2/2
+  B:HOH 2746      -> Orientation 1/2
+  B:HOH 2808      -> Orientation 2/2
+
+Optimizing cluster #275 ...
+Lowest energy: -3.7430
+Assignments:
+  B:HOH 2419      -> Orientation 7/9
+  B:HOH 2593      -> Orientation 1/2
+  B:HOH 2716      -> Orientation 12/12
+  B:HOH 2820      -> Orientation 1/2
+
+Optimizing cluster #276 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2420      -> Initial 1/1
+
+Optimizing cluster #277 ...
+Lowest energy: -2.7284
+Assignments:
+  B:HOH 2422      -> Orientation 2/2
+  B:HOH 2502      -> Orientation 1/12
+  B:HOH 2795      -> Orientation 2/2
+
+Optimizing cluster #278 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2425      -> Initial 1/1
+
+Optimizing cluster #279 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2427      -> Initial 1/1
+
+Optimizing cluster #280 ...
+Lowest energy: -7.6246
+Assignments:
+  B:HOH 2429      -> Orientation 5/6
+  B:HOH 2473      -> Orientation 1/4
+  B:HOH 2570      -> Orientation 14/16
+  B:HOH 2650      -> Orientation 2/2
+  B:HOH 2780      -> Orientation 10/10
+
+Optimizing cluster #281 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2431      -> Initial 1/1
+
+Optimizing cluster #282 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2432      -> Initial 1/1
+
+Optimizing cluster #283 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2433      -> Initial 1/1
+
+Optimizing cluster #284 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2434      -> Initial 1/1
+
+Optimizing cluster #285 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2435      -> Initial 1/1
+
+Optimizing cluster #286 ...
+Lowest energy: -3.9738
+Assignments:
+  B:HOH 2436      -> Orientation 1/2
+  B:HOH 2449      -> Orientation 2/2
+  B:HOH 2742      -> Orientation 2/9
+  B:HOH 2770      -> Orientation 1/8
+
+Optimizing cluster #287 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2438      -> Initial 1/1
+
+Optimizing cluster #288 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2439      -> Initial 1/1
+
+Optimizing cluster #289 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2440      -> Initial 1/1
+
+Optimizing cluster #290 ...
+Lowest energy: -2.4360
+Assignments:
+  B:HOH 2443      -> Orientation 1/2
+  B:HOH 2489      -> Orientation 6/8
+  B:HOH 2646      -> Orientation 2/2
+
+Optimizing cluster #291 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2444      -> Initial 1/1
+
+Optimizing cluster #292 ...
+Lowest energy: -0.0888
+Assignments:
+  B:HOH 2446      -> Initial 1/1
+
+Optimizing cluster #293 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2448      -> Initial 1/1
+
+Optimizing cluster #294 ...
+Lowest energy: -2.0005
+Assignments:
+  B:HOH 2454      -> Orientation 2/2
+  B:HOH 2712      -> Orientation 1/2
+  B:HOH 2783      -> Orientation 7/7
+
+Optimizing cluster #295 ...
+Lowest energy: -2.1742
+Assignments:
+  B:HOH 2457      -> Orientation 2/2
+  B:HOH 2542      -> Orientation 2/2
+  B:HOH 2568      -> Orientation 3/8
+
+Optimizing cluster #296 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2459      -> Initial 1/1
+
+Optimizing cluster #297 ...
+Lowest energy: -2.8540
+Assignments:
+  B:HOH 2460      -> Orientation 4/10
+  B:HOH 2471      -> Orientation 4/5
+  B:HOH 2554      -> Orientation 5/5
+
+Optimizing cluster #298 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2467      -> Initial 1/1
+
+Optimizing cluster #299 ...
+Lowest energy: -5.7243
+Assignments:
+  B:HOH 2470      -> Orientation 5/18
+  B:HOH 2616      -> Orientation 2/2
+  B:HOH 2652      -> Orientation 3/10
+  B:HOH 2668      -> Orientation 2/2
+  B:HOH 2702      -> Orientation 2/2
+  B:HOH 2733      -> Orientation 6/8
+
+Optimizing cluster #300 ...
+Lowest energy: -5.5967
+Assignments:
+  B:HOH 2475      -> Orientation 2/2
+  B:HOH 2607      -> Orientation 3/10
+  B:HOH 2630      -> Orientation 2/2
+  B:HOH 2642      -> Orientation 2/2
+  B:HOH 2679      -> Orientation 17/17
+  B:HOH 2828      -> Orientation 6/11
+
+Optimizing cluster #301 ...
+Lowest energy: -0.6131
+Assignments:
+  B:HOH 2476      -> Orientation 1/2
+  B:HOH 2669      -> Orientation 2/2
+
+Optimizing cluster #302 ...
+Lowest energy: -1.6961
+Assignments:
+  B:HOH 2479      -> Orientation 2/2
+
+Optimizing cluster #303 ...
+Lowest energy: -0.5428
+Assignments:
+  B:HOH 2483      -> Orientation 1/2
+  B:HOH 2677      -> Orientation 2/2
+
+Optimizing cluster #304 ...
+Lowest energy: -2.1450
+Assignments:
+  B:HOH 2486      -> Orientation 1/2
+  B:HOH 2586      -> Orientation 2/8
+  B:HOH 2672      -> Orientation 2/2
+
+Optimizing cluster #305 ...
+Lowest energy: -1.4489
+Assignments:
+  B:HOH 2487      -> Orientation 1/2
+  B:HOH 2608      -> Orientation 2/2
+
+Optimizing cluster #306 ...
+Lowest energy: -0.9663
+Assignments:
+  B:HOH 2490      -> Orientation 1/2
+  B:HOH 2491      -> Orientation 2/2
+
+Optimizing cluster #307 ...
+Lowest energy: -3.5879
+Assignments:
+  B:HOH 2493      -> Orientation 2/2
+  B:HOH 2636      -> Orientation 9/10
+  B:HOH 2682      -> Orientation 4/8
+  B:HOH 2687      -> Orientation 2/2
+
+Optimizing cluster #308 ...
+Lowest energy: -6.6912
+Assignments:
+  B:HOH 2494      -> Orientation 2/2
+  B:HOH 2499      -> Orientation 4/8
+  B:HOH 2526      -> Orientation 4/5
+  B:HOH 2576      -> Orientation 3/8
+  B:HOH 2624      -> Orientation 2/10
+  B:HOH 2659      -> Orientation 3/5
+  B:HOH 2807      -> Orientation 5/12
+
+Optimizing cluster #309 ...
+Lowest energy: -5.3055
+Assignments:
+  B:HOH 2496      -> Orientation 2/2
+  B:HOH 2594      -> Orientation 12/12
+  B:HOH 2603      -> Orientation 3/11
+  B:HOH 2709      -> Orientation 6/8
+  B:HOH 2809      -> Orientation 2/2
+
+Optimizing cluster #310 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2506      -> Initial 1/1
+
+Optimizing cluster #311 ...
+Lowest energy: -0.6270
+Assignments:
+  B:HOH 2509      -> Orientation 1/2
+  B:HOH 2520      -> Orientation 2/2
+
+Optimizing cluster #312 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2511      -> Initial 1/1
+
+Optimizing cluster #313 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2513      -> Initial 1/1
+
+Optimizing cluster #314 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2514      -> Initial 1/1
+
+Optimizing cluster #315 ...
+Lowest energy: -0.4654
+Assignments:
+  B:HOH 2519      -> Orientation 1/2
+  B:HOH 2658      -> Orientation 2/2
+
+Optimizing cluster #316 ...
+Lowest energy: -4.2278
+Assignments:
+  B:HOH 2523      -> Orientation 5/20
+  B:HOH 2654      -> Orientation 2/2
+  B:HOH 2778      -> Orientation 1/2
+  B:HOH 2794      -> Orientation 2/2
+  B:HOH 2797      -> Orientation 3/6
+
+Optimizing cluster #317 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2525      -> Initial 1/1
+
+Optimizing cluster #318 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2530      -> Initial 1/1
+
+Optimizing cluster #319 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2531      -> Initial 1/1
+
+Optimizing cluster #320 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2532      -> Initial 1/1
+
+Optimizing cluster #321 ...
+Lowest energy: -1.7374
+Assignments:
+  B:HOH 2533      -> Orientation 1/2
+  B:HOH 2634      -> Orientation 2/2
+
+Optimizing cluster #322 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2536      -> Initial 1/1
+
+Optimizing cluster #323 ...
+Lowest energy: -1.1079
+Assignments:
+  B:HOH 2537      -> Orientation 1/1
+
+Optimizing cluster #324 ...
+Lowest energy: -5.0448
+Assignments:
+  B:HOH 2540      -> Orientation 4/12
+  B:HOH 2564      -> Orientation 2/5
+  B:HOH 2737      -> Orientation 1/8
+  B:HOH 2749      -> Orientation 4/15
+
+Optimizing cluster #325 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2543      -> Initial 1/1
+
+Optimizing cluster #326 ...
+Lowest energy: -9.1178
+Assignments:
+  B:HOH 2549      -> Orientation 6/7
+  B:HOH 2587      -> Orientation 1/19
+  B:HOH 2647      -> Orientation 2/2
+  B:HOH 2713      -> Orientation 14/19
+  B:HOH 2745      -> Orientation 8/8
+  B:HOH 2771      -> Orientation 8/10
+  B:HOH 2772      -> Orientation 2/2
+  B:HOH 2827      -> Orientation 2/6
+
+Optimizing cluster #327 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2553      -> Initial 1/1
+
+Optimizing cluster #328 ...
+Lowest energy: -0.9873
+Assignments:
+  B:HOH 2556      -> Orientation 1/2
+  B:HOH 2781      -> Orientation 2/2
+
+Optimizing cluster #329 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2557      -> Initial 1/1
+
+Optimizing cluster #330 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2559      -> Initial 1/1
+
+Optimizing cluster #331 ...
+Lowest energy: -4.5367
+Assignments:
+  B:HOH 2560      -> Orientation 2/2
+  B:HOH 2736      -> Orientation 3/16
+  B:HOH 2791      -> Orientation 1/2
+
+Optimizing cluster #332 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2565      -> Initial 1/1
+
+Optimizing cluster #333 ...
+Lowest energy: -3.4884
+Assignments:
+  B:HOH 2578      -> Orientation 1/2
+  B:HOH 2627      -> Orientation 4/9
+  B:HOH 2773      -> Orientation 1/2
+
+Optimizing cluster #334 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2582      -> Initial 1/1
+
+Optimizing cluster #335 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2583      -> Initial 1/1
+
+Optimizing cluster #336 ...
+Lowest energy: -4.2114
+Assignments:
+  B:HOH 2591      -> Orientation 2/2
+  B:HOH 2694      -> Orientation 2/2
+  B:HOH 2739      -> Orientation 5/6
+  B:HOH 2831      -> Orientation 6/8
+  B:HOH 2832      -> Orientation 4/5
+
+Optimizing cluster #337 ...
+Lowest energy: -0.8768
+Assignments:
+  B:HOH 2592      -> Orientation 2/2
+  B:HOH 2632      -> Orientation 2/2
+
+Optimizing cluster #338 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2595      -> Initial 1/1
+
+Optimizing cluster #339 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2597      -> Initial 1/1
+
+Optimizing cluster #340 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2598      -> Initial 1/1
+
+Optimizing cluster #341 ...
+Lowest energy: -2.3661
+Assignments:
+  B:HOH 2605      -> Orientation 4/4
+
+Optimizing cluster #342 ...
+Lowest energy: -0.7176
+Assignments:
+  B:HOH 2610      -> Orientation 1/2
+  B:HOH 2821      -> Orientation 2/2
+
+Optimizing cluster #343 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2612      -> Initial 1/1
+
+Optimizing cluster #344 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2613      -> Initial 1/1
+
+Optimizing cluster #345 ...
+Lowest energy: -4.5398
+Assignments:
+  B:HOH 2621      -> Orientation 4/10
+  B:HOH 2641      -> Orientation 1/2
+  B:HOH 2727      -> Orientation 2/2
+  B:HOH 2765      -> Orientation 9/10
+
+Optimizing cluster #346 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2622      -> Initial 1/1
+
+Optimizing cluster #347 ...
+Lowest energy: -1.7253
+Assignments:
+  B:HOH 2629      -> Orientation 4/5
+  B:HOH 2667      -> Orientation 1/2
+  B:HOH 2743      -> Orientation 2/2
+
+Optimizing cluster #348 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2631      -> Initial 1/1
+
+Optimizing cluster #349 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2633      -> Initial 1/1
+
+Optimizing cluster #350 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2638      -> Initial 1/1
+
+Optimizing cluster #351 ...
+Lowest energy: -1.5894
+Assignments:
+  B:HOH 2644      -> Orientation 1/1
+
+Optimizing cluster #352 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2648      -> Initial 1/1
+
+Optimizing cluster #353 ...
+Lowest energy: -1.3646
+Assignments:
+  B:HOH 2649      -> Orientation 1/2
+  B:HOH 2798      -> Orientation 2/2
+
+Optimizing cluster #354 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2660      -> Initial 1/1
+
+Optimizing cluster #355 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2661      -> Initial 1/1
+
+Optimizing cluster #356 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2663      -> Initial 1/1
+
+Optimizing cluster #357 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2664      -> Initial 1/1
+
+Optimizing cluster #358 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2665      -> Initial 1/1
+
+Optimizing cluster #359 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2670      -> Initial 1/1
+
+Optimizing cluster #360 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2671      -> Initial 1/1
+
+Optimizing cluster #361 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2674      -> Initial 1/1
+
+Optimizing cluster #362 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2684      -> Initial 1/1
+
+Optimizing cluster #363 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2686      -> Initial 1/1
+
+Optimizing cluster #364 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2690      -> Initial 1/1
+
+Optimizing cluster #365 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2695      -> Initial 1/1
+
+Optimizing cluster #366 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2696      -> Initial 1/1
+
+Optimizing cluster #367 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2697      -> Initial 1/1
+
+Optimizing cluster #368 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2699      -> Initial 1/1
+
+Optimizing cluster #369 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2701      -> Initial 1/1
+
+Optimizing cluster #370 ...
+Lowest energy: -1.9752
+Assignments:
+  B:HOH 2706      -> Orientation 2/3
+  B:HOH 2777      -> Orientation 2/4
+
+Optimizing cluster #371 ...
+Lowest energy: -1.5128
+Assignments:
+  B:HOH 2711      -> Orientation 1/2
+  B:HOH 2721      -> Orientation 2/2
+
+Optimizing cluster #372 ...
+Lowest energy: -1.3495
+Assignments:
+  B:HOH 2714      -> Orientation 1/2
+  B:HOH 2810      -> Orientation 2/2
+
+Optimizing cluster #373 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2717      -> Initial 1/1
+
+Optimizing cluster #374 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2718      -> Initial 1/1
+
+Optimizing cluster #375 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2720      -> Initial 1/1
+
+Optimizing cluster #376 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2729      -> Initial 1/1
+
+Optimizing cluster #377 ...
+Lowest energy: -1.0590
+Assignments:
+  B:HOH 2730      -> Orientation 1/2
+  B:HOH 2775      -> Orientation 2/2
+
+Optimizing cluster #378 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2732      -> Initial 1/1
+
+Optimizing cluster #379 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2735      -> Initial 1/1
+
+Optimizing cluster #380 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2750      -> Initial 1/1
+
+Optimizing cluster #381 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2751      -> Initial 1/1
+
+Optimizing cluster #382 ...
+Lowest energy: -1.5448
+Assignments:
+  B:HOH 2755      -> Orientation 2/2
+  B:HOH 2758      -> Orientation 1/6
+  B:HOH 2774      -> Orientation 2/2
+
+Optimizing cluster #383 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2759      -> Initial 1/1
+
+Optimizing cluster #384 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2760      -> Initial 1/1
+
+Optimizing cluster #385 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2766      -> Initial 1/1
+
+Optimizing cluster #386 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2767      -> Initial 1/1
+
+Optimizing cluster #387 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2768      -> Initial 1/1
+
+Optimizing cluster #388 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2769      -> Initial 1/1
+
+Optimizing cluster #389 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2776      -> Initial 1/1
+
+Optimizing cluster #390 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2786      -> Initial 1/1
+
+Optimizing cluster #391 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2789      -> Initial 1/1
+
+Optimizing cluster #392 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2793      -> Initial 1/1
+
+Optimizing cluster #393 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2800      -> Initial 1/1
+
+Optimizing cluster #394 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2801      -> Initial 1/1
+
+Optimizing cluster #395 ...
+Lowest energy: -1.2724
+Assignments:
+  B:HOH 2802      -> Orientation 1/2
+  B:HOH 2825      -> Orientation 2/2
+
+Optimizing cluster #396 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2813      -> Initial 1/1
+
+Optimizing cluster #397 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2815      -> Initial 1/1
+
+Optimizing cluster #398 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2816      -> Initial 1/1
+
+Optimizing cluster #399 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2818      -> Initial 1/1
+
+Optimizing cluster #400 ...
+Lowest energy: 0.0000
+Assignments:
+  B:HOH 2824      -> Initial 1/1
+
+
+Recalculating pKas to identify changes in protonation penalties...
+Running PROPKA to get pKas
+    Updating protonation penalties for A:HID 162: pKa 7.49
+The following clusters have new protonation state penalties, and will be re-run:
+        7
+
+Optimizing cluster #7 ...
+Lowest energy: -16.5408
+Assignments:
+  A:GLN 112       -> No Flip
+  A:HID 162       -> Flip HIP (pKa = 7.49)
+  A:SER 108: HG   -> Orientation 2/8
+  A:ASP 110       -> Charged (pKa = 2.93)
+  A:GLU 177       -> Charged (pKa = 4.53)
+  A:HOH 1762      -> Orientation 2/5
+  A:HOH 1857      -> Orientation 4/13
+  A:HOH 1879      -> Orientation 7/12
+  A:HOH 1913      -> Orientation 3/5
+
+Combined total energy: -1885.2534
+Alternative States for A:GLN 72   Gap  0.74 kcals/mol
+    Flip      0.00 kcals/mol
+    No Flip   0.74 kcals/mol
+Alternative States for A:ASN 338  Gap  0.44 kcals/mol
+    Flip      0.00 kcals/mol
+    No Flip   0.44 kcals/mol
+Alternative States for A:ASN 487  Gap  0.04 kcals/mol
+    Flip      0.00 kcals/mol
+    No Flip   0.04 kcals/mol
+Alternative States for A:ASN 506  Gap  0.15 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.15 kcals/mol
+Alternative States for A:HID 533  Gap  0.04 kcals/mol
+    Flip HID  0.00 kcals/mol
+    HIE       0.04 kcals/mol
+    HID       0.48 kcals/mol
+    Flip HIE  0.48 kcals/mol
+Alternative States for A:ASN 595  Gap  0.03 kcals/mol
+    Flip      0.00 kcals/mol
+    No Flip   0.03 kcals/mol
+Alternative States for A:GLN 612  Gap  1.05 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      1.05 kcals/mol
+Alternative States for A:ASN 685  Gap  0.52 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.52 kcals/mol
+Alternative States for A:GLN 697  Gap  0.61 kcals/mol
+    No Flip   0.00 kcals/mol
+    Flip      0.61 kcals/mol
+
+Final pKas:
+  A:LYS 41 : 10.13
+  A:LYS 50 : 10.17
+  A:LYS 56 : 10.63
+  A:LYS 71 : 9.86
+  A:LYS 122 : 10.96
+  A:LYS 139 : 10.63
+  A:LYS 163 : 9.90
+  A:LYS 175 : 8.20
+  A:LYS 190 : 10.35
+  A:LYS 250 : 10.31
+  A:LYS 258 : 7.22
+  A:LYS 267 : 10.02
+  A:LYS 373 : 10.79
+  A:LYS 391 : 10.69
+  A:LYS 392 : 10.56
+  A:LYS 399 : 10.39
+  A:LYS 423 : 10.36
+  A:LYS 433 : 11.59
+  A:LYS 441 : 10.69
+  A:LYS 463 : 9.67
+  A:LYS 466 : 10.55
+  A:LYS 489 : 10.26
+  A:LYS 502 : 10.41
+  A:LYS 512 : 8.56
+  A:LYS 513 : 11.01
+  A:LYS 523 : 10.06
+  A:LYS 536 : 10.46
+  A:LYS 538 : 10.73
+  A:LYS 539 : 10.30
+  A:LYS 554 : 10.90
+  A:LYS 589 : 10.30
+  A:LYS 615 : 10.20
+  A:LYS 622 : 10.94
+  A:LYS 648 : 10.99
+  A:LYS 696 : 10.29
+  A:LYS 721 : 10.38
+  A:LYS 760 : 11.14
+  A:HID 66 : 6.25
+  A:HID 100 : 6.04
+  A:HID 126 : 5.14
+  A:HID 162 : 7.49
+  A:HID 298 : 5.91
+  A:HID 345 : 5.17
+  A:HID 363 : 5.20
+  A:HID 383 : 4.80
+  A:HID 483 : 4.16
+  A:HID 533 : 6.13
+  A:HID 592 : 4.19
+  A:HID 682 : 4.80
+  A:HID 704 : 6.24
+  A:HID 712 : 2.13
+  A:HID 740 : 6.81
+  A:HID 748 : 5.31
+  A:HID 750 : 6.03
+  A:HID 754 : 5.30
+  A:HID 757 : 5.97
+  A:THR 39: HG1 : 7.87
+  A:TYR 43: HH  : 12.66
+  A:TYR 48: HH  : 11.58
+  A:TYR 53: HH  : 11.29
+  A:TYR 58: HH  : 14.62
+  A:TYR 68: HH  : 11.97
+  A:TYR 70: HH  : 11.30
+  A:TYR 83: HH  : 10.47
+  A:TYR 105: HH  : 11.22
+  A:TYR 118: HH  : 12.52
+  A:TYR 120: HH  : 10.56
+  A:TYR 128: HH  : 12.56
+  A:TYR 132: HH  : 15.79
+  A:TYR 135: HH  : 10.47
+  A:TYR 166: HH  : 12.26
+  A:TYR 173: HH  : 11.32
+  A:TYR 183: HH  : 10.42
+  A:TYR 195: HH  : 16.34
+  A:TYR 203: HH  : 14.65
+  A:TYR 211: HH  : 12.99
+  A:TYR 225: HH  : 12.59
+  A:TYR 238: HH  : 13.88
+  A:TYR 241: HH  : 9.96
+  A:TYR 248: HH  : 10.06
+  A:TYR 256: HH  : 17.29
+  A:TYR 299: HH  : 13.45
+  A:CYS 301: HG  : 12.61
+  A:TYR 322: HH  : 10.48
+  A:TYR 330: HH  : 10.93
+  A:TYR 372: HH  : 12.90
+  A:TYR 381: HH  : 11.10
+  A:TYR 386: HH  : 9.62
+  A:TYR 414: HH  : 10.07
+  A:TYR 416: HH  : 11.53
+  A:TYR 417: HH  : 13.88
+  A:TYR 422: HH  : 11.54
+  A:TYR 432: HH  : 12.70
+  A:TYR 439: HH  : 11.38
+  A:TYR 456: HH  : 10.50
+  A:TYR 457: HH  : 12.55
+  A:TYR 467: HH  : 11.60
+  A:TYR 468: HH  : 14.62
+  A:TYR 480: HH  : 11.24
+  A:TYR 526: HH  : 11.98
+  A:TYR 540: HH  : 10.33
+  A:TYR 547: HH  : 13.10
+  A:CYS 551: HG  : 11.34
+  A:TYR 566: HH  : 13.56
+  A:TYR 585: HH  : 12.10
+  A:TYR 631: HH  : 19.42
+  A:TYR 634: HH  : 13.44
+  A:TYR 661: HH  : 10.88
+  A:TYR 662: HH  : 22.25
+  A:TYR 666: HH  : 17.49
+  A:TYR 670: HH  : 12.62
+  A:TYR 683: HH  : 15.14
+  A:TYR 700: HH  : 12.92
+  A:TYR 735: HH  : 12.26
+  A:TYR 752: HH  : 14.37
+  A:ASP 47 : 3.45
+  A:ASP 65 : 3.36
+  A:GLU 67 : 5.12
+  A:GLU 73 : 4.62
+  A:GLU 82 : 4.47
+  A:GLU 91 : 4.74
+  A:ASP 96 : 4.09
+  A:GLU 97 : 4.84
+  A:ASP 104 : 3.70
+  A:ASP 110 : 2.93
+  A:GLU 117 : 4.56
+  A:ASP 133 : 4.67
+  A:ASP 136 : 3.52
+  A:GLU 145 : 4.15
+  A:GLU 146 : 4.69
+  A:ASP 171 : 4.34
+  A:GLU 177 : 4.53
+  A:GLU 191 : 4.76
+  A:ASP 192 : 5.62
+  A:ASP 200 : 5.76
+  A:GLU 204 : 6.59
+  A:GLU 205 : -0.06
+  A:GLU 206 : 3.69
+  A:ASP 230 : 11.74
+  A:GLU 232 : 3.95
+  A:GLU 237 : 4.18
+  A:ASP 243 : 4.00
+  A:GLU 244 : 4.55
+  A:ASP 274 : 3.25
+  A:ASP 297 : 3.37
+  A:ASP 302 : 5.88
+  A:GLU 309 : 4.55
+  A:ASP 326 : 6.27
+  A:ASP 329 : 3.12
+  A:ASP 331 : 2.96
+  A:GLU 332 : 4.17
+  A:GLU 347 : 4.35
+  A:GLU 361 : 4.32
+  A:ASP 367 : 2.64
+  A:GLU 378 : 4.64
+  A:GLU 379 : 4.77
+  A:ASP 390 : 3.31
+  A:ASP 393 : 3.85
+  A:GLU 403 : 4.77
+  A:GLU 408 : 6.47
+  A:ASP 413 : 4.04
+  A:GLU 421 : 5.81
+  A:ASP 438 : 2.55
+  A:GLU 448 : 4.11
+  A:GLU 452 : 4.56
+  A:GLU 464 : 5.07
+  A:ASP 488 : 3.78
+  A:GLU 495 : 4.62
+  A:ASP 496 : 2.53
+  A:ASP 501 : 3.95
+  A:ASP 515 : 2.73
+  A:GLU 521 : 4.68
+  A:ASP 535 : 2.35
+  A:ASP 545 : 4.26
+  A:ASP 556 : 1.75
+  A:GLU 571 : 4.94
+  A:ASP 579 : 7.12
+  A:ASP 588 : 2.88
+  A:GLU 602 : 6.37
+  A:GLU 604 : 5.39
+  A:ASP 605 : 4.20
+  A:GLU 608 : 3.37
+  A:ASP 620 : 2.28
+  A:GLU 660 : 3.54
+  A:ASP 663 : 10.59
+  A:GLU 668 : 5.51
+  A:GLU 677 : 3.84
+  A:ASP 678 : 2.86
+  A:ASP 681 : 3.90
+  A:GLU 693 : 4.54
+  A:GLU 699 : 3.38
+  A:ASP 708 : 0.96
+  A:ASP 709 : 7.86
+  A:ASP 725 : 3.95
+  A:ASP 729 : 3.80
+  A:ASP 737 : 3.77
+  A:GLU 738 : 5.23
+  A:ASP 739 : 3.43
+Structure extracted from file: /scratch/praktikum/1x70_prepared/1x70_prepared-001/Optimize_H-bond_Assignments.maegz
+Output structure will be written to: Optimize_H-bond_Assignments-out.maegz
+
+Complete. Output file: Optimize_H-bond_Assignments-out.maegz
+Idealizing hydrogen temperature factors...
+Optimize H-bond job completed
+Running restrained minimization...
+  RMSD: 0.3
+  Force field: S-OPLS
+  all atoms
+[running at reduced cpu priority]
+%IMPACT-I (openwt): Request to open FORMATTED file 1x70_prepared_ref0.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Wednesday, May 07 2025, at 15:29:45 CEST
+ Impact version 102135
+ mmshare version        65135
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Host: Linux aq92 6.6.32 #2 SMP PREEMPT_DYNAMIC Thu Jun  6 15:47:38 CEST 2024 x86_64
+ Job Name: 1x70_prepared
+ JobId:    aq92-0-681b5fc9
+ SCHRODINGER  directory: /usr/local/schrodinger2024-1
+ IMPACT_EXEC  directory: /usr/local/schrodinger2024-1/impact-v10.2/bin/Linux-x86_64
+ MMSHARE_EXEC directory: /usr/local/schrodinger2024-1/mmshare-v6.5/bin/Linux-x86_64
+
+ Clock-based global random seed:     1746624585
+%IMPACT-I(foldmain): calling S-OPLS atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+      Current coord. are written to file: "1x70_prepared.init_coord.rst"
+      Box dimensions not written
+
+
+ Total number of atoms  = 15552
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  4804523
+ E-pot        RMS grad     Max grad    
+  3.01427E+03  2.33067E+01  1.65589E+03
+ Step number:         10         Non-bonded count:  4804523
+ -4.25196E+03  2.87879E+00  1.51950E+02
+ Step number:         20         Non-bonded count:  4801426
+ -5.22923E+03  2.19226E+00  1.81666E+02
+ Step number:         30         Non-bonded count:  4807431
+ -5.66323E+03  1.15880E+00  6.84134E+01
+ Step number:         40         Non-bonded count:  4813017
+ -5.83779E+03  7.64781E-01  5.20377E+01
+ Step number:         50         Non-bonded count:  4811630
+ -5.94016E+03  5.92782E-01  2.66467E+01
+ Step number:         60         Non-bonded count:  4808109
+ -6.00801E+03  5.04298E-01  3.13861E+01
+ Step number:         70         Non-bonded count:  4809202
+ -6.05679E+03  4.30533E-01  1.45819E+01
+ Step number:         80         Non-bonded count:  4807965
+ -6.09402E+03  3.75152E-01  1.73125E+01
+ Step number:         90         Non-bonded count:  4807283
+ -6.12204E+03  3.41415E-01  1.81518E+01
+ Step number:        100         Non-bonded count:  4805696
+ -6.14530E+03  3.00000E-01  8.06163E+00
+ Step number:        100         Non-bonded count:  4809225
+ -6.14558E+03  3.00004E-01  8.04752E+00
+      Current coord. are written to file: "1x70_prepared.min0_coord.rst"
+      Box dimensions not written
+      Current coordinates are read from file: "1x70_prepared.init_coord.rst"
+      Box dimensions not read
+          read from "1x70_prepared.init_coord.rst"
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     345
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+      Current coordinates are read from file: "1x70_prepared.min0_coord.rst"
+      Box dimensions not read
+          read from "1x70_prepared.min0_coord.rst"
+
+
+ Total number of atoms  = 15552
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  4809225
+ E-pot        RMS grad     Max grad    
+ -2.55558E+02  5.71981E+00  6.00385E+01
+ Step number:         10         Non-bonded count:  4809225
+ -3.16397E+03  2.34389E+00  2.71053E+01
+ Step number:         20         Non-bonded count:  4807438
+ -3.63849E+03  1.05418E+00  1.99742E+01
+ Step number:         30         Non-bonded count:  4805767
+ -3.85957E+03  5.55211E-01  2.25550E+01
+ Step number:         40         Non-bonded count:  4804832
+ -3.92411E+03  4.20522E-01  6.85539E+00
+ Step number:         50         Non-bonded count:  4805865
+ -3.95690E+03  3.47459E-01  2.51456E+01
+ Step number:         60         Non-bonded count:  4804417
+ -3.97598E+03  2.70680E-01  5.41232E+00
+ Step number:         70         Non-bonded count:  4802903
+ -3.99073E+03  2.10876E-01  7.56449E+00
+ Step number:         80         Non-bonded count:  4802928
+ -4.00266E+03  1.99171E-01  6.50841E+00
+ Step number:         90         Non-bonded count:  4803432
+ -4.01214E+03  1.85794E-01  1.20349E+01
+ Step number:        100         Non-bonded count:  4801776
+ -4.01960E+03  1.78157E-01  4.33552E+00
+ Step number:        100         Non-bonded count:  4801481
+ E-pot        RMS grad     Max grad    
+ -4.02037E+03  1.78162E-01  4.33552E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     670
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -4.02037E+03 kcal/mol
+ Total Potential Energy.......... -4.02037E+03 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  2.44792E+02 kcal/mol
+ Angle Bending Energy............  1.46955E+03 kcal/mol
+ Torsion Angle Energy............  1.55125E+03 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  4.26839E+03 kcal/mol
+ 1,4 Electrostatic Energy........  1.52660E+03 kcal/mol
+ Lennard Jones Energy............ -7.06006E+03 kcal/mol
+ Electrostatic Energy............ -6.87441E+03 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Wednesday, May 07 2025, at 15:30:41 CEST
+%IMPACT-I (timit): Total CPU time =      56.17 seconds (   0.9 minutes)
+Total elapsed time = 56 seconds
+[running at reduced cpu priority]
+Beginning refinement level 0
+ ** Completed refinement level 0 and rmsd = 0.10735365725750176
+[running at reduced cpu priority]
+%IMPACT-I (openwt): Request to open FORMATTED file 1x70_prepared_ref1.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Wednesday, May 07 2025, at 15:30:44 CEST
+ Impact version 102135
+ mmshare version        65135
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Host: Linux aq92 6.6.32 #2 SMP PREEMPT_DYNAMIC Thu Jun  6 15:47:38 CEST 2024 x86_64
+ Job Name: 1x70_prepared
+ JobId:    aq92-0-681b5fc9
+ SCHRODINGER  directory: /usr/local/schrodinger2024-1
+ IMPACT_EXEC  directory: /usr/local/schrodinger2024-1/impact-v10.2/bin/Linux-x86_64
+ MMSHARE_EXEC directory: /usr/local/schrodinger2024-1/mmshare-v6.5/bin/Linux-x86_64
+
+ Clock-based global random seed:     1746624644
+%IMPACT-I(foldmain): calling S-OPLS atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+
+
+ Total number of atoms  = 15552
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  4801481
+ E-pot        RMS grad     Max grad    
+ -4.87383E+03  8.73089E-01  8.24312E+00
+ Step number:         10         Non-bonded count:  4801481
+ -5.25114E+03  9.01084E-01  2.41964E+01
+ Step number:         20         Non-bonded count:  4801524
+ -5.40042E+03  5.93258E-01  1.04438E+01
+ Step number:         30         Non-bonded count:  4800718
+ -5.46132E+03  4.22982E-01  1.68877E+01
+ Step number:         40         Non-bonded count:  4799427
+ -5.48927E+03  2.85774E-01  9.51493E+00
+ Step number:         50         Non-bonded count:  4796636
+ -5.50427E+03  2.08535E-01  7.82835E+00
+ Step number:         60         Non-bonded count:  4797267
+ -5.51328E+03  1.75328E-01  4.23089E+00
+ Step number:         70         Non-bonded count:  4794874
+ -5.51989E+03  1.45680E-01  3.30425E+00
+ Step number:         80         Non-bonded count:  4795108
+ -5.52516E+03  1.54630E-01  3.77184E+00
+ Step number:         90         Non-bonded count:  4795736
+ -5.53059E+03  1.27563E-01  4.87140E+00
+ Step number:        100         Non-bonded count:  4797339
+ -5.53479E+03  1.30527E-01  5.05604E+00
+ Step number:        100         Non-bonded count:  4796821
+ -5.53476E+03  1.30539E-01  5.05604E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     264
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -5.53476E+03 kcal/mol
+ Total Potential Energy.......... -5.53476E+03 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  3.30419E+02 kcal/mol
+ Angle Bending Energy............  1.57146E+03 kcal/mol
+ Torsion Angle Energy............  1.45950E+03 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  3.90783E+03 kcal/mol
+ 1,4 Electrostatic Energy........  1.50489E+03 kcal/mol
+ Lennard Jones Energy............ -8.01729E+03 kcal/mol
+ Electrostatic Energy............ -6.55536E+03 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Wednesday, May 07 2025, at 15:31:17 CEST
+%IMPACT-I (timit): Total CPU time =      33.07 seconds (   0.6 minutes)
+Total elapsed time = 33 seconds
+[running at reduced cpu priority]
+Beginning refinement level 1
+ ** Completed refinement level 1 and rmsd = 0.2012853407452151
+[running at reduced cpu priority]
+%IMPACT-I (openwt): Request to open FORMATTED file 1x70_prepared_ref2.out on unit   2
+ Entering IMPACT execution environment 
+ Date: Wednesday, May 07 2025, at 15:31:20 CEST
+ Impact version 102135
+ mmshare version        65135
+ Copyright (c) Schrodinger, LLC.
+ All Rights Reserved.
+
+ Host: Linux aq92 6.6.32 #2 SMP PREEMPT_DYNAMIC Thu Jun  6 15:47:38 CEST 2024 x86_64
+ Job Name: 1x70_prepared
+ JobId:    aq92-0-681b5fc9
+ SCHRODINGER  directory: /usr/local/schrodinger2024-1
+ IMPACT_EXEC  directory: /usr/local/schrodinger2024-1/impact-v10.2/bin/Linux-x86_64
+ MMSHARE_EXEC directory: /usr/local/schrodinger2024-1/mmshare-v6.5/bin/Linux-x86_64
+
+ Clock-based global random seed:     1746624680
+%IMPACT-I(foldmain): calling S-OPLS atomtyping ...
+%IMPACT-I(foldmain): finished parameter assignment
+ PARM read from file "paramstd.dat"
+ Parameter obtained from atomtyping
+
+
+ Total number of atoms  = 15552
+ 
+ Neighbor List Cutoff Settings
+ ==================================
+ Cutoff radius:   10.0000000000000     
+ Update frequency: every           10  steps
+ Species   1 : Neighbors are calculated on a per residue basis
+ Species   1 : Cutoff by inter-atomic distances
+ 
+ Step number:          0         Non-bonded count:  4796821
+ E-pot        RMS grad     Max grad    
+ -5.79858E+03  2.92560E-01  4.99210E+00
+ Step number:         10         Non-bonded count:  4796821
+ -5.89080E+03  6.03516E-01  2.67785E+01
+ Step number:         20         Non-bonded count:  4794777
+ -5.95746E+03  4.31938E-01  2.50960E+01
+ Step number:         30         Non-bonded count:  4792564
+ -5.99399E+03  3.31642E-01  8.40665E+00
+ Step number:         40         Non-bonded count:  4788446
+ -6.01735E+03  2.68599E-01  1.14690E+01
+ Step number:         50         Non-bonded count:  4786358
+ -6.03207E+03  2.66906E-01  1.70918E+01
+ Step number:         60         Non-bonded count:  4786470
+ -6.04307E+03  1.93845E-01  6.06957E+00
+ Step number:         70         Non-bonded count:  4785735
+ -6.05181E+03  1.64337E-01  5.14249E+00
+ Step number:         80         Non-bonded count:  4785823
+ -6.05819E+03  1.56055E-01  1.04422E+01
+ Step number:         90         Non-bonded count:  4784179
+ -6.06360E+03  1.37105E-01  4.79071E+00
+ Step number:        100         Non-bonded count:  4784236
+ -6.06781E+03  1.20864E-01  3.99246E+00
+ Step number:        100         Non-bonded count:  4785507
+ -6.06783E+03  1.20873E-01  3.99246E+00
+  
+ Energy and Force Generation Info: 
+ --------------------------------- 
+ Number of E&F called:     266
+
+
+Final Energy Reports:
+------------------------------------
+ Total Energy of the system...... -6.06783E+03 kcal/mol
+ Total Potential Energy.......... -6.06783E+03 kcal/mol
+ Total Kinetic Energy............  0.00000E+00 kcal/mol
+ Temperature of the system.......        0.000 K
+ Bond Stretch Energy.............  3.65616E+02 kcal/mol
+ Angle Bending Energy............  1.59463E+03 kcal/mol
+ Torsion Angle Energy............  1.36564E+03 kcal/mol
+ Restraining Energy for Torsions.  0.00000E+00 kcal/mol
+ 1,4 Lennard Jones Energy........  3.79685E+03 kcal/mol
+ 1,4 Electrostatic Energy........  1.49353E+03 kcal/mol
+ Lennard Jones Energy............ -8.36890E+03 kcal/mol
+ Electrostatic Energy............ -6.45266E+03 kcal/mol
+ H-bond Energy...................  0.00000E+00 kcal/mol
+ 
+ Exiting IMPACT execution environment 
+ Date: Wednesday, May 07 2025, at 15:31:53 CEST
+%IMPACT-I (timit): Total CPU time =      33.06 seconds (   0.6 minutes)
+Total elapsed time = 33 seconds
+[running at reduced cpu priority]
+Beginning refinement level 2
+ ** Completed refinement level 2 and rmsd = 0.3034477796923749
+Refinement finished. Final level: 2
+The refined complex file is Clean_Up-impref-out.maegz
+[running at reduced cpu priority]
+Deleting waters...
+Deleting far waters...
+done deleting waters
+Number of output structures: 1
+Subjob completed successfully: 1x70_prepared-001
+Number of successful preparations: 1
+Number of output structures: 1
+DONE. Output file: 1x70_prepared-out.maegz

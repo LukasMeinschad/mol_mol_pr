@@ -1,0 +1,169 @@
+######## begin of glide_dock_ro5_fulfilled-0001.log #########
+Glide version 102135 (mmshare version 65135)
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : aq93-0-681b8b41
+Name           : glide_dock_ro5_fulfilled-0001
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq93
+Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+HostEntry      : localhost
+JobHost        : aq93
+JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0001
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0001.inp -RESTART -HOST localhost
+StartTime      : 2025-05-07-18:33:05
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Glide: WARNING Unable to checkout 1 GLIDE_MAIN v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+ FATAL ERROR.
+ Failed to check out a license.
+ Make sure your $SCHRODINGER/license file contains valid licenses
+[running at reduced cpu priority]
+######## end of glide_dock_ro5_fulfilled-0001.log #########
+######## begin of glide_dock_ro5_fulfilled-0002.log #########
+Glide version 102135 (mmshare version 65135)
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : aq93-0-681b8bcb
+Name           : glide_dock_ro5_fulfilled-0002
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq93
+Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+HostEntry      : localhost
+JobHost        : aq93
+JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0002
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0002.inp -RESTART -HOST localhost
+StartTime      : 2025-05-07-18:35:23
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+ FATAL ERROR.
+ Failed to check out a license.
+ Make sure your $SCHRODINGER/license file contains valid licenses
+[running at reduced cpu priority]
+######## end of glide_dock_ro5_fulfilled-0002.log #########
+######## begin of glide_dock_ro5_fulfilled-0003.log #########
+Glide version 102135 (mmshare version 65135)
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : aq93-0-681b8c92
+Name           : glide_dock_ro5_fulfilled-0003
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq93
+Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+HostEntry      : localhost
+JobHost        : aq93
+JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0003
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0003.inp -RESTART -HOST localhost
+StartTime      : 2025-05-07-18:38:42
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+ FATAL ERROR.
+ Failed to check out a license.
+ Make sure your $SCHRODINGER/license file contains valid licenses
+[running at reduced cpu priority]
+######## end of glide_dock_ro5_fulfilled-0003.log #########
+######## begin of glide_dock_ro5_fulfilled-0004.log #########
+Glide version 102135 (mmshare version 65135)
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : aq93-0-681b8d59
+Name           : glide_dock_ro5_fulfilled-0004
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq93
+Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+HostEntry      : localhost
+JobHost        : aq93
+JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0004
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0004.inp -RESTART -HOST localhost
+StartTime      : 2025-05-07-18:42:01
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+ FATAL ERROR.
+ Failed to check out a license.
+ Make sure your $SCHRODINGER/license file contains valid licenses
+[running at reduced cpu priority]
+######## end of glide_dock_ro5_fulfilled-0004.log #########
+######## begin of glide_dock_ro5_fulfilled-0005.log #########
+Glide version 102135 (mmshare version 65135)
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : aq93-0-681b8e20
+Name           : glide_dock_ro5_fulfilled-0005
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq93
+Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+HostEntry      : localhost
+JobHost        : aq93
+JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0005
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0005.inp -RESTART -HOST localhost
+StartTime      : 2025-05-07-18:45:20
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+ FATAL ERROR.
+ Failed to check out a license.
+ Make sure your $SCHRODINGER/license file contains valid licenses
+[running at reduced cpu priority]
+######## end of glide_dock_ro5_fulfilled-0005.log #########

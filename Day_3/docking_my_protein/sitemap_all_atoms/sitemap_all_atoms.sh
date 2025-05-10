@@ -1,0 +1,1 @@
+"${SCHRODINGER}/sitemap" sitemap_all_atoms.in -HOST localhost:1 -TMPLAUNCHDIR

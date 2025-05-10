@@ -1,0 +1,1 @@
+"${SCHRODINGER}/glide" glide_dock_ro5_fulfilled.in -OVERWRITE -adjust -HOST localhost:1 -TMPLAUNCHDIR

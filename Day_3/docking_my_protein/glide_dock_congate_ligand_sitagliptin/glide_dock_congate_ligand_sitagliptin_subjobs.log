@@ -1,0 +1,119 @@
+######## begin of glide_dock_congate_ligand_sitagliptin-0001.log #########
+Glide version 102135 (mmshare version 65135)
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : aq92-0-681b6a56
+Name           : glide_dock_congate_ligand_sitagliptin-0001
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq92
+Dir            : /scratch/praktikum/glide_dock_congate_ligand_sitagliptin
+HostEntry      : localhost
+JobHost        : aq92
+JobDir         : /scratch/praktikum/glide_dock_congate_ligand_sitagliptin-0001
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_congate_ligand_sitagliptin-0001.inp -RESTART -HOST localhost
+StartTime      : 2025-05-07-16:12:38
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  2 out of   2 constraints used from file /media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/docking_my_protein/glide_grid_1X70/glide_grid_1X70.cons
+Labels and receptor types of constraints used are:
+A:GLU:205:OE2(hbond) (H-bond Acceptor)
+A:GLU:206:OE2(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  2 of (A:GLU:205:OE2(hbond), A:GLU:206:OE2(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          34 ,           26 ,           25 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         180 ,           34 , 
+          26 ,           25 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          88 ,           72 , 
+          72 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/usr/local/schrodinger2024-1/glide-v10.2/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            6
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         2779 .
+ Total constraint copies over all poses =        28189
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand        1, pose    783
+Score =    -10.023
+Emodel =   -106.505
+
+The output pose satisfies at least the following constraint(s).
+A:GLU:205:OE2(hbond) (Type = H-bond Acceptor)
+A:GLU:206:OE2(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.02)+Epik State Penalty(    0.01) =   -10.01 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (1X70_prepared_dry_ligand)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=  -106.50 E=   -61.61 Eint=     6.99 GlideScore=   -10.02
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            6
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         1916 .
+ Total constraint copies over all poses =         9034
+Constraint(s) matched for ligand        2, pose    802
+Score =     -7.744
+Emodel =    -70.707
+
+The output pose satisfies at least the following constraint(s).
+A:GLU:205:OE2(hbond) (Type = H-bond Acceptor)
+A:GLU:206:OE2(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(   -7.74)+Epik State Penalty(    2.31) =    -5.44 kcal/mol
+DOCKING RESULTS FOR LIGAND        2 (1X70_prepared_dry_ligand)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=   -70.71 E=   -51.11 Eint=     8.86 GlideScore=    -7.74
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide_dock_congate_ligand_sitagliptin-0001_raw.maegz
+
+Exiting Glide
+Date: Wednesday, May 07 2025, at 16:12:52 CEST
+CPU time (s): 11.2 user, 0.2 system, 11.5 real
+Total elapsed time = 11 seconds
+[running at reduced cpu priority]
+######## end of glide_dock_congate_ligand_sitagliptin-0001.log #########

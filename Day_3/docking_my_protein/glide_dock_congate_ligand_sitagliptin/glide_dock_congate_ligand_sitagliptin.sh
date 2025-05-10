@@ -1,0 +1,1 @@
+"${SCHRODINGER}/glide" glide_dock_congate_ligand_sitagliptin.in -OVERWRITE -adjust -HOST localhost:1 -TMPLAUNCHDIR

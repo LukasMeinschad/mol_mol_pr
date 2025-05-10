@@ -1,0 +1,241 @@
+######## begin of glide_1FJS_cognate-0001.log #########
+Glide version 102135 (mmshare version 65135)
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : aq92-0-681b4f68
+Name           : glide_1FJS_cognate-0001
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq92
+Dir            : /scratch/praktikum/glide_1FJS_cognate
+HostEntry      : localhost
+JobHost        : aq92
+JobDir         : /scratch/praktikum/glide_1FJS_cognate-0001
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_1FJS_cognate-0001.inp -RESTART -HOST localhost
+StartTime      : 2025-05-07-14:17:45
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  1 out of   1 constraints used from file /media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/glide-grid_1fjs/glide-grid_1fjs.cons
+Labels and receptor types of constraints used are:
+A:ASP:189:OD1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  1 of (A:ASP:189:OD1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          27 ,           25 ,           23 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(          60 ,           27 , 
+          25 ,           23 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          72 ,           64 , 
+          64 ).
+
+ Metal   At. Num.  Eff. Charge  Category    x         y         z
+ 1853      20       -1.00          -1    13.039    31.706    29.272
+  
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/usr/local/schrodinger2024-1/glide-v10.2/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds           10
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         1025 .
+ Total constraint copies over all poses =         3224
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand        1, pose    971
+Score =    -12.898
+Emodel =   -147.925
+
+The output pose satisfies at least the following constraint(s).
+A:ASP:189:OD1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -12.90)+Epik State Penalty(    0.03) =   -12.87 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (1fjs_prepared_dry_ligand)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=  -147.93 E=   -71.54 Eint=     9.18 GlideScore=   -12.90
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds           10
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to          442 .
+ Total constraint copies over all poses =          956
+Constraint(s) matched for ligand        2, pose    858
+Score =     -9.319
+Emodel =   -104.949
+
+The output pose satisfies at least the following constraint(s).
+A:ASP:189:OD1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(   -9.32)+Epik State Penalty(    2.46) =    -6.86 kcal/mol
+DOCKING RESULTS FOR LIGAND        2 (1fjs_prepared_dry_ligand)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=  -104.95 E=   -68.96 Eint=    11.49 GlideScore=    -9.32
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide_1FJS_cognate-0001_raw.maegz
+
+Exiting Glide
+Date: Wednesday, May 07 2025, at 14:18:02 CEST
+CPU time (s): 14.5 user, 0.2 system, 15.3 real
+Total elapsed time = 15 seconds
+[running at reduced cpu priority]
+######## end of glide_1FJS_cognate-0001.log #########
+######## begin of glide_1FJS_cognate-0002.log #########
+Glide version 102135 (mmshare version 65135)
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : aq92-0-681b4f7d
+Name           : glide_1FJS_cognate-0002
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq92
+Dir            : /scratch/praktikum/glide_1FJS_cognate
+HostEntry      : localhost
+JobHost        : aq92
+JobDir         : /scratch/praktikum/glide_1FJS_cognate-0002
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_1FJS_cognate-0002.inp -RESTART -HOST localhost
+StartTime      : 2025-05-07-14:18:05
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 2
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+
+GLIDE CONSTRAINTS APPLIED
+-------------------------
+  1 out of   1 constraints used from file /media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/glide-grid_1fjs/glide-grid_1fjs.cons
+Labels and receptor types of constraints used are:
+A:ASP:189:OD1(hbond) (H-bond Acceptor)
+
+All docked poses must satisfy the specified number of
+constraints in ALL of the following  1 groups.
+Group   1: At least  1 of (A:ASP:189:OD1(hbond))
+
+
+ After readscreen, (nx, ny, nz) = (          27 ,           25 ,           23 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(          60 ,           27 , 
+          25 ,           23 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          72 ,           64 , 
+          64 ).
+
+ Metal   At. Num.  Eff. Charge  Category    x         y         z
+ 1853      20       -1.00          -1    13.039    31.706    29.272
+  
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/usr/local/schrodinger2024-1/glide-v10.2/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds           10
+ Using templates for ring conformations.
+
+GlideScore version SP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore SP5.0 parameters
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to         1046 .
+ Total constraint copies over all poses =         3323
+Postdocking minimization:   5 poses; CvdW cutoffs   100.0 kcal/mol for min,     0.0 kcal/mol for report.
+Constraint(s) matched for ligand        3, pose    922
+Score =    -10.054
+Emodel =   -118.100
+
+The output pose satisfies at least the following constraint(s).
+A:ASP:189:OD1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.05)+Epik State Penalty(    2.46) =    -7.60 kcal/mol
+DOCKING RESULTS FOR LIGAND        3 (1fjs_prepared_dry_ligand)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=  -118.10 E=   -68.15 Eint=     6.38 GlideScore=   -10.05
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ Number of rotatable bonds            9
+ Using templates for ring conformations.
+ Checked constraints after refinement with max HB dsq =    16.0000000000000     
+ After refinement, constraint filter reduced number of
+ poses from         5000  to          591 .
+ Total constraint copies over all poses =         1942
+Constraint(s) matched for ligand        4, pose    455
+Score =    -10.055
+Emodel =   -116.004
+
+The output pose satisfies at least the following constraint(s).
+A:ASP:189:OD1(hbond) (Type = H-bond Acceptor)
+ 
+GlideScore(  -10.06)+Epik State Penalty(    2.70) =    -7.35 kcal/mol
+DOCKING RESULTS FOR LIGAND        4 (1fjs_prepared_dry_ligand)
+   Except for Best Emodel, the poses reported here
+   may not satisfy the user-specified constraints.
+Best Emodel=  -116.00 E=   -65.15 Eint=    11.40 GlideScore=   -10.06
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide_1FJS_cognate-0002_raw.maegz
+
+Exiting Glide
+Date: Wednesday, May 07 2025, at 14:18:21 CEST
+CPU time (s): 13.3 user, 0.2 system, 13.5 real
+Total elapsed time = 14 seconds
+[running at reduced cpu priority]
+######## end of glide_1FJS_cognate-0002.log #########

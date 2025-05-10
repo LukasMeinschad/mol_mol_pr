@@ -1,0 +1,1 @@
+"${SCHRODINGER}/glide" glide_1FJS_cognate.in -OVERWRITE -adjust -HOST localhost:1 -TMPLAUNCHDIR

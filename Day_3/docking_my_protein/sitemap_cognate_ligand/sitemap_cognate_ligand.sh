@@ -1,0 +1,1 @@
+"${SCHRODINGER}/sitemap" sitemap_cognate_ligand.in -HOST localhost:1 -TMPLAUNCHDIR

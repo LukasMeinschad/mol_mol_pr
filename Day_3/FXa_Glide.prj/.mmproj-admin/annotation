@@ -1,0 +1,56 @@
+--- This project was created on Wed May  7 12:08:30 2025
+
+-----
+Wed May  7 12:08:54 2025
+Imported file:
+/media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/sbvs_glide/1fjs_prep_lig.mae.gz
+
+-----
+Wed May  7 12:08:59 2025
+Imported file:
+/media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/sbvs_glide/1fjs_prep_receptor.maegz
+
+-----
+Wed May  7 12:09:05 2025
+Imported file:
+/media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/sbvs_glide/50ligs_epik.mae.gz
+
+-----
+Wed May  7 12:09:10 2025
+Imported file:
+/media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/sbvs_glide/factorXa_xp_refine_pv.maegz
+
+-----
+Wed May  7 12:27:11 2025
+Imported file:
+/media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/1fjs.pdb
+
+-----
+Wed May  7 13:55:36 2025
+Starting Receptor Grid Generation
+Job name: glide-grid_1fjs
+Job ID: aq92-0-681b4a36
+
+-----
+Wed May  7 14:02:38 2025
+Starting Receptor Grid Generation
+Job name: glide-grid_1fjs_1
+Job ID: aq92-0-681b4bdc
+
+-----
+Wed May  7 14:05:08 2025
+Starting Receptor Grid Generation
+Job name: glide-grid_1fjs_2
+Job ID: aq92-0-681b4c73
+
+-----
+Wed May  7 14:17:40 2025
+Starting Ligand Docking
+Job name: glide_1FJS_cognate
+Job ID: aq92-0-681b4f63
+
+-----
+Wed May  7 14:23:02 2025
+Starting Ligand Docking
+Job name: glide_1FJS_screening
+Job ID: aq92-0-681b50a5

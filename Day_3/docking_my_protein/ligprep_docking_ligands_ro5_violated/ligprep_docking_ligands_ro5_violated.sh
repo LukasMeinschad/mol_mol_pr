@@ -1,0 +1,1 @@
+"${SCHRODINGER}/ligprep" -inp ligprep_docking_ligands_ro5_violated.inp -NJOBS 1 -JOBNAME ligprep_docking_ligands_ro5_violated -HOST localhost:1

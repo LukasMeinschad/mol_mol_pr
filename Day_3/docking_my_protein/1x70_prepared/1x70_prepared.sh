@@ -1,0 +1,1 @@
+"${SCHRODINGER}/utilities/prepwizard" 1x70_prepared.maegz 1x70_prepared-out.maegz -fillsidechains -disulfides -assign_all_residues -rehtreat -max_states 1 -epik_pH 7.5 -epik_pHt 2.0 -antibody_cdr_scheme Kabat -samplewater -propka_pH 7.5 -f S-OPLS -rmsd 0.3 -watdist 3 -JOBNAME 1x70_prepared -HOST localhost:4

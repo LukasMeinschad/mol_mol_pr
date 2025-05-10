@@ -1,0 +1,264 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+--------------------------------------------------------------------------------
+JobId          : aq93-0-681b8aef
+Name           : glide_dock_ro5_fulfilled
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq93
+Dir            : /media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/docking_my_protein/glide_dock_ro5_fulfilled
+HostEntry      : localhost
+JobHost        : aq93
+JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide glide_dock_ro5_fulfilled.in -OVERWRITE -adjust -HOST localhost:1 -PROJ /media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/docking_my_protein/dipeptidyl_peptidase_4_docking_r05_fullfilled.prj -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR
+StartTime      : 2025-05-07-18:31:44
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide_dock_ro5_fulfilled.in
+
+Setting up docking job
+Separating ligands...
+......                                                  6424
+Number of structures that are to be docked: 6424
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       5
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+Smart license checking: True
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 4 | launched  aq93-0-681b8af7 glide_dock_ro5_fulfilled-0001 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0001' died (died) [jobid aq93-0-681b8af7]
+0 0 5 | died      aq93-0-681b8af7 glide_dock_ro5_fulfilled-0001 localhost [aq93]
+0 1 4 | restarted aq93-0-681b8b1d glide_dock_ro5_fulfilled-0001 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0001' died (died) [jobid aq93-0-681b8b1d]
+0 0 5 | died      aq93-0-681b8b1d glide_dock_ro5_fulfilled-0001 localhost [aq93]
+0 1 4 | restarted aq93-0-681b8b41 glide_dock_ro5_fulfilled-0001 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0001' died (died) [jobid aq93-0-681b8b41]
+1 0 4 | died      aq93-0-681b8b41 glide_dock_ro5_fulfilled-0001 localhost [aq93]
+ERROR: Subjob 'glide_dock_ro5_fulfilled-0001' has failed after 2 retries.
+
+Last 20 lines of 'glide_dock_ro5_fulfilled-0001.log':
+
+  JobId          : aq93-0-681b8b41
+  Name           : glide_dock_ro5_fulfilled-0001
+  Program        : Glide
+  Version        : 2024-1 build 135
+  Host           : aq93
+  Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+  HostEntry      : localhost
+  JobHost        : aq93
+  JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0001
+  JobSchrodinger : /usr/local/schrodinger2024-1
+  Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0001.inp -RESTART -HOST localhost
+  StartTime      : 2025-05-07-18:33:05
+  --------------------------------------------------------------------------------
+  
+  [running at reduced cpu priority]
+  Glide: WARNING Unable to checkout 1 GLIDE_MAIN v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+   FATAL ERROR.
+   Failed to check out a license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+  [running at reduced cpu priority]
+
+
+No job control errors were found.
+1 0 4 | died      aq93-0-681b8b41 glide_dock_ro5_fulfilled-0001 localhost [aq93]
+Subjob glide_dock_ro5_fulfilled-0001 produced no pose file: glide_dock_ro5_fulfilled-0001_raw.maegz
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0001.csv
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0001_skip.csv
+1 1 3 | launched  aq93-0-681b8b65 glide_dock_ro5_fulfilled-0002 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0002' died (died) [jobid aq93-0-681b8b65]
+1 0 4 | died      aq93-0-681b8b65 glide_dock_ro5_fulfilled-0002 localhost [aq93]
+1 1 3 | restarted aq93-0-681b8ba7 glide_dock_ro5_fulfilled-0002 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0002' died (died) [jobid aq93-0-681b8ba7]
+1 0 4 | died      aq93-0-681b8ba7 glide_dock_ro5_fulfilled-0002 localhost [aq93]
+1 1 3 | restarted aq93-0-681b8bcb glide_dock_ro5_fulfilled-0002 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0002' died (died) [jobid aq93-0-681b8bcb]
+2 0 3 | died      aq93-0-681b8bcb glide_dock_ro5_fulfilled-0002 localhost [aq93]
+ERROR: Subjob 'glide_dock_ro5_fulfilled-0002' has failed after 2 retries.
+
+Last 20 lines of 'glide_dock_ro5_fulfilled-0002.log':
+
+  Name           : glide_dock_ro5_fulfilled-0002
+  Program        : Glide
+  Version        : 2024-1 build 135
+  Host           : aq93
+  Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+  HostEntry      : localhost
+  JobHost        : aq93
+  JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0002
+  JobSchrodinger : /usr/local/schrodinger2024-1
+  Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0002.inp -RESTART -HOST localhost
+  StartTime      : 2025-05-07-18:35:23
+  --------------------------------------------------------------------------------
+  
+  [running at reduced cpu priority]
+  Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+   FATAL ERROR.
+   Failed to check out a license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+  [running at reduced cpu priority]
+
+
+No job control errors were found.
+2 0 3 | died      aq93-0-681b8bcb glide_dock_ro5_fulfilled-0002 localhost [aq93]
+Subjob glide_dock_ro5_fulfilled-0002 produced no pose file: glide_dock_ro5_fulfilled-0002_raw.maegz
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0002.csv
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0002_skip.csv
+2 1 2 | launched  aq93-0-681b8c0d glide_dock_ro5_fulfilled-0003 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0003' died (died) [jobid aq93-0-681b8c0d]
+2 0 3 | died      aq93-0-681b8c0d glide_dock_ro5_fulfilled-0003 localhost [aq93]
+2 1 2 | restarted aq93-0-681b8c50 glide_dock_ro5_fulfilled-0003 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0003' died (died) [jobid aq93-0-681b8c50]
+2 0 3 | died      aq93-0-681b8c50 glide_dock_ro5_fulfilled-0003 localhost [aq93]
+2 1 2 | restarted aq93-0-681b8c92 glide_dock_ro5_fulfilled-0003 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0003' died (died) [jobid aq93-0-681b8c92]
+3 0 2 | died      aq93-0-681b8c92 glide_dock_ro5_fulfilled-0003 localhost [aq93]
+ERROR: Subjob 'glide_dock_ro5_fulfilled-0003' has failed after 2 retries.
+
+Last 20 lines of 'glide_dock_ro5_fulfilled-0003.log':
+
+  Name           : glide_dock_ro5_fulfilled-0003
+  Program        : Glide
+  Version        : 2024-1 build 135
+  Host           : aq93
+  Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+  HostEntry      : localhost
+  JobHost        : aq93
+  JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0003
+  JobSchrodinger : /usr/local/schrodinger2024-1
+  Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0003.inp -RESTART -HOST localhost
+  StartTime      : 2025-05-07-18:38:42
+  --------------------------------------------------------------------------------
+  
+  [running at reduced cpu priority]
+  Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+   FATAL ERROR.
+   Failed to check out a license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+  [running at reduced cpu priority]
+
+
+No job control errors were found.
+3 0 2 | died      aq93-0-681b8c92 glide_dock_ro5_fulfilled-0003 localhost [aq93]
+Subjob glide_dock_ro5_fulfilled-0003 produced no pose file: glide_dock_ro5_fulfilled-0003_raw.maegz
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0003.csv
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0003_skip.csv
+3 1 1 | launched  aq93-0-681b8cd4 glide_dock_ro5_fulfilled-0004 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0004' died (died) [jobid aq93-0-681b8cd4]
+3 0 2 | died      aq93-0-681b8cd4 glide_dock_ro5_fulfilled-0004 localhost [aq93]
+3 1 1 | restarted aq93-0-681b8d17 glide_dock_ro5_fulfilled-0004 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0004' died (died) [jobid aq93-0-681b8d17]
+3 0 2 | died      aq93-0-681b8d17 glide_dock_ro5_fulfilled-0004 localhost [aq93]
+3 1 1 | restarted aq93-0-681b8d59 glide_dock_ro5_fulfilled-0004 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0004' died (died) [jobid aq93-0-681b8d59]
+4 0 1 | died      aq93-0-681b8d59 glide_dock_ro5_fulfilled-0004 localhost [aq93]
+ERROR: Subjob 'glide_dock_ro5_fulfilled-0004' has failed after 2 retries.
+
+Last 20 lines of 'glide_dock_ro5_fulfilled-0004.log':
+
+  Name           : glide_dock_ro5_fulfilled-0004
+  Program        : Glide
+  Version        : 2024-1 build 135
+  Host           : aq93
+  Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+  HostEntry      : localhost
+  JobHost        : aq93
+  JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0004
+  JobSchrodinger : /usr/local/schrodinger2024-1
+  Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0004.inp -RESTART -HOST localhost
+  StartTime      : 2025-05-07-18:42:01
+  --------------------------------------------------------------------------------
+  
+  [running at reduced cpu priority]
+  Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+   FATAL ERROR.
+   Failed to check out a license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+  [running at reduced cpu priority]
+
+
+No job control errors were found.
+4 0 1 | died      aq93-0-681b8d59 glide_dock_ro5_fulfilled-0004 localhost [aq93]
+Subjob glide_dock_ro5_fulfilled-0004 produced no pose file: glide_dock_ro5_fulfilled-0004_raw.maegz
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0004.csv
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0004_skip.csv
+4 1 0 | launched  aq93-0-681b8d9c glide_dock_ro5_fulfilled-0005 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0005' died (died) [jobid aq93-0-681b8d9c]
+4 0 1 | died      aq93-0-681b8d9c glide_dock_ro5_fulfilled-0005 localhost [aq93]
+4 1 0 | restarted aq93-0-681b8dde glide_dock_ro5_fulfilled-0005 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0005' died (died) [jobid aq93-0-681b8dde]
+4 0 1 | died      aq93-0-681b8dde glide_dock_ro5_fulfilled-0005 localhost [aq93]
+4 1 0 | restarted aq93-0-681b8e20 glide_dock_ro5_fulfilled-0005 localhost [aq93]
+Subjob 'glide_dock_ro5_fulfilled-0005' died (died) [jobid aq93-0-681b8e20]
+5 0 0 | died      aq93-0-681b8e20 glide_dock_ro5_fulfilled-0005 localhost [aq93]
+ERROR: Subjob 'glide_dock_ro5_fulfilled-0005' has failed after 2 retries.
+
+Last 20 lines of 'glide_dock_ro5_fulfilled-0005.log':
+
+  Name           : glide_dock_ro5_fulfilled-0005
+  Program        : Glide
+  Version        : 2024-1 build 135
+  Host           : aq93
+  Dir            : /scratch/praktikum/glide_dock_ro5_fulfilled
+  HostEntry      : localhost
+  JobHost        : aq93
+  JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled-0005
+  JobSchrodinger : /usr/local/schrodinger2024-1
+  Commandline    : /usr/local/schrodinger2024-1/glide -serial glide_dock_ro5_fulfilled-0005.inp -RESTART -HOST localhost
+  StartTime      : 2025-05-07-18:45:20
+  --------------------------------------------------------------------------------
+  
+  [running at reduced cpu priority]
+  Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  Glide: WARNING Unable to checkout 4 GLIDE_SP_DOCKING v102 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+   FATAL ERROR.
+   Failed to check out a license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+  [running at reduced cpu priority]
+
+
+No job control errors were found.
+5 0 0 | died      aq93-0-681b8e20 glide_dock_ro5_fulfilled-0005 localhost [aq93]
+Subjob glide_dock_ro5_fulfilled-0005 produced no pose file: glide_dock_ro5_fulfilled-0005_raw.maegz
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0005.csv
+Subjob produced no CSV file: glide_dock_ro5_fulfilled-0005_skip.csv
+
+All jobs have completed.
+
+0 of 5 job(s) succeeded; 5 job(s) failed.
+
+Combining log files to glide_dock_ro5_fulfilled_subjobs.log
+Archiving subjob input and log files in glide_dock_ro5_fulfilled_subjobs.tar.gz
+Cleaning up...
+No subjobs completed successfully.
+[running at reduced cpu priority]

@@ -1,0 +1,1 @@
+"${SCHRODINGER}/glide" glide_dock_ligands_r05violated_5.in -OVERWRITE -adjust -HOST localhost:1 -TMPLAUNCHDIR

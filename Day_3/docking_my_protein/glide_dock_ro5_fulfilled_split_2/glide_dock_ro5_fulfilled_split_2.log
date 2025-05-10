@@ -1,0 +1,97 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         e304c7da19
+glide-src       0ca00f32ab
+psp-src         e85839dc34
+macromodel-src  9753ab8ec4
+epik-src        71ce3f965c
+
+--------------------------------------------------------------------------------
+JobId          : aq93-0-681c79ea
+Name           : glide_dock_ro5_fulfilled_split_2
+Program        : Glide
+Version        : 2024-1 build 135
+Host           : aq93
+Dir            : /media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/docking_my_protein/glide_dock_ro5_fulfilled_split_2
+HostEntry      : localhost
+JobHost        : aq93
+JobDir         : /scratch/praktikum/glide_dock_ro5_fulfilled_split_2
+JobSchrodinger : /usr/local/schrodinger2024-1
+Commandline    : /usr/local/schrodinger2024-1/glide glide_dock_ro5_fulfilled_split_2.in -OVERWRITE -adjust -HOST localhost:1 -PROJ /media/TC_Lehre/storage/meinschad_lukas_ff_pr/2025/Day_3/docking_my_protein/dipeptidyl_peptidase_4_docking_r05_fullfilled.prj -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR
+StartTime      : 2025-05-08-11:31:23
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide_dock_ro5_fulfilled_split_2.in
+
+Setting up docking job
+Separating ligands...
+.....                                                   5142
+Number of structures that are to be docked: 5142
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       4
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+Smart license checking: True
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 3 | launched  aq93-0-681c79f1 glide_dock_ro5_fulfilled_split_2-0001 localhost [aq93]
+1 0 3 | finished  aq93-0-681c79f1 glide_dock_ro5_fulfilled_split_2-0001 localhost [aq93]
+1 1 2 | launched  aq93-0-681c94fc glide_dock_ro5_fulfilled_split_2-0002 localhost [aq93]
+2 0 2 | finished  aq93-0-681c94fc glide_dock_ro5_fulfilled_split_2-0002 localhost [aq93]
+2 1 1 | launched  aq93-0-681cb413 glide_dock_ro5_fulfilled_split_2-0003 localhost [aq93]
+3 0 1 | finished  aq93-0-681cb413 glide_dock_ro5_fulfilled_split_2-0003 localhost [aq93]
+3 1 0 | launched  aq93-0-681ccace glide_dock_ro5_fulfilled_split_2-0004 localhost [aq93]
+4 0 0 | finished  aq93-0-681ccace glide_dock_ro5_fulfilled_split_2-0004 localhost [aq93]
+
+All jobs have completed.
+
+4 of 4 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 5142 ligands done.
+Writing 4,389 poses to glide_dock_ro5_fulfilled_split_2_pv.maegz; database holds 4,389 poses.
+Best docking score: -10.713
+
+Some ligands were not docked for the following reasons:
+
+   Count  Reason
+--------  ------------------------------------------------------------
+     396  NO GOOD POSES FOUND
+     292  NO POSES STORED FOR LIGAND
+      50  INVALID ATOM(S), ETC.
+
+Writing glide_dock_ro5_fulfilled_split_2.csv
+Writing glide_dock_ro5_fulfilled_split_2_skip.csv
+Combining log files to glide_dock_ro5_fulfilled_split_2_subjobs.log
+Archiving subjob pose files in glide_dock_ro5_fulfilled_split_2_subjob_poses.zip
+Archiving subjob input and log files in glide_dock_ro5_fulfilled_split_2_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 1.7 s
+- running subjobs: 23579.1 s
+- postprocessing: 4.5 s
+- cleanup: 2.2 s
+
+All Glide docking subjobs: Total CPU time = 6 hours, 32 minutes, and 27 seconds
+
+Finished at: Thu May  8 18:04:33 2025
+Total elapsed time for Glide script = 6 hours, 33 minutes, and 8 seconds
+[running at reduced cpu priority]

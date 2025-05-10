@@ -1,0 +1,3 @@
+SMILES,title,i_i_glide_lignum,docking_status,r_glide_cpu_time,r_i_docking_score,s_i_glide_gridfile,r_i_glide_gscore,r_i_glide_lipo,r_i_glide_hbond,r_i_glide_metal,r_i_glide_rewards,r_i_glide_evdw,r_i_glide_ecoul,r_i_glide_erotb,r_i_glide_esite,r_i_glide_emodel,r_i_glide_energy,r_i_glide_einternal
+[NH3+][C@@H](CC(=O)N1CCn2c(nnc2C(F)(F)F)C1)Cc1cc(F)c(F)cc1F,"1X70_prepared_dry_ligand",1,Done,5.48,-10.0108,"glide_grid_1X70",-10.023,-1.0483,-0.877825,-0,-2.62677,-37.2737,-24.3386,0.330509,-0.286106,-106.505,-61.6123,6.9872
+N[C@@H](CC(=O)N1CCn2c(nnc2C(F)(F)F)C1)Cc1cc(F)c(F)cc1F,"1X70_prepared_dry_ligand",2,Done,4.33,-5.43653,"glide_grid_1X70",-7.74353,-1.08378,-0.764578,-0,-2.21755,-36.9995,-14.1098,0.474265,-0.185433,-70.7068,-51.1094,8.86028
