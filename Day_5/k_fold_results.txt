@@ -5,88 +5,88 @@ Using 5-fold cross-validation with stratification
 Fold 1 Results:
 ----------------------------------------
 Test set size: 763 samples
-Accuracy:    0.8768
-Precision:   0.7616  (True positive rate)
-Recall:      0.7120  (Sensitivity)
-F1 Score:    0.7360
-ROC AUC:     0.8977
+Accuracy:    0.8362
+Precision:   0.8078  (True positive rate)
+Recall:      0.7617  (Sensitivity)
+F1 Score:    0.7841
+ROC AUC:     nan
 
 Confusion Matrix:
                  Predicted Inactive    Predicted Active
-Actual Inactive       538                41
-Actual Active         53                131
+Actual Inactive       411                54
+Actual Active         71                227
 
-Overfitting Check: Train accuracy: 0.9928, Test accuracy: 0.8768
+Overfitting Check: Train accuracy: 0.9869, Test accuracy: 0.8362
 
 Fold 2 Results:
 ----------------------------------------
 Test set size: 763 samples
-Accuracy:    0.8676
-Precision:   0.7677  (True positive rate)
-Recall:      0.6467  (Sensitivity)
-F1 Score:    0.7021
-ROC AUC:     0.8965
+Accuracy:    0.8257
+Precision:   0.7915  (True positive rate)
+Recall:      0.7517  (Sensitivity)
+F1 Score:    0.7711
+ROC AUC:     nan
 
 Confusion Matrix:
                  Predicted Inactive    Predicted Active
-Actual Inactive       543                36
-Actual Active         65                119
+Actual Inactive       406                59
+Actual Active         74                224
 
-Overfitting Check: Train accuracy: 0.9898, Test accuracy: 0.8676
+Overfitting Check: Train accuracy: 0.9869, Test accuracy: 0.8257
 
 Fold 3 Results:
 ----------------------------------------
 Test set size: 763 samples
-Accuracy:    0.8807
-Precision:   0.8079  (True positive rate)
-Recall:      0.6630  (Sensitivity)
-F1 Score:    0.7284
-ROC AUC:     0.9102
+Accuracy:    0.8336
+Precision:   0.7979  (True positive rate)
+Recall:      0.7685  (Sensitivity)
+F1 Score:    0.7829
+ROC AUC:     nan
 
 Confusion Matrix:
                  Predicted Inactive    Predicted Active
-Actual Inactive       550                29
-Actual Active         62                122
+Actual Inactive       407                58
+Actual Active         69                229
 
-Overfitting Check: Train accuracy: 0.9898, Test accuracy: 0.8807
+Overfitting Check: Train accuracy: 0.9866, Test accuracy: 0.8336
 
 Fold 4 Results:
 ----------------------------------------
 Test set size: 763 samples
-Accuracy:    0.8952
-Precision:   0.8467  (True positive rate)
-Recall:      0.6902  (Sensitivity)
-F1 Score:    0.7605
-ROC AUC:     0.9326
+Accuracy:    0.8467
+Precision:   0.8291  (True positive rate)
+Recall:      0.7651  (Sensitivity)
+F1 Score:    0.7958
+ROC AUC:     nan
 
 Confusion Matrix:
                  Predicted Inactive    Predicted Active
-Actual Inactive       556                23
-Actual Active         57                127
+Actual Inactive       418                47
+Actual Active         70                228
 
-Overfitting Check: Train accuracy: 0.9892, Test accuracy: 0.8952
+Overfitting Check: Train accuracy: 0.9859, Test accuracy: 0.8467
 
 Fold 5 Results:
 ----------------------------------------
 Test set size: 763 samples
-Accuracy:    0.8729
-Precision:   0.7771  (True positive rate)
-Recall:      0.6630  (Sensitivity)
-F1 Score:    0.7155
-ROC AUC:     0.8958
+Accuracy:    0.8362
+Precision:   0.8452  (True positive rate)
+Recall:      0.7124  (Sensitivity)
+F1 Score:    0.7731
+ROC AUC:     nan
 
 Confusion Matrix:
                  Predicted Inactive    Predicted Active
-Actual Inactive       544                35
-Actual Active         62                122
+Actual Inactive       425                39
+Actual Active         86                213
 
-Overfitting Check: Train accuracy: 0.9905, Test accuracy: 0.8729
+Overfitting Check: Train accuracy: 0.9875, Test accuracy: 0.8362
 
 
 ===== SUMMARY OF CROSS-VALIDATION RESULTS =====
 ==================================================
-Average Test Accuracy:  0.8786 ± 0.0093
-Average Test Precision: 0.7922 ± 0.0315
-Average Test Recall:    0.6750 ± 0.0232
-Average Test F1 Score:  0.7285 ± 0.0197
-Average Test ROC AUC:   0.9065 ± 0.0141
+Average Test Accuracy:  0.8356 ± 0.0067
+Average Test Precision: 0.8143 ± 0.0200
+Average Test Recall:    0.7519 ± 0.0205
+Average Test F1 Score:  0.7814 ± 0.0089
+Average Test ROC AUC:   nan ± nan
